@@ -44,6 +44,7 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-Feel free to fork this repository and customize it to create your own personal portfolio. Update the content, add your projects, modify styles, and personalize it to reflect your unique identity as a full-stack web developer proficient in React, PHP, Django, and Gin.
+If you decide to use or adapt the code from this repository, please ensure to provide proper attribution and credit. Remember to acknowledge both my work and Brittany Chiang's v4 portfolio UI as sources of inspiration in your project's README or documentation. Thank you for respecting the effort and creativity invested in this portfolio.
+
 
 ##
