@@ -23,7 +23,7 @@ This repository contains the source code for my personal portfolio website, desi
 - **Full-Stack Showcase**: Highlighting proficiency in React, PHP, Django, and Gin through showcased projects and experiences.
 - **Responsive Design**: Ensures a seamless experience across various devices and screen sizes.
 
-## Tech Stack
+## My Tech Stack
 
 - **Frontend**: React.js for building interactive and dynamic user interfaces.
 - **Backend**: PHP, Django, and Gin for robust server-side development and API creation.
