@@ -548,9 +548,9 @@ export default function MainLayout(props) {
               <h2 className="big-heading getInTouch">Get in Touch</h2>
             </div>
             <div className="contactMeInfo">
-              Although I’m not currently looking for any new opportunities, my
-              inbox is always open. Whether you have a question or just want to
-              say hi, I’ll try my best to get back to you!
+              I am actively seeking job opportunities and open to exciting
+              offers in the field. Ready to contribute and eager to explore new
+              roles and challenges.
             </div>
             <div className="sayHello">
               <button className="sayHelloButton">Say Hello</button>
