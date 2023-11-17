@@ -3,21 +3,26 @@
     <url>
         <loc>https://okekedivine-blond.vercel.app/#me</loc>
         <lastmod>2023-11-17</lastmod>
+        <name>Me Section</name>
     </url>
     <url>
         <loc>https://okekedivine-blond.vercel.app/#about</loc>
         <lastmod>2023-11-17</lastmod>
+        <name>About Section</name>
     </url>
     <url>
         <loc>https://okekedivine-blond.vercel.app/#experienceANDwork</loc>
         <lastmod>2023-11-17</lastmod>
+        <name>Experience & Work Section</name>
     </url>
     <url>
         <loc>https://okekedivine-blond.vercel.app/#myProjects</loc>
         <lastmod>2023-11-17</lastmod>
+        <name>Projects Section</name>
     </url>
     <url>
         <loc>https://okekedivine-blond.vercel.app/#contactMe</loc>
         <lastmod>2023-11-17</lastmod>
+        <name>Contact Me Section</name>
     </url>
 </urlset>
