@@ -15,7 +15,7 @@ This repository contains the source code for my personal portfolio website, desi
 
 ## Demo
 
-[Live Demo](https://okekedivine-blond.vercel.app/)
+[Live Demo](https://okekedivine.vercel.app/)
 
 ## Features
 

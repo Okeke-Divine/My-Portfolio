@@ -1,4 +1,8 @@
 export default function MainLayout(props) {
+  const socialMedia = props.dataBus.socialMedia
+  const openLinkInNewTab = props.dataBus.openLinkInNewTab
+
+  openLinkInNewTab('me.com')
   return (
     <>
       <div className="default-fon">
@@ -52,17 +56,17 @@ export default function MainLayout(props) {
         <div className="sideBar sideBarLeft">
           <div></div>
           <div className="sidebarSocials">
-            <div className="icons">
-              <a className="">
+            <div className="icons" onClick={(e) => openLinkInNewTab(socialMedia.mySocials.github)}>
+              <a className="#">
                 <i className="fa fa-github"></i>
               </a>
             </div>
-            <div className="icons">
+            <div className="icons" onClick={(e) => openLinkInNewTab(socialMedia.mySocials.twitter)}>
               <a className="">
                 <i className="fa fa-twitter"></i>
               </a>
             </div>
-            <div className="icons">
+            <div className="icons" onClick={(e) => openLinkInNewTab(socialMedia.mySocials.linkedin)}>
               <a className="">
                 <i className="fa fa-linkedin"></i>
               </a>
@@ -76,10 +80,8 @@ export default function MainLayout(props) {
         <div className="sideBar sideBarRight">
           <div></div>
           <div className="sidebarSocials">
-            <div className="email">
-              <a href="mailto:okekedivine.main@gmail.com">
+            <div className="email" onClick={openLinkInNewTab('mailto:'+socialMedia.mySocials.email)}>
                 okekedivine.main@gmail.com
-              </a>
             </div>
             <div className="lineCont">
               <div></div>
@@ -250,7 +252,7 @@ export default function MainLayout(props) {
                     <i className="fa fa-github"></i>
                   </div>
                   <div className="icon">
-                    <i className="fa fa-link"></i>
+                    <i className="fa fa-external-link"></i>
                   </div>
                 </div>
               </div>
@@ -278,7 +280,7 @@ export default function MainLayout(props) {
                     <i className="fa fa-github"></i>
                   </div>
                   <div className="icon">
-                    <i className="fa fa-link"></i>
+                    <i className="fa fa-external-link"></i>
                   </div>
                 </div>
               </div>
@@ -312,7 +314,7 @@ export default function MainLayout(props) {
                     <i className="fa fa-github"></i>
                   </div>
                   <div className="icon">
-                    <i className="fa fa-link"></i>
+                    <i className="fa fa-external-link"></i>
                   </div>
                 </div>
               </div>
@@ -340,7 +342,7 @@ export default function MainLayout(props) {
                     <i className="fa fa-github"></i>
                   </div>
                   <div className="icon">
-                    <i className="fa fa-link"></i>
+                    <i className="fa fa-external-link"></i>
                   </div>
                 </div>
               </div>
@@ -368,7 +370,7 @@ export default function MainLayout(props) {
                       <i className="fa fa-github"></i>
                     </div>
                     <div className="">
-                      <i className="fa fa-link"></i>
+                      <i className="fa fa-external-link"></i>
                     </div>
                     </div>
                   </div>
@@ -389,7 +391,7 @@ export default function MainLayout(props) {
                       <i className="fa text-primary fa-folder"></i>
                     </div>
                     <div className="">
-                      <i className="fa fa-link"></i>
+                      <i className="fa fa-external-link"></i>
                     </div>
                   </div>
                   <div className="project-title">Integrating Project 1 with Linux Server</div>
@@ -409,7 +411,7 @@ export default function MainLayout(props) {
                       <i className="fa text-primary fa-folder"></i>
                     </div>
                     <div className="">
-                      <i className="fa fa-link"></i>
+                      <i className="fa fa-external-link"></i>
                     </div>
                   </div>
                   <div className="project-title">Integrating Project 1 with Linux Server</div>
@@ -429,7 +431,7 @@ export default function MainLayout(props) {
                       <i className="fa text-primary fa-folder"></i>
                     </div>
                     <div className="">
-                      <i className="fa fa-link"></i>
+                      <i className="fa fa-external-link"></i>
                     </div>
                   </div>
                   <div className="project-title">Integrating Project 1 with Linux Server</div>
@@ -449,7 +451,7 @@ export default function MainLayout(props) {
                       <i className="fa text-primary fa-folder"></i>
                     </div>
                     <div className="">
-                      <i className="fa fa-link"></i>
+                      <i className="fa fa-external-link"></i>
                     </div>
                   </div>
                   <div className="project-title">Integrating Project 1 with Linux Server</div>
@@ -469,7 +471,7 @@ export default function MainLayout(props) {
                       <i className="fa text-primary fa-folder"></i>
                     </div>
                     <div className="">
-                      <i className="fa fa-link"></i>
+                      <i className="fa fa-external-link"></i>
                     </div>
                   </div>
                   <div className="project-title">Integrating Project 1 with Linux Server</div>
@@ -508,17 +510,19 @@ export default function MainLayout(props) {
           <section className="footer jnUoFC">
             Designed by{" "}
             <a
-              href="https://github.com/bchiang7"
+              href={socialMedia.originalCreatorBchiang}
+              target="_blank"
               className="designNdInspiredByLink"
             >
-              Brittany Chiang
+              Brittany Chiang <i className="fa fa-external-link fj93j9r"></i>
             </a>{" "}
             & Rebuilt by{" "}
             <a
-              href="https://github.com/Okeke-Divine"
+              href={socialMedia.mySocials.github}
+              target="_blank"
               className="designNdInspiredByLink"
             >
-              Okeke Divine-Vessel
+              Okeke Divine-Vessel <i className="fa fa-external-link fj93j9r"></i>
             </a>
           </section>
         </div>
