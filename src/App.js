@@ -1,14 +1,21 @@
-import "./App.css";
+// import "./App.css";
+
+// stylesheets
+import "./assets/css/css-responsive-max-width-600.css";
 import "./assets/css/main.css";
-import MainLayout from "./layout/main-layout.js";
+// images
 import myLogo from "./assets/images/myLogo.png";
+// json
 import socialMedia from "./data/socialMedia.json";
+// utils
 import openLinkInNewTab from "./utils/openLinkInNewTab.js";
+// layout
+import MainLayout from "./layout/main-layout.js";
 
 const dataBus = {
   myLogo: myLogo,
   socialMedia: socialMedia,
-  openLinkInNewTab: openLinkInNewTab
+  openLinkInNewTab: openLinkInNewTab,
 };
 
 function App() {

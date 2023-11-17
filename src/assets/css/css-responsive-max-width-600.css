@@ -1,0 +1,85 @@
+@media screen and (max-width: 600px) {
+  :root {
+    --sidebarSpace: 0px;
+  }
+  .sideBar {
+    display: none;
+  }
+  .aboutMeScreen {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+  }
+
+  .myProjects {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .experienceANDwork {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .experienceANDwork .eAw {
+    display: block;
+    width: 100%;
+  }
+
+  .experienceANDwork .eAw .left {
+    margin-bottom: 15px;
+  }
+
+  .experienceANDwork .sectionTitle .horiLineMain {
+    width: 100px;
+  }
+
+  .navbar-cont {
+    position: fixed;
+    padding: 15px 25px;
+  }
+
+  .otherProjectsFlexContainer {
+    display: block;
+    padding: 20px;
+  }
+
+  .otherProjectsFlexContainer > div {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .projectContainer {
+    display: block;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+  }
+  .landingScreen {
+    padding: 150px 20px 0px 20px;
+  }
+  .featuredProject {
+    text-align: left !important;
+  }
+  .projectContainerLayout1 {
+    text-align: right;
+    grid-template-columns: 60% 40%;
+  }
+
+  .projectContainer .projectImage {
+    width: 100%;
+  }
+
+  .projectContainerLayout2 .projectImage {
+    margin-top: 5px;
+  }
+
+  .projectContainerLayout2 {
+    margin-bottom: 20px;
+  }
+
+  .otherProjects {
+    margin-top: 30px;
+  }
+}

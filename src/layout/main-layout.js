@@ -1,8 +1,8 @@
 export default function MainLayout(props) {
-  const socialMedia = props.dataBus.socialMedia
-  const openLinkInNewTab = props.dataBus.openLinkInNewTab
+  const socialMedia = props.dataBus.socialMedia;
+  const openLinkInNewTab = props.dataBus.openLinkInNewTab;
 
-  openLinkInNewTab('me.com')
+  openLinkInNewTab("me.com");
   return (
     <>
       <div className="default-fon">
@@ -56,17 +56,26 @@ export default function MainLayout(props) {
         <div className="sideBar sideBarLeft">
           <div></div>
           <div className="sidebarSocials">
-            <div className="icons" onClick={(e) => openLinkInNewTab(socialMedia.mySocials.github)}>
+            <div
+              className="icons"
+              onClick={(e) => openLinkInNewTab(socialMedia.mySocials.github)}
+            >
               <a className="#">
                 <i className="fa fa-github"></i>
               </a>
             </div>
-            <div className="icons" onClick={(e) => openLinkInNewTab(socialMedia.mySocials.twitter)}>
+            <div
+              className="icons"
+              onClick={(e) => openLinkInNewTab(socialMedia.mySocials.twitter)}
+            >
               <a className="">
                 <i className="fa fa-twitter"></i>
               </a>
             </div>
-            <div className="icons" onClick={(e) => openLinkInNewTab(socialMedia.mySocials.linkedin)}>
+            <div
+              className="icons"
+              onClick={(e) => openLinkInNewTab(socialMedia.mySocials.linkedin)}
+            >
               <a className="">
                 <i className="fa fa-linkedin"></i>
               </a>
@@ -80,8 +89,13 @@ export default function MainLayout(props) {
         <div className="sideBar sideBarRight">
           <div></div>
           <div className="sidebarSocials">
-            <div className="email" onClick={openLinkInNewTab('mailto:'+socialMedia.mySocials.email)}>
-                okekedivine.main@gmail.com
+            <div
+              className="email"
+              onClick={openLinkInNewTab(
+                "mailto:" + socialMedia.mySocials.email
+              )}
+            >
+              okekedivine.main@gmail.com
             </div>
             <div className="lineCont">
               <div></div>
@@ -103,9 +117,12 @@ export default function MainLayout(props) {
               </h3>
             </div>
             <div className="breifIntro">
-              I’m a software engineer specializing in building (and occasionally
-              designing) exceptional digital experiences. Currently, I’m focused
-              on building accessible, human-centered products at Skiyen.
+              I'm a seasoned software engineer passionate about crafting
+              exceptional digital experiences. With a keen focus on creating
+              accessible and human-centered products, my expertise lies in
+              building robust web applications. Currently dedicated to enhancing
+              user experiences at Mtalers, I strive to blend innovation and
+              user-centric design for impactful solutions.
             </div>
             <div className="contactMe-1-cont">
               <button className="contactMe-1"> Check Out My Upwork!</button>
@@ -123,23 +140,41 @@ export default function MainLayout(props) {
               </div>
               <div className="sectionBody">
                 <div className="sectionContentList">
-                  Hello! My name is Divine and I enjoy creating things that live
-                  on the internet. My interest in web development started back
-                  in 2012 when I decided to try editing custom Tumblr themes —
-                  turns out hacking together a custom reblog button taught me a
-                  lot about HTML & CSS!
+                  Hello there, I'm Divine. My fascination with web development
+                  sparked years ago, and it's been a thrilling journey ever
+                  since. Embarking on my coding journey through the
+                  customization of tailored templates on CodePen, I unearthed a
+                  natural affinity for delving into the intricate details of
+                  HTML & CSS.
                 </div>
+
                 <div className="sectionContentList">
-                  Fast-forward to today, and I’ve had the privilege of working
-                  at an advertising agency, a start-up, a huge corporation, and
-                  a student-led design studio. My main focus these days is
-                  building accessible, inclusive products and digital
-                  experiences at Upstatement for a variety of clients.
+                  My professional tenure has primarily been at Mtalers, where I
+                  honed my skills and contributed extensively to various
+                  projects. During my time there, I delved into diverse
+                  projects, pushing boundaries and mastering new technologies.
                 </div>
+
                 <div className="sectionContentList">
-                  I also recently launched a course that covers everything you
-                  need to build a web app with the Spotify API using Node &
-                  React.
+                  My{" "}
+                  <a
+                    href={socialMedia.mySocials.github}
+                    target="_blank"
+                    className="text-primary "
+                  >
+                    Github
+                  </a>{" "}
+                  profile showcases a range of projects, each highlighting my
+                  dedication to crafting robust and innovative solutions. From
+                  web applications to repositories, I take pride in every line
+                  of code I've written.
+                </div>
+
+                <div className="sectionContentList">
+                  My focus remains on refining my craft and delving deeper into
+                  the world of web development. Passionate about building
+                  exceptional digital experiences, I'm committed to continuous
+                  growth and learning in this dynamic field.
                 </div>
                 <div className="sectionContentList">
                   Here are a few technologies I’ve been working with recently:
@@ -193,24 +228,27 @@ export default function MainLayout(props) {
                 <div className="highlitedTabContent">
                   <ul>
                     <li>
-                      Deliver high-quality, robust production code for a diverse
-                      array of projects for clients including Harvard Business
-                      School, Everytown for Gun Safety, Pratt Institute, Koala
-                      Health, Vanderbilt University, The 19th News, and more
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed commodo mauris eu nisl accumsan, quis ullamcorper
+                      ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit. Sed commodo mauris eu nisl accumsan, quis
+                      ullamcorper ipsum.
                     </li>
                     <li>
-                      Work alongside creative directors to lead the research,
-                      development, and architecture of technical solutions to
-                      fulfill business requirements
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed commodo mauris eu nisl accumsan, quis ullamcorper
+                      ipsum.
                     </li>
                     <li>
-                      Collaborate with designers, project managers, and other
-                      engineers to transform creative concepts into production
-                      realities for clients and stakeholders
+                      CLorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed commodo mauris eu nisl accumsan, quis ullamcorper
+                      ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing
+                      e
                     </li>
                     <li>
-                      Provide leadership within engineering department through
-                      close collaboration, knowledge shares, and mentorship
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed commodo mauris eu nisl accumsan, quis ullamcorper
+                      ipsum.
                     </li>
                   </ul>
                 </div>
@@ -366,18 +404,20 @@ export default function MainLayout(props) {
                       <i className="fa text-primary fa-folder"></i>
                     </div>
                     <div>
-                    <div className="">
-                      <i className="fa fa-github"></i>
-                    </div>
-                    <div className="">
-                      <i className="fa fa-external-link"></i>
-                    </div>
+                      <div className="">
+                        <i className="fa fa-github"></i>
+                      </div>
+                      <div className="">
+                        <i className="fa fa-external-link"></i>
+                      </div>
                     </div>
                   </div>
-                  <div className="project-title">Integrating Project 1 with Linux Server</div>
+                  <div className="project-title">
+                    Integrating Project 1 with Linux Server
+                  </div>
                   <div className="project-description">
                     Building a custom multisite compatible Project plugin to
-                    build global search with Linux. 
+                    build global search with Linux.
                   </div>
                   <div className="project-tech-list">
                     <div>Php</div>
@@ -394,10 +434,12 @@ export default function MainLayout(props) {
                       <i className="fa fa-external-link"></i>
                     </div>
                   </div>
-                  <div className="project-title">Integrating Project 1 with Linux Server</div>
+                  <div className="project-title">
+                    Integrating Project 1 with Linux Server
+                  </div>
                   <div className="project-description">
                     Building a custom multisite compatible Project plugin to
-                    build global search with Linux. 
+                    build global search with Linux.
                   </div>
                   <div className="project-tech-list">
                     <div>Php</div>
@@ -414,10 +456,12 @@ export default function MainLayout(props) {
                       <i className="fa fa-external-link"></i>
                     </div>
                   </div>
-                  <div className="project-title">Integrating Project 1 with Linux Server</div>
+                  <div className="project-title">
+                    Integrating Project 1 with Linux Server
+                  </div>
                   <div className="project-description">
                     Building a custom multisite compatible Project plugin to
-                    build global search with Linux. 
+                    build global search with Linux.
                   </div>
                   <div className="project-tech-list">
                     <div>Php</div>
@@ -434,10 +478,12 @@ export default function MainLayout(props) {
                       <i className="fa fa-external-link"></i>
                     </div>
                   </div>
-                  <div className="project-title">Integrating Project 1 with Linux Server</div>
+                  <div className="project-title">
+                    Integrating Project 1 with Linux Server
+                  </div>
                   <div className="project-description">
                     Building a custom multisite compatible Project plugin to
-                    build global search with Linux. 
+                    build global search with Linux.
                   </div>
                   <div className="project-tech-list">
                     <div>Php</div>
@@ -454,10 +500,12 @@ export default function MainLayout(props) {
                       <i className="fa fa-external-link"></i>
                     </div>
                   </div>
-                  <div className="project-title">Integrating Project 1 with Linux Server</div>
+                  <div className="project-title">
+                    Integrating Project 1 with Linux Server
+                  </div>
                   <div className="project-description">
                     Building a custom multisite compatible Project plugin to
-                    build global search with Linux. 
+                    build global search with Linux.
                   </div>
                   <div className="project-tech-list">
                     <div>Php</div>
@@ -474,10 +522,12 @@ export default function MainLayout(props) {
                       <i className="fa fa-external-link"></i>
                     </div>
                   </div>
-                  <div className="project-title">Integrating Project 1 with Linux Server</div>
+                  <div className="project-title">
+                    Integrating Project 1 with Linux Server
+                  </div>
                   <div className="project-description">
                     Building a custom multisite compatible Project plugin to
-                    build global search with Linux. 
+                    build global search with Linux.
                   </div>
                   <div className="project-tech-list">
                     <div>Php</div>
@@ -522,7 +572,8 @@ export default function MainLayout(props) {
               target="_blank"
               className="designNdInspiredByLink"
             >
-              Okeke Divine-Vessel <i className="fa fa-external-link fj93j9r"></i>
+              Okeke Divine-Vessel{" "}
+              <i className="fa fa-external-link fj93j9r"></i>
             </a>
           </section>
         </div>
