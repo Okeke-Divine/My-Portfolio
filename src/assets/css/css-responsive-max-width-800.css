@@ -1,0 +1,132 @@
+@media screen and (max-width: 800px) {
+  .sideBar {
+    display: none !important;
+  }
+
+  .mainContent {
+    margin: 0px 0px 0px 0px !important;
+  }
+
+  .aboutMeScreen {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    display: block !important;
+  }
+
+  .myProjects {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .experienceANDwork {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .experienceANDwork .eAw {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .experienceANDwork .eAw .left {
+    margin-bottom: 15px !important;
+  }
+
+  .horiLineMain{
+    width: 50px;
+  }
+
+  .experienceANDwork .sectionTitle .horiLineMain {
+    width: 60px !important;
+  }
+
+  .navbar-cont {
+    position: fixed !important;
+    padding: 15px 25px !important;
+  }
+
+  .otherProjectsFlexContainer {
+    display: block !important;
+    padding: 20px !important;
+  }
+
+  .otherProjectsFlexContainer > div {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  .projectContainer {
+    display: block !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid grey !important;
+  }
+  .landingScreen {
+    padding: 150px 20px 0px 20px !important;
+  }
+  .featuredProject {
+    text-align: left !important;
+  }
+  .projectContainerLayout1 {
+    text-align: right !important;
+    grid-template-columns: 60% 40% !important;
+  }
+
+  .projectContainer .projectImage {
+    width: 100% !important;
+  }
+
+  .projectContainerLayout2 .projectImage {
+    margin-top: 5px !important;
+  }
+
+  .projectContainerLayout2 {
+    margin-bottom: 20px !important;
+  }
+
+  .otherProjects {
+    margin-top: 30px !important;
+  }
+  .eAw .left {
+    display: flex;
+    max-width: 100%;
+    overflow: auto;
+  }
+
+  .eAw .left > div {
+    border-left: 0;
+  }
+
+  .eAw .left > div:hover {
+    color: var(--white-1);
+    background: var(--green-tint);
+    border-left: 0;
+    border-bottom: 3px solid var(--col-primary);
+  }
+
+  .eAw .left > div.active {
+    border-left: 0;
+    border-bottom: 3px solid var(--col-primary);
+    color: var(--col-primary);
+  }
+
+  .navbar-inner {
+  }
+  .navbar-inner .navbarLinks {
+    display: none;
+  }
+  .navbar-inner .expandButton {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-inner .expandButton button{
+    background: transparent;
+    border: none;
+    color: var(--col-primary);
+    font-size: 20px;
+  }
+  .landingScreen {
+    padding-top: 80px!important;
+  }
+}

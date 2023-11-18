@@ -2,7 +2,6 @@ export default function MainLayout(props) {
   const socialMedia = props.dataBus.socialMedia;
   const openLinkInNewTab = props.dataBus.openLinkInNewTab;
 
-  openLinkInNewTab("me.com");
   return (
     <>
       <div className="default-fon">
@@ -49,6 +48,9 @@ export default function MainLayout(props) {
                 </a>
               </div>
             </div>
+            <div className="expandButton">
+              <div><button><i className="fa fa-bars"></i></button></div>
+            </div>
           </div>
         </div>
 
@@ -91,11 +93,11 @@ export default function MainLayout(props) {
           <div className="sidebarSocials">
             <div
               className="email"
-              onClick={openLinkInNewTab(
-                "mailto:" + socialMedia.mySocials.email
-              )}
+              onClick={(e) =>
+                openLinkInNewTab("mailto:" + socialMedia.mySocials.github)
+              }
             >
-              okekedivine.main@gmail.com
+              {socialMedia.mySocials.email}
             </div>
             <div className="lineCont">
               <div></div>
@@ -125,7 +127,13 @@ export default function MainLayout(props) {
               user-centric design for impactful solutions.
             </div>
             <div className="contactMe-1-cont">
-              <button className="contactMe-1"> Check Out My Upwork!</button>
+              <button
+                className="contactMe-1"
+                onClick={(e) => openLinkInNewTab(socialMedia.mySocials.upwork)}
+              >
+                {" "}
+                Hit Me Up On Upwork!
+              </button>
             </div>
           </section>
 
@@ -553,7 +561,14 @@ export default function MainLayout(props) {
               roles and challenges.
             </div>
             <div className="sayHello">
-              <button className="sayHelloButton">Say Hello</button>
+              <button
+                className="sayHelloButton"
+                onClick={(e) =>
+                  openLinkInNewTab("mailto:" + socialMedia.mySocials.github)
+                }
+              >
+                Say Hello
+              </button>
             </div>
           </section>
 

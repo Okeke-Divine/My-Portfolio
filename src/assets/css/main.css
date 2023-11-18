@@ -119,6 +119,8 @@ body {
   justify-content: space-between;
 }
 
+.navbar-inner .expandButton{display: none;}
+
 .navbar-cont {
   position: fixed;
   top: 0;

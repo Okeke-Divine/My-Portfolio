@@ -1,8 +1,9 @@
 // import "./App.css";
 
 // stylesheets
-import "./assets/css/css-responsive-max-width-600.css";
 import "./assets/css/main.css";
+import "./assets/css/css-responsive-max-width-800.css";
+
 // images
 import myLogo from "./assets/images/myLogo.png";
 // json
