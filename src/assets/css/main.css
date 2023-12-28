@@ -735,7 +735,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.project-inner {
+.project-inner .otherProjectLinkIcon {
   cursor: pointer;
 }
 

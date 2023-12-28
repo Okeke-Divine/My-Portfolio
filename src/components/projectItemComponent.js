@@ -12,6 +12,7 @@ export default function ProjectItemComponent(props){
 
 
   const projectTagsComponents = []
+  
   const projectLinkComponents = Object.keys(projectLinks).map(link => {
     if (link === 'github' && projectLinks[link] !== null) {
       return (
@@ -33,7 +34,6 @@ export default function ProjectItemComponent(props){
 
   const projectCoverImageComponent = [];
   if(projectCoverImage != null){
-    console.log('go')
     projectCoverImageComponent.push(
       <img key={projectTitle+" Project Image"} src={projectCoverImage} alt="Project Image" className="project-image" />
     )

@@ -39,7 +39,7 @@ export default function Navbar(props){
                 </li>
               </ol>
               <div>
-                <a className="resume-button" href="/resume.pdf" target="_blank">
+                <a className="resume-button" href="#/resume.pdf" target="_blank">
                   Resume
                 </a>
               </div>

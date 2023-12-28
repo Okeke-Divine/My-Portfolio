@@ -4,7 +4,6 @@ import ProjectItemComponent from "./projectItemComponent.js"
 
 export default function MyProjects(props){
 
-  const socialMedia = props.socialMedia
   const openLinkInNewTab = props.openLinkInNewTab
 
   const projectsData = projects.projects
@@ -23,7 +22,7 @@ export default function MyProjects(props){
     const projectCoverImage = projectsData[projectName]["coverImage"];
 
     projectComponents.push(
-      <ProjectItemComponent key={i} projectDirection={direction} projectTitle={projectTitle} projectDescription={projectDescription} projectTags={projectTags} projectLinks={projectLinks} openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} projectCoverImage={projectCoverImage} />
+      <ProjectItemComponent key={i} projectDirection={direction} projectTitle={projectTitle} projectDescription={projectDescription} projectTags={projectTags} projectLinks={projectLinks} openLinkInNewTab={openLinkInNewTab} projectCoverImage={projectCoverImage} />
     );
   }
 
@@ -42,7 +41,7 @@ export default function MyProjects(props){
             {/*<ProjectItemComponent projectDirection="left" />*/}
 
             {/*OtherProjects*/}
-            <OtherProjects />
+            <OtherProjects openLinkInNewTab={openLinkInNewTab} />
 
           </section>
           )
