@@ -1,0 +1,13 @@
+{
+	"otherProjects":{
+		"My Portfolio": {
+			"title": "My Portfolio",
+			"description": "My myPortfolio is a showcase of my personal projects and accomplishments. Built with a blend of HTML, CSS, JavaScript, React, and JSON, this portfolio highlights my skills and experiences. It serves as a platform to display my diverse range of projects, providing an insight into my expertise and dedication to web development. The live preview allows visitors to explore and interact with the projects showcased. Check out the source code on GitHub to delve deeper into the development process.",
+			"tags": ["Html", "Css", "Javascript", "React", "Json"],
+			"links": {
+				"github": "https://github.com/Okeke-Divine/My-Portfolio",
+        		"livePreview": "https://okekedivine.vercel.app/"
+			}
+		}
+	}
+}
