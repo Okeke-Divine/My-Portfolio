@@ -4,36 +4,31 @@
   <meta name="theme-color" content="#000000" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <meta name="description" content="🚀 Full-stack Web Developer | Crafting seamless experiences in React, PHP, Django, and Gin. Dive into my innovative projects showcasing UI/UX mastery and web development expertise. Let's build something extraordinary together! 💻✨">
-  <meta name="keywords"
-    content="Full-stack web developer, React, PHP, Django, Gin, Web development, Portfolio, Projects, UI/UX design">
+  <meta name="description" content="Okeke Divine-Vessel🚀 - I build things for the web -  Full Stack Developer with 7+ years of hands-on experience designing, developing, and implementing applications and solutions using a range of technologies and programming languages. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full Stack Developer. - Full-stack Web Developer | Crafting seamless experiences in React, PHP, Django, and Gin. Dive into my innovative projects showcasing UI/UX mastery and web development expertise. Let's build something extraordinary together! 💻✨">
+  <meta name="description" content="Okeke Divine-Vessel,Nigeria,Web developers in nigeria, fullstack web developers, cheap web developers,Full-stack web developer, React, PHP, Django, Gin, Web development, Portfolio, Projects, UI/UX design,Okeke Divine-Vessel🚀 - I build things for the web -  Full Stack Developer with 7+ years of hands-on experience designing, developing, and implementing applications and solutions using a range of technologies and programming languages. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full Stack Developer. - Full-stack Web Developer | Crafting seamless experiences in React, PHP, Django, and Gin. Dive into my innovative projects showcasing UI/UX mastery and web development expertise. Let's build something extraordinary together! 💻✨">
   <meta name="author" content="Okeke Divine-Vessel">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Okeke Divine-Vessel | Full Stack Web Dev | Portfolio">
-  <meta property="og:description" content="🚀 Full-stack Web Developer | Crafting seamless experiences in React, PHP, Django, and Gin. Dive into my innovative projects showcasing UI/UX mastery and web development expertise. Let's build something extraordinary together! 💻✨">
+  <meta name="og:description" content="Okeke Divine-Vessel🚀 - I build things for the web -  Full Stack Developer with 7+ years of hands-on experience designing, developing, and implementing applications and solutions using a range of technologies and programming languages. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full Stack Developer. - Full-stack Web Developer | Crafting seamless experiences in React, PHP, Django, and Gin. Dive into my innovative projects showcasing UI/UX mastery and web development expertise. Let's build something extraordinary together! 💻✨">
+
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://okekedivine.vercel.app/">
-  <meta property="og:image" content="https://okekedivine.vercel.app/myLogo.png">
+  <meta property="og:image" content="/myLogo.png">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="https://okekedivine.vercel.app/myLogo.png">
+  <meta property="twitter:card" content="/myLogo.png">
   <meta property="twitter:url" content="https://okekedivine.vercel.app/">
   <meta property="twitter:title" content="Okeke Divine-Vessel | Full Stack Web Dev | Portfolio">
-  <meta property="twitter:description" content="🚀 Full-stack Web Developer | Crafting seamless experiences in React, PHP, Django, and Gin. Dive into my innovative projects showcasing UI/UX mastery and web development expertise. Let's build something extraordinary together! 💻✨">
-  <meta property="twitter:image" content="https://okekedivine.vercel.app/myLogo.png">
+  <meta name="twitter:description" content="Okeke Divine-Vessel🚀 - I build things for the web -  Full Stack Developer with 7+ years of hands-on experience designing, developing, and implementing applications and solutions using a range of technologies and programming languages. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full Stack Developer. - Full-stack Web Developer | Crafting seamless experiences in React, PHP, Django, and Gin. Dive into my innovative projects showcasing UI/UX mastery and web development expertise. Let's build something extraordinary together! 💻✨">
 
-  <link rel="shortcut icon" href="https://okekedivine.vercel.app/myLogo.png" type="image/x-icon">
+  <meta property="twitter:image" content="/myLogo.png">
 
-  <!-- localhost -->
-  <!-- <link rel="stylesheet" href="http://localhost:8081/privCdn/fontawesome/css/all.css">
-  <link rel="stylesheet" href="http://localhost:8081/privCdn/fontawesome/css/v4-shims.css"> -->
-  <!-- end localhost -->
+  <link rel="shortcut icon" href="/myLogo.png" type="image/x-icon">
 
-  <!-- online host -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/v4-shims.min.css">
-  <!-- end online host -->
+  <link rel="stylesheet" id="font_awesome_all_css" href="">
+  <link rel="stylesheet" id="font_awesome_v4_shims_css" href="">
+
   
   <title>Okeke Divine-Vessel | Full Stack Web Dev | Portfolio</title>
 </head>
@@ -43,4 +38,16 @@
   <div id="root"></div>
 </body>
 
+<script type="text/javascript">
+  const hostname = window.location.hostname;
+  const font_awesome_all_css = document.getElementById("font_awesome_all_css");
+  const font_awesome_v4_shims_css = document.getElementById("font_awesome_v4_shims_css");
+  if(hostname == 'localhost'){
+    font_awesome_all_css.setAttribute('href','http://localhost:8081/privCdn/fontawesome/css/all.css');
+    font_awesome_v4_shims_css.setAttribute('href','http://localhost:8081/privCdn/fontawesome/css/v4-shims.css');
+  }else{
+    font_awesome_all_css.setAttribute('href','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+    font_awesome_v4_shims_css.setAttribute('href','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/v4-shims.min.css');
+  }
+</script>
 </html>

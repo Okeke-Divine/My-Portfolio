@@ -114,8 +114,20 @@
   .navbar-inner {
   }
   .navbar-inner .navbarLinks {
+    position: fixed;
+    top:79px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    background: rgb(10, 25, 47);
+    border-bottom: 3px dotted var(--green-tint);;
+    padding-bottom: 20px;
     display: none;
   }
+  .navbar-inner .navbarLinks ol{
+    display: block;
+  } 
+
   .navbar-inner .expandButton {
     display: flex;
     align-items: center;
@@ -123,6 +135,7 @@
   .navbar-inner .expandButton button{
     background: transparent;
     border: none;
+    cursor: pointer;
     color: var(--col-primary);
     font-size: 20px;
   }

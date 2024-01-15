@@ -9,48 +9,21 @@
 				"livePreview": "https://okekedivine.vercel.app/"
 			}
 		},
-		"Project 2 (Dummy)": {
-			"title": "Project 2 (Dummy)",
-			"description": "Description for Project 2 (Dummy)",
-			"tags": ["Tag1", "Tag2", "Tag3"],
+		"mTalers": {
+			"title": "mTalers",
+			"description": "",
+			"tags": ["Html", "Css", "Javascript", "PHP"],
 			"links": {
-				"github": null,
+				"github": "",
 				"livePreview": null
 			}
 		},
-		"Project 3 (Dummy)": {
-			"title": "Project 3 (Dummy)",
-			"description": "Description for Project 3 (Dummy)",
-			"tags": ["Tag4", "Tag5", "Tag6"],
+		"Music Website": {
+			"title": "Music Website for Prod. Kayks",
+			"description": "",
+			"tags": ["Django", "React", "MySQL", "React", "Json","Html","Css","Javascript"],
 			"links": {
-				"github": null,
-				"livePreview": null
-			}
-		},
-		"Project 4 (Dummy)": {
-			"title": "Project 4 (Dummy)",
-			"description": "Description for Project 4 (Dummy)",
-			"tags": ["Tag7", "Tag8", "Tag9"],
-			"links": {
-				"github": null,
-				"livePreview": null
-			}
-		},
-		"Project 5 (Dummy)": {
-			"title": "Project 5 (Dummy)",
-			"description": "Description for Project 5 (Dummy)",
-			"tags": ["Tag10", "Tag11", "Tag12"],
-			"links": {
-				"github": null,
-				"livePreview": null
-			}
-		},
-		"Project 6 (Dummy)": {
-			"title": "Project 6 (Dummy)",
-			"description": "Description for Project 6 (Dummy)",
-			"tags": ["Tag13", "Tag14", "Tag15"],
-			"links": {
-				"github": null,
+				"github": "",
 				"livePreview": null
 			}
 		}

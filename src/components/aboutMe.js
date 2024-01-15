@@ -53,13 +53,16 @@ export default function AboutMe(props){
                   Here are a few technologies I’ve been working with recently:
                   <div className="fewTechnologies">
                     <ul>
-                      <li>Html</li>
-                      <li>Css</li>
-                      <li>Javascript (ES6+)</li>
-                      <li>React</li>
                       <li>Php</li>
                       <li>Phython (Django)</li>
                       <li>Golang (Gin)</li>
+                      <li>React</li>
+                      <li>jQuery</li>
+                      <li>Bootstrap</li>
+                      <li>MySQL</li>
+                      <li>Html</li>
+                      <li>Css</li>
+                      <li>Javascript (ES6+)</li>
                     </ul>
                   </div>
                 </div>
@@ -68,7 +71,7 @@ export default function AboutMe(props){
             </div>
             <div className="right">
               <div className="myImageCont">
-                <img src="" />
+                <img src="/assets/images/2021-01-06 18.30.55 - Copy.png" className="image01md" />
               </div>
             </div>
           </section>

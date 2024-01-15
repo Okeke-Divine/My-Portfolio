@@ -5,7 +5,7 @@
       "description": "Mtalers is an educational platform developed for a client, focusing on providing a comprehensive learning experience. It incorporates various technologies such as HTML, CSS, JavaScript, React, Php and MySql to deliver interactive and engaging educational content. The platform aims to enhance the learning process through its user-friendly interface and extensive functionality.",
       "tags": ["HTML", "CSS", "JavaScript", "React", "Php", "MySql"],
       "links": {
-        "github": null,
+        "github": "",
         "livePreview": null
       },
       "coverImage": "/assets/images/mtalers/mtalers1.png",
@@ -22,24 +22,13 @@
       "coverImage": "/assets/images/myPortfolio/myPortfolio1.png",
       "slideShowImages": null
     },
-    "project 2": {
-      "title": "WebRTC Chat",
-      "description": "WebRTC Chat is a project centered around real-time communication utilizing WebRTC technology. It serves as a chat application leveraging HTML, CSS, Python, and Django framework. The primary focus is on facilitating seamless communication among users through web browsers. The project aims to create a reliable and secure platform for interactive conversations.",
-      "tags": ["HTML", "CSS", "Python", "Django"],
+    "music website": {
+      "title": "Music Website for Prod. Kayks",
+      "description": "",
+			"tags": ["Django", "React", "MySQL", "React", "Json","Html","Css","Javascript"],
       "links": {
         "github": null,
-        "livePreview": null
-      },
-      "coverImage": "/assets/images/noImage.png",
-      "slideShowImages": null
-    },
-    "project 4": {
-      "title": "Project 4",
-      "description": "Project 4 is an ongoing project that explores various aspects of JavaScript and React. It's aimed at building innovative solutions and implementing cutting-edge features using these technologies. The project focuses on continuous development, experimentation, and learning to enhance skills in JavaScript and React development.",
-      "tags": ["JavaScript", "React"],
-      "links": {
-        "github": null,
-        "livePreview": null
+            "livePreview": null
       },
       "coverImage": "/assets/images/noImage.png",
       "slideShowImages": null

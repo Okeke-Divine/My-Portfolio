@@ -34,7 +34,7 @@ export default function MainLayout(props) {
           <AboutMe socialMedia={socialMedia} />
 
           {/*ExperienceAndWork*/}
-          <ExperienceAndWork />
+          {/* <ExperienceAndWork /> */}
 
           {/*myProjects*/}
           <MyProjects openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
