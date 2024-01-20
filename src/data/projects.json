@@ -24,13 +24,13 @@
     },
     "music website": {
       "title": "Music Website for Prod. Kayks",
-      "description": "",
+      "description": "This project is a dynamic and immersive music website crafted for the talented music producer, Kayks. Utilizing technologies such as Django, React, MySQL, HTML, CSS, and JavaScript, the website provides a seamless platform for showcasing Kayks' musical creations. From elegant design elements to a user-friendly interface, the website aims to enhance the overall music discovery experience.",
 			"tags": ["Django", "React", "MySQL", "React", "Json","Html","Css","Javascript"],
       "links": {
         "github": null,
             "livePreview": null
       },
-      "coverImage": "/assets/images/noImage.png",
+      "coverImage": "/assets/images/kayksW/Screenshot (1738).png",
       "slideShowImages": null
     }
   }

@@ -55,7 +55,7 @@ export default function AboutMe(props){
                     <ul>
                       <li>Php</li>
                       <li>Phython (Django)</li>
-                      <li>Golang (Gin)</li>
+                      <li>Golang (Gin) (Basics)</li>
                       <li>React</li>
                       <li>jQuery</li>
                       <li>Bootstrap</li>

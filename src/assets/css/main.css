@@ -119,7 +119,9 @@ body {
   justify-content: space-between;
 }
 
-.navbar-inner .expandButton{display: none;}
+.navbar-inner .expandButton {
+  display: none;
+}
 
 .navbar-cont {
   position: fixed;
@@ -390,7 +392,7 @@ a {
   border: 3px solid var(--col-primary);
 }
 
-.image01md{
+.image01md {
   width: 200px;
 }
 
@@ -516,9 +518,9 @@ ul {
 }
 
 .projectContainer .projectImage {
-/*  background: var(--col-primary);*/
+  /*  background: var(--col-primary);*/
   width: 580px;
-  height: auto!important;
+  height: auto !important;
   /*border-left: 2px solid var(--col-primary);
   border-right: 2px solid var(--col-primary);*/
   min-height: 200px;
@@ -528,24 +530,24 @@ ul {
   position: relative;
 
   max-width: 100%;
-/*  overflow: hidden;*/
+  /*  overflow: hidden;*/
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.projectContainer .projectImage:hover{
+.projectContainer .projectImage:hover {
   opacity: 0.9;
 }
 
-.project-image{
-/*  position: absolute;*/
+.project-image {
+  /*  position: absolute;*/
   top: 0;
   left: 0;
-  width: 100%; 
-  height: auto; 
-  border:2px dotted var(--col-primary);
+  width: 100%;
+  height: auto;
+  border: 2px dotted var(--col-primary);
   border-left: 2px solid var(--col-primary);
   border-right: 2px solid var(--col-primary);
 }
@@ -796,6 +798,40 @@ ul {
   font-size: 10px;
 }
 
-.projectLinkIcon{
+.projectLinkIcon {
   cursor: pointer;
+}
+
+.sdfsdfsd {
+  margin: 20px 0;
+}
+
+.socialLOGO {
+  border-radius: 50%;
+  height: 30px;
+  width: 20px;
+  background: transparent;
+  border: 1px solid var(--col-primary);
+  color: var(--col-primary);
+  cursor: pointer;
+}
+
+
+.socialsLogo{
+  display: flex;
+  column-gap: 10px;
+}
+
+.bufINis{
+  background: transparent;
+  color: var(--col-primary);
+  text-decoration: none;
+  border:0;
+padding-bottom: 5px;
+font-size: 13px;
+  border-bottom: 1px dotted var(--col-primary);
+}
+
+.fodf{
+  margin-top: 30px;
 }

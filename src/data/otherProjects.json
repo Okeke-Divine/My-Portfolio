@@ -11,7 +11,7 @@
 		},
 		"mTalers": {
 			"title": "mTalers",
-			"description": "",
+			"description": "Education webstie built for a client",
 			"tags": ["Html", "Css", "Javascript", "PHP"],
 			"links": {
 				"github": "",
@@ -20,11 +20,11 @@
 		},
 		"Music Website": {
 			"title": "Music Website for Prod. Kayks",
-			"description": "",
+			"description": "Official music website/beat store built for Prod. Kayks",
 			"tags": ["Django", "React", "MySQL", "React", "Json","Html","Css","Javascript"],
 			"links": {
 				"github": "",
-				"livePreview": null
+				"livePreview": ""
 			}
 		}
 	}
