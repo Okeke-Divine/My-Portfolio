@@ -383,17 +383,19 @@ a {
 
 .aboutMeScreen .right .myImageCont {
   width: 300px;
-  background: pink;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 3px;
+  border-radius: 50%;
   height: 300px;
   border: 3px solid var(--col-primary);
+  overflow: hidden;
 }
 
 .image01md {
-  width: 200px;
+  /* width: 200px; */
+  width: 100%;
+  height: auto;
 }
 
 .sectionBody .sectionContentList {
@@ -834,4 +836,23 @@ font-size: 13px;
 
 .fodf{
   margin-top: 30px;
+}
+
+.icons .fa-external-link, .icons .fa-github{
+  cursor: pointer!important;
+}
+
+.projectSlideshowCTA button{
+ background: var(--col-dark);
+ color: var(--col-primary);
+ padding: 10px 15px;
+ border-radius: 3px;
+ border: 1px solid var(--col-primary);
+ cursor: pointer; 
+ transition: var(--transition);
+}
+
+.projectSlideshowCTA button:hover,.resume-button:hover{
+  background: var(--col-primary);
+  color: var(--col-dark);
 }

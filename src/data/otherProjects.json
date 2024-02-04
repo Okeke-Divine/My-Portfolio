@@ -1,30 +1,64 @@
 {
 	"otherProjects": {
-		"My Portfolio": {
-			"title": "My Portfolio",
-			"description": "My myPortfolio is a showcase of my personal projects and accomplishments.",
-			"tags": ["Html", "Css", "Javascript", "React", "Json"],
+		"geepayFrontendChallenge": {
+			"title": "Geepay Frontend Challenge",
+			"description": "Conquered Geepay Frontend Challenge, expertly translating Figma design into flawless HTML.",
+			"tags": [
+				"Html",
+				"Css",
+				"Javascript",
+				"ChartJs"
+			],
 			"links": {
-				"github": "https://github.com/Okeke-Divine/My-Portfolio",
-				"livePreview": "https://okekedivine.vercel.app/"
+				"github": "https://github.com/Okeke-Divine/Geegpay-Front-End-Challenge",
+				"livePreview": "https://okeke-divine.github.io/Geegpay-Front-End-Challenge"
 			}
 		},
 		"mTalers": {
 			"title": "mTalers",
 			"description": "Education webstie built for a client",
-			"tags": ["Html", "Css", "Javascript", "PHP"],
+			"tags": [
+				"Html",
+				"Css",
+				"Javascript",
+				"PHP"
+			],
 			"links": {
-				"github": "",
+				"github": null,
 				"livePreview": null
 			}
 		},
 		"Music Website": {
 			"title": "Music Website for Prod. Kayks",
 			"description": "Official music website/beat store built for Prod. Kayks",
-			"tags": ["Django", "React", "MySQL", "React", "Json","Html","Css","Javascript"],
+			"tags": [
+				"Django",
+				"React",
+				"MySQL",
+				"React",
+				"Json",
+				"Html",
+				"Css",
+				"Javascript"
+			],
 			"links": {
-				"github": "",
-				"livePreview": ""
+				"github": null,
+				"livePreview": null
+			}
+		},
+		"My Portfolio": {
+			"title": "My Portfolio",
+			"description": "My myPortfolio is a showcase of my personal projects and accomplishments.",
+			"tags": [
+				"Html",
+				"Css",
+				"Javascript",
+				"React",
+				"Json"
+			],
+			"links": {
+				"github": "https://github.com/Okeke-Divine/My-Portfolio",
+				"livePreview": "https://okekedivine.vercel.app/"
 			}
 		}
 	}

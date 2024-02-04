@@ -1,18 +1,18 @@
-export default function ProjectItemComponent(props){
+export default function ProjectItemComponent(props) {
 
-  const socialMedia = props.socialMedia
   const openLinkInNewTab = props.openLinkInNewTab
 
-	const projectDirection = props.projectDirection
-	const projectTitle = props.projectTitle
-	const projectDescription = props.projectDescription
-	const projectTags = props.projectTags
-	const projectLinks = props.projectLinks
+  const projectDirection = props.projectDirection
+  const projectTitle = props.projectTitle
+  const projectDescription = props.projectDescription
+  const projectTags = props.projectTags
+  const projectLinks = props.projectLinks
   const projectCoverImage = props.projectCoverImage
-
+  const projectSlideShowImages = props.projectSlideShowImages
+  console.log(projectSlideShowImages)
 
   const projectTagsComponents = []
-  
+
   const projectLinkComponents = Object.keys(projectLinks).map(link => {
     if (link === 'github' && projectLinks[link] !== null) {
       return (
@@ -33,9 +33,9 @@ export default function ProjectItemComponent(props){
   // console.log(projectCoverImage)
 
   const projectCoverImageComponent = [];
-  if(projectCoverImage != null){
+  if (projectCoverImage != null) {
     projectCoverImageComponent.push(
-      <img key={projectTitle+" Project Image"} src={projectCoverImage} alt="Project Image" className="project-image" />
+      <img key={projectTitle + " Project Image"} src={projectCoverImage} alt="Project Image" className="project-image" />
     )
   }
 
@@ -47,56 +47,66 @@ export default function ProjectItemComponent(props){
 
 
 
-	// conditonal rendering
-	return(
-		<div>
-			{projectDirection === 'left' ? (
-	        	<div className="projectContainer projectContainerLayout1">
-              <div className="left">
-                <div className="projectImage">
-                  {projectCoverImageComponent}
-                </div>
-              </div>
-              <div className="right">
-                <div className="featuredProject text-primary">
-                  Featured Project
-                </div>
-                <div className="projectName">{projectTitle}</div>
-                <div className="projectInfo">
-                  {projectDescription}
-                </div>
-                <div className="projectsTags">
-                  {projectTagsComponents}
-                </div>
-                <div className="projectsIcons">
-                  {projectLinkComponents}
-                </div>
-              </div>
+  // conditonal rendering
+  return (
+    <div>
+      {projectDirection === 'left' ? (
+        <div className="projectContainer projectContainerLayout1">
+          <div className="left">
+            <div className="projectImage">
+              {projectCoverImageComponent}
             </div>
-	     	) : (
-	        	<div className="projectContainer projectContainerLayout2">
-              <div className="right">
-                <div className="featuredProject text-primary">
-                  Featured Project
-                </div>
-                <div className="projectName">{projectTitle}</div>
-                <div className="projectInfo">
-                  {projectDescription}
-                </div>
-                <div className="projectsTags">
-                  {projectTagsComponents}
-                </div>
-                <div className="projectsIcons">
-                  {projectLinkComponents}
-                </div>
-              </div>
-              <div className="left">
-                <div className="projectImage">
-                  {projectCoverImageComponent}
-                </div>
-              </div>
+          </div>
+          <div className="right">
+            <div className="featuredProject text-primary">
+              Featured Project
             </div>
-	      	)}
-		</div>
-	)
+            <div className="projectName">{projectTitle}</div>
+            <div className="projectInfo">
+              {projectDescription}
+            </div>
+            <div className="projectsTags">
+              {projectTagsComponents}
+            </div>
+            {projectSlideShowImages !== null ?
+              (<div className="projectSlideshowCTA">
+                <button>Slideshow <i className="fa fa-angle-double-right"></i></button>
+              </div>)
+              : null}
+            <div className="projectsIcons">
+              {projectLinkComponents}
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div className="projectContainer projectContainerLayout2">
+          <div className="right">
+            <div className="featuredProject text-primary">
+              Featured Project
+            </div>
+            <div className="projectName">{projectTitle}</div>
+            <div className="projectInfo">
+              {projectDescription}
+            </div>
+            <div className="projectsTags">
+              {projectTagsComponents}
+            </div>
+            {projectSlideShowImages !== null ?
+              (<div className="projectSlideshowCTA">
+                <button>Slideshow <i className="fa fa-home"></i>}</button>
+              </div>)
+              : null}
+            <div className="projectsIcons">
+              {projectLinkComponents}
+            </div>
+          </div>
+          <div className="left">
+            <div className="projectImage">
+              {projectCoverImageComponent}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  )
 }

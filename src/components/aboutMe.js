@@ -1,3 +1,5 @@
+import me from "../assets/images/ME.jpg"
+
 export default function AboutMe(props){
 	const socialMedia = props.socialMedia
 	
@@ -71,7 +73,7 @@ export default function AboutMe(props){
             </div>
             <div className="right">
               <div className="myImageCont">
-                <img src="/assets/images/2021-01-06 18.30.55 - Copy.png" className="image01md" />
+                <img src={me} className="image01md" />
               </div>
             </div>
           </section>
