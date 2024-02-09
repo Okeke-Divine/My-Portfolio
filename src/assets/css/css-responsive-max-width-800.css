@@ -46,15 +46,17 @@
     padding: 15px 25px !important;
   }
 
-  .otherProjectsFlexContainer {
+  .otherProjectsFlexContainer, .gigsFlexContainer {
     display: block !important;
     padding: 20px !important;
   }
 
-  .otherProjectsFlexContainer > div {
+  .otherProjectsFlexContainer > div, .gigsFlexContainer .gigItemcontainer {
     width: 100% !important;
     box-sizing: border-box !important;
   }
+
+  
   .projectContainer {
     display: block !important;
     padding: 20px !important;

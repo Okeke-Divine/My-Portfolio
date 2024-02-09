@@ -11,7 +11,7 @@ export default function LandingScreen(props) {
         <h2 className="big-heading">Okeke Divine-Vessel.</h2>
       </div>
       <div>
-        <h3 className="big-heading ibuildt">I build things for the web.</h3>
+        <h3 className="big-heading ibuildt">I build pixel-perfect, engaging, and accessible digital experiences.</h3>
       </div>
       <div className="breifIntro">
         Full Stack Developer with 7+ years of hands-on experience designing,
@@ -23,16 +23,16 @@ export default function LandingScreen(props) {
       <div className="contactMe-1-cont">
         <button
           className="contactMe-1"
-          onClick={(e) => openLinkInNewTab(socialMedia.mySocials.upwork)}
+          onClick={(e) => openLinkInNewTab(socialMedia.mySocials.freelancer)}
         >
           {" "}
-          Hit Me Up On Upwork!
+          Hire Me Up On Freelancer!
         </button>
       </div>
       <div className="socialsLogoContainer">
         <div className="sdfsdfsd">
-          <div class="horiLine">
-            <div class="horiLineMain"></div>
+          <div className="horiLine">
+            <div className="horiLineMain"></div>
           </div>
         </div>
         <div className="socialsLogo">

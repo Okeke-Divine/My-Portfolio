@@ -5,6 +5,7 @@ import Footer from "../components/footer.js"
 import ContactMe from "../components/contactMe.js"
 import MyProjects from "../components/myProjects.js"
 import ExperienceAndWork from "../components/experienceAndWork.js"
+import Gigs from "../components/gigs.js"
 import AboutMe from "../components/aboutMe.js"
 import LandingScreen from "../components/landingScreen.js"
 
@@ -21,12 +22,12 @@ export default function MainLayout(props) {
 
         {/* left sidebar */}
         <LeftSidebar openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
-       
+
         {/* right sidebar */}
         <RightSidebar openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
 
         <div className="mainContent">
-          
+
           {/*LandingScreen*/}
           <LandingScreen openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
 
@@ -38,6 +39,9 @@ export default function MainLayout(props) {
 
           {/*myProjects*/}
           <MyProjects openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
+
+          {/* gigs */}
+          <Gigs openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
 
           {/*contact me*/}
           <ContactMe openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />

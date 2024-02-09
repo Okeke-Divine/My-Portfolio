@@ -45,11 +45,16 @@ export default function Navbar(props) {
                   <span className="linkHighlight">02.</span> Projects
                 </a>
               </li>
-              <li>
-                <a href="#contactMe">
-                  <span className="linkHighlight">03.</span> Contact
-                </a>
-              </li>
+                <li>
+                  <a href="#gigs">
+                    <span className="linkHighlight">03.</span> Gigs
+                  </a>
+                </li>
+                <li>
+                  <a href="#contactMe">
+                    <span className="linkHighlight">04.</span> Contact
+                  </a>
+                </li>
             </ol>
             <div>
               <a

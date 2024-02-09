@@ -1,0 +1,42 @@
+{
+    "figma_conversion": {
+        "title": "FIGMA TO HTML/REACT",
+        "image": "/assets/images/_gigImages/FIGMA-CONVERTION.png",
+        "description": "Figma to html/react Figma to html/react Figma to html/react Figma to html/react Figma to html/react Figma to html/react",
+        "links": {
+            "freelancer": null,
+            "fiverr": null,
+            "upwork": null
+        }
+    },
+    "psd_conversion": {
+        "title": "PSD TO HTML/REACT",
+        "image": "/assets/images/_gigImages/PSD-CONVERTION.png",
+        "description": "Figma to html/react Figma to html/react Figma to html/react Figma to html/react Figma to html/react Figma to html/react",
+        "links": {
+            "freelancer": null,
+            "fiverr": null,
+            "upwork": null
+        }
+    },
+    "sketch_conversion": {
+        "title": "SKETCH TO HTML/REACT",
+        "image": "/assets/images/_gigImages/SKETCH-CONVERTION.png",
+        "description": "Figma to html/react Figma to html/react Figma to html/react Figma to html/react Figma to html/react Figma to html/react",
+        "links": {
+            "freelancer": null,
+            "fiverr": null,
+            "upwork": null
+        }
+    },
+    "xd_conversion": {
+        "title": "XD TO HTML/REACT",
+        "image": "/assets/images/_gigImages/XD-CONVERTION.png",
+        "description": "Figma to html/react Figma to html/react Figma to html/react Figma to html/react Figma to html/react Figma to html/react",
+        "links": {
+            "freelancer": null,
+            "fiverr": null,
+            "upwork": null
+        }
+    }
+}
