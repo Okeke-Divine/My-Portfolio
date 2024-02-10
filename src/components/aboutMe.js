@@ -16,7 +16,7 @@ export default function AboutMe(props){
               <div className="sectionBody">
                 <div className="sectionContentList">
                   Hello there, I'm Divine. My fascination with web development
-                  sparked years ago, and it's been a thrilling journey ever
+                  sparked 7 years ago, and it's been a thrilling journey ever
                   since. Embarking on my coding journey through the
                   customization of tailored templates on CodePen, I unearthed a
                   natural affinity for delving into the intricate details of

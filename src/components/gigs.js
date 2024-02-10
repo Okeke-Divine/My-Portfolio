@@ -2,7 +2,6 @@ import GigItem from "./gig-item.js"
 import gigData from "../data/gigs.json"
 
 export default function Gigs() {
-    console.log(gigData)
     return (
         <section className="gigsContainer jnUoFC" id="gigs">
             <div className="sectionTitle">
@@ -13,9 +12,9 @@ export default function Gigs() {
                 </div>
             </div>
             <div className="gigsFlexContainer">
-                <GigItem />
-                <GigItem />
-                <GigItem />
+                {Object.values(gigData).map((gig, index) => (
+                    <GigItem key={index} gigTitle={gig.title} gigDescription={gig.description} gigImage={gig.image} gigLink={gig.links} />
+                ))}
             </div>
         </section>
     )

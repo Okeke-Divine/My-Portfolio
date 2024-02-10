@@ -874,7 +874,7 @@ ul {
 }
 
 .gigsFlexContainer > .gigItemcontainer .gig-item-body {
-  padding: 25px 15px;
+  padding: 25px 15px;;
 }
 
 .gigsFlexContainer > .gigItemcontainer {
@@ -918,4 +918,33 @@ ul {
 
 .gig_rating{
   margin-bottom: 1rem;
+}
+
+.gig_description{
+  margin-bottom: 1rem;
+}
+
+.gig_rating i{
+  color: var(--col-primary);
+}
+
+.gig-rating-text{
+  margin-left: 5px;
+}
+
+.gig_links button{
+  color: var(--col-primary);
+  background-color: transparent;
+  border: 1px solid var(--col-primary);
+  border-radius: var(--border-radius);
+  padding: 0.75rem 2rem;
+  transition: var(--transition);
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+}
+
+.gig_links button:hover{
+  color: var(--col-dark);
+  background-color: var(--col-primary);
 }

@@ -9,7 +9,6 @@ export default function ProjectItemComponent(props) {
   const projectLinks = props.projectLinks
   const projectCoverImage = props.projectCoverImage
   const projectSlideShowImages = props.projectSlideShowImages
-  console.log(projectSlideShowImages)
 
   const projectTagsComponents = []
 
@@ -70,7 +69,7 @@ export default function ProjectItemComponent(props) {
             </div>
             {projectSlideShowImages !== null ?
               (<div className="projectSlideshowCTA">
-                <button>Slideshow <i className="fa fa-angle-double-right"></i></button>
+                <button>Image Slideshow <i className="fa fa-angle-double-right"></i></button>
               </div>)
               : null}
             <div className="projectsIcons">
@@ -93,7 +92,7 @@ export default function ProjectItemComponent(props) {
             </div>
             {projectSlideShowImages !== null ?
               (<div className="projectSlideshowCTA">
-                <button>Slideshow <i className="fa fa-home"></i>}</button>
+                <button>Image Slideshow <i className="fa fa-home"></i>}</button>
               </div>)
               : null}
             <div className="projectsIcons">
