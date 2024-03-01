@@ -368,6 +368,14 @@ a {
   background: var(--white-2);
 }
 
+.block{
+  display:block!important;
+}
+
+.flex{
+  display:flex!important;
+}
+
 .aboutMeScreen {
   padding-top: 100px;
   padding-left: 50px;
@@ -951,4 +959,26 @@ ul {
 
 .mr-2{
   margin-right:10px;
+}
+
+.techStack-item{
+  column-gap:10px;
+  font-size:18px;
+  margin-bottom: 10px;
+}
+
+.techStack-container{
+  flex-wrap:wrap;
+  column-gap:20px;
+}
+
+.techStackTitle{
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:5px;
+  color: var(--white-1);
+}
+
+.techStackGroup{
+  margin-bottom:10px;
 }
