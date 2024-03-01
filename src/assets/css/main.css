@@ -982,3 +982,8 @@ ul {
 .techStackGroup{
   margin-bottom:10px;
 }
+
+.techStackBody{
+  padding-left:10px;
+  padding-right:10px;
+}

@@ -51,7 +51,7 @@ export default function AboutMe(props){
                   exceptional digital experiences, I'm committed to continuous
                   growth and learning in this dynamic field.
                 </div>
-                <div className="sectionContentList">
+                {/* <div className="sectionContentList">
                   Here are a few technologies I’ve been working with recently:
                   <div className="fewTechnologies">
                     <ul>
@@ -68,7 +68,7 @@ export default function AboutMe(props){
                     </ul>
                   </div>
                 </div>
-                <div className="sectionContentList">Signature: ODVE</div>
+                <div className="sectionContentList">Signature: ODVE</div> */}
               </div>
             </div>
             <div className="right">

@@ -9,7 +9,7 @@ export default function TechStack(){
             name: "Typescript",
         },
         {
-            icon: <i className="fab fa-tailwind"></i>,
+            icon: <i className="fa fa-code"></i>,
             name: "Tailwind CSS",
         },
         {
@@ -73,7 +73,7 @@ export default function TechStack(){
                   <div className="horiLineMain"></div>
                 </div>
               </div>
-              <div className="sectionBody">
+              <div className="sectionBody techStackBody">
                     {/* frontend */}
                     <div className="techStackGroup">
                         <div className="techStackTitle">Frontend</div>

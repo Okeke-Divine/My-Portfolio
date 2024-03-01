@@ -20,7 +20,7 @@ export default function ExperienceAndWork() {
             </a>
           </div>
           <div className="highlitedTabSubTitle">
-            November 2023 - Present
+            January 2024 - Present
           </div>
           <div className="highlitedTabContent">
             <ul>
