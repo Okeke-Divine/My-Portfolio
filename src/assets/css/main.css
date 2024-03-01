@@ -350,7 +350,7 @@ a {
   padding: 20px 40px;
   color: var(--col-primary);
   cursor: pointer;
-  font-size:16px;
+  font-size:14px;
 }
 
 .aboutMeScreen .sectionTitle {
@@ -1013,6 +1013,7 @@ ul {
   width: fit-content;
   column-gap: 5px;
   align-items: center;
+  color: var(--col-primary);
 }
 
 .portfolio2-0link i{
