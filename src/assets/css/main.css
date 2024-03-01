@@ -236,6 +236,10 @@ a {
   transition: 0.3s;
 }
 
+.sidebarSocials .icons a:hover{
+  color: var(--col-primary);
+}
+
 .sidebarSocials .email:hover {
   color: var(--col-primary);
 }
@@ -566,7 +570,7 @@ ul {
   width: 100%;
   height: auto;
   box-shadow: 0 10px 30px -15px white;
-  border-radius:15px;
+  border-radius:10px;
 }
 
 .projectContainerLayout2 .left {
