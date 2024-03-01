@@ -5,6 +5,7 @@ import ProjectItemComponent from "./projectItemComponent.jsx"
 export default function MyProjects(props) {
 
   const openLinkInNewTab = props.openLinkInNewTab
+  const socialMedia = props.socialMedia
 
   const projectsData = projects.projects
 
@@ -42,7 +43,7 @@ export default function MyProjects(props) {
       {/* <ProjectItemComponent projectDirection="left" /> */}
 
       {/*OtherProjects*/}
-      <OtherProjects openLinkInNewTab={openLinkInNewTab} />
+      <OtherProjects openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
 
     </section>
   )

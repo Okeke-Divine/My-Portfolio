@@ -5,6 +5,7 @@ import axios from "axios";
 
 export default function OtherProjects(props) {
   const openLinkInNewTab = props.openLinkInNewTab;
+  const socialMedia = props.socialMedia;
   const [repos, setRepos] = useState([]);
   const [firstTimeLoading, setFirstTimeLoading] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
@@ -42,7 +43,7 @@ export default function OtherProjects(props) {
     <div className="otherProjects">
       <div className="otherProjectsTitle">Other Noteworthy Projects</div>
       <div className="otherProjectsLinkOnGithub">
-        <a href="#" className="text-primary">
+        <a href={socialMedia.mySocials.github} target="_blank" className="text-primary">
           view the archieve (github)
         </a>
       </div>
