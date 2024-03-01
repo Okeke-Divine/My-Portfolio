@@ -51,7 +51,7 @@ export default function OtherProjects(props) {
         {repos.map((repo, index) => (
           <OtherProjectItemComponent
             key={index}
-            openLinkInNewTab={repo.name}
+            openLinkInNewTab={openLinkInNewTab}
             title={repo.name}
             description={
               repo.description
