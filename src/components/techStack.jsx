@@ -77,7 +77,7 @@ export default function TechStack(){
                     {/* frontend */}
                     <div className="techStackGroup">
                         <div className="techStackTitle">Frontend</div>
-                        <div class="flex techStack-container">
+                        <div className="flex techStack-container">
                         {frontend.map((lng,index) => (
                             <div key={index} className="flex techStack-item">
                                 <div>{lng.icon}</div>
@@ -89,7 +89,7 @@ export default function TechStack(){
                     {/* backend */}
                     <div className="techStackGroup">
                         <div className="techStackTitle">Backend</div>
-                        <div class="flex techStack-container">
+                        <div className="flex techStack-container">
                         {backend.map((lng,index) => (
                             <div key={index} className="flex techStack-item">
                                 <div>{lng.icon}</div>
@@ -101,7 +101,7 @@ export default function TechStack(){
                     {/* database */}
                     <div className="techStackGroup">
                         <div className="techStackTitle">Database</div>
-                        <div class="flex techStack-container">
+                        <div className="flex techStack-container">
                         {database.map((lng,index) => (
                             <div key={index} className="flex techStack-item">
                                 <div>{lng.icon}</div>
@@ -113,7 +113,7 @@ export default function TechStack(){
                     {/* other tools */}
                     <div className="techStackGroup">
                         <div className="techStackTitle">Other Tools</div>
-                        <div class="flex techStack-container">
+                        <div className="flex techStack-container">
                         {otherTools.map((lng,index) => (
                             <div key={index} className="flex techStack-item">
                                 <div>{lng.icon}</div>

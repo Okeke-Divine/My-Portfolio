@@ -24,7 +24,7 @@ export default function AboutMe(props){
                 </div>
 
                 <div className="sectionContentList">
-                  My professional tenure has primarily been at Mtalers, where I
+                  My professional tenure has primarily been at Marokug, where I
                   honed my skills and contributed extensively to various
                   projects. During my time there, I delved into diverse
                   projects, pushing boundaries and mastering new technologies.

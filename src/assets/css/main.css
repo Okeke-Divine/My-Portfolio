@@ -1004,3 +1004,42 @@ ul {
 .educationItem > div{
   margin-bottom: 5px!important;
 }
+
+.portfolio2-0link{
+  cursor: pointer;
+  border-bottom: 1px dotted;
+  margin-top: 7px;
+  display: flex;
+  width: fit-content;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.portfolio2-0link i{
+  font-size: 13px;
+  position: relative;
+  top:-2px;
+}
+
+.mainFooter{
+  width: 100%;
+  padding: 20px;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.footerLinkList{
+  column-gap: 10px;
+  justify-content: space-between;
+}
+
+.footerLinkList a{
+  transition: 0.3s;
+  border-bottom: 1px dotted transparent;
+}
+.footerLinkList a:hover{
+  color: var(--col-primary);
+  border-bottom: 1px dotted;
+}

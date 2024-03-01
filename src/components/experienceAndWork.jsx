@@ -15,7 +15,7 @@ export default function ExperienceAndWork() {
         <div className="right">
           <div className="highlitedTabTitle">
             Senior Full Stack Web Dev @
-            <a href="https://marokug.vercel.app/" style={{ 'margin-left': '5px' }} target="_blank" className="text-primary">
+            <a href="https://marokug.vercel.app/" style={{ 'marginLeft': '5px' }} target="_blank" className="text-primary">
               Marokug
             </a>
           </div>

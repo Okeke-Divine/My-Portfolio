@@ -1,6 +1,6 @@
 import projects from "../data/projects.json"
-import OtherProjects from "./otherProjects.js"
-import ProjectItemComponent from "./projectItemComponent.js"
+import OtherProjects from "./otherProjects.jsx"
+import ProjectItemComponent from "./projectItemComponent.jsx"
 
 export default function MyProjects(props) {
 

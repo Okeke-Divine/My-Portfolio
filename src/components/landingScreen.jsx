@@ -11,7 +11,9 @@ export default function LandingScreen(props) {
         <h2 className="big-heading">Okeke Divine-Vessel.</h2>
       </div>
       <div>
-        <h3 className="big-heading ibuildt">I build pixel-perfect, engaging, and accessible digital experiences.</h3>
+        <h3 className="big-heading ibuildt">
+          I build pixel-perfect, engaging, and accessible digital experiences.
+        </h3>
       </div>
       <div className="breifIntro">
         Full Stack Developer with 7+ years of hands-on experience designing,
@@ -19,6 +21,15 @@ export default function LandingScreen(props) {
         technologies and programming languages. Seeking to leverage broad
         development experience and hands-on technical expertise in a challenging
         role as a Full Stack Developer.
+        <br />
+        <a
+          className="portfolio2-0link"
+          target="_blank"
+          href="https://okekedivine2.vercel.app/"
+        >
+          Portfolio 2.0
+          <i className="fa fa-external-link pl-2 text-[0.6rem]"></i>
+        </a>
       </div>
       <div className="contactMe-1-cont">
         <button
@@ -29,7 +40,6 @@ export default function LandingScreen(props) {
           Whatsapp
         </button>
       </div>
-     
     </section>
   );
 }
