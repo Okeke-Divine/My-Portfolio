@@ -21,6 +21,7 @@ export default function Footer({ socialMedia }) {
         </a>
       </section>
       <section className="mainFooter">
+        <div className="footerSocialsTitle">Socials</div>
         <div className="flex flex-wrap footerLinkList">
           {Object.entries(mySocials).map(
             ([socialMediaName, link], index) =>

@@ -23,7 +23,7 @@ export default function ContactMe(props){
                   openLinkInNewTab("mailto:" + socialMedia.mySocials.github)
                 }
               >
-                Say Hello
+                Say Hello (Email)
               </button>
             </div>
           </section>

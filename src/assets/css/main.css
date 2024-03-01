@@ -1,50 +1,3 @@
-@font-face {
-  font-family: "Calibre";
-  src: url("../font/Calibre/woff2/Calibre-Regular-b0d4cbb1201155ddccc21d1b8059a670.woff2")
-    format("woff2");
-}
-
-@font-face {
-  font-family: "CalibreRegular";
-  src: url("../font/Calibre/woff2/Calibre-Regular-b0d4cbb1201155ddccc21d1b8059a670.woff2")
-    format("woff2");
-}
-
-@font-face {
-  font-family: "CalibreMedium";
-  src: url("../font/Calibre/woff2/Calibre-Medium-568dce56f869a519a015d3b69443b067.woff2")
-    format("woff2");
-}
-
-@font-face {
-  font-family: "CalibreSemiBold";
-  src: url("../font/Calibre/woff2/Calibre-Semibold-94fc73852539d6733dc0d80252c5e3fb.woff2")
-    format("woff2");
-}
-
-.font-sansSb {
-  font-family: var(--font-sansSb);
-}
-.font-sansR {
-  font-family: var(--font-sansR);
-}
-.font-sansM {
-  font-family: var(--font-sansM);
-}
-.font-mono {
-  font-family: var(--font-mono);
-}
-
-.text-primary {
-  color: var(--col-primary);
-}
-
-*,
-::before,
-::after {
-  box-sizing: inherit;
-}
-
 :root {
   --transition: 0.3s;
   --col-primary: #64ffda;
@@ -92,6 +45,53 @@
   --tab-width: 120px;
   --hamburger-width: 30px;
   /* end external root */
+}
+
+@font-face {
+  font-family: "Calibre";
+  src: url("../font/Calibre/woff2/Calibre-Regular-b0d4cbb1201155ddccc21d1b8059a670.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "CalibreRegular";
+  src: url("../font/Calibre/woff2/Calibre-Regular-b0d4cbb1201155ddccc21d1b8059a670.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "CalibreMedium";
+  src: url("../font/Calibre/woff2/Calibre-Medium-568dce56f869a519a015d3b69443b067.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "CalibreSemiBold";
+  src: url("../font/Calibre/woff2/Calibre-Semibold-94fc73852539d6733dc0d80252c5e3fb.woff2")
+    format("woff2");
+}
+
+.font-sansSb {
+  font-family: var(--font-sansSb);
+}
+.font-sansR {
+  font-family: var(--font-sansR);
+}
+.font-sansM {
+  font-family: var(--font-sansM);
+}
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.text-primary {
+  color: var(--col-primary);
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
 }
 
 .default-font {
@@ -1032,8 +1032,8 @@ ul {
 }
 
 .footerLinkList{
-  column-gap: 10px;
-  justify-content: space-between;
+  column-gap: 20px;
+  /* justify-content: space-between; */
 }
 
 .footerLinkList a{
@@ -1043,4 +1043,18 @@ ul {
 .footerLinkList a:hover{
   color: var(--col-primary);
   border-bottom: 1px dotted;
+}
+
+.otherProjectTags{
+  color: var(--col-primary);
+  border-radius: 30px;
+  font-size: 13px;
+  padding: 5px 10px 5px 10px;
+  background: rgba(100, 255, 218,0.1);
+}
+
+.footerSocialsTitle{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
 }

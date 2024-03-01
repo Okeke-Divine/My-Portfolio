@@ -56,8 +56,8 @@ export default function OtherProjects(props) {
             title={repo.name}
             description={
               repo.description
-                ? repo.description.length > 30
-                  ? repo.description.slice(0, 30) + "..."
+                ? repo.description.length > 100
+                  ? repo.description.slice(0, 100) + "..."
                   : repo.description
                 : "No description provided"
             }
