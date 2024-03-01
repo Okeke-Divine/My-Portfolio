@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import otherProjects from "../data/otherProjects.json";
 import OtherProjectItemComponent from "./otherProjectItemComponent.jsx";
+import axios from "axios";
 
 export default function OtherProjects(props) {
   const openLinkInNewTab = props.openLinkInNewTab;
@@ -26,8 +27,7 @@ export default function OtherProjects(props) {
     const fetchRepos = async () => {
       setIsLoading(true);
       try {
-        // const response = await axios.get(api);
-        const response = undefined;
+        const response = await axios.get(api);
         setRepos(response.data);
       } catch (error) {
       } finally {
@@ -48,14 +48,20 @@ export default function OtherProjects(props) {
       </div>
       <div className="otherProjectsFlexContainer">
         {loadingComponent}
-        {Object.values(otherProjects["otherProjects"]).map((project, index) => (
+        {repos.map((repo, index) => (
           <OtherProjectItemComponent
             key={index}
-            openLinkInNewTab={openLinkInNewTab}
-            title={project.title}
-            description={project.description}
-            tags={project.tags}
-            links={project.links}
+            openLinkInNewTab={repo.name}
+            title={repo.name}
+            description={
+              repo.description
+                ? repo.description.length > 30
+                  ? repo.description.slice(0, 30) + "..."
+                  : repo.description
+                : "No description provided"
+            }
+            tags={repo.topics}
+            links={{ github: repo.html_url, livePreview: repo.homepage }}
           />
         ))}
       </div>
