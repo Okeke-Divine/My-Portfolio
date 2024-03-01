@@ -350,7 +350,7 @@ a {
   padding: 20px 40px;
   color: var(--col-primary);
   cursor: pointer;
-  font-size:15px;
+  font-size:16px;
 }
 
 .aboutMeScreen .sectionTitle {
@@ -990,4 +990,17 @@ ul {
 .techStackBody{
   padding-left:10px;
   padding-right:10px;
+}
+
+.educationTitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.educationRole{
+  font-weight: 18px;
+}
+
+.educationItem > div{
+  margin-bottom: 5px!important;
 }

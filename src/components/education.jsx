@@ -11,10 +11,10 @@ export default function Education(){
               </div>
               <div className="sectionBody">
                 <div>
-                    <div>
-                        <div>Nnamdi Azikiwe University</div>
-                        <div>B. Sc. Computer Science</div>
-                        <div>2022 - Present</div>
+                    <div className="educationItem">
+                        <div className="educationTitle">Nnamdi Azikiwe University</div>
+                        <div className="educationRole">B. Sc. Computer Science</div>
+                        <div className="educationDate">2022 - Present</div>
                     </div>
                 </div>
              </div>
