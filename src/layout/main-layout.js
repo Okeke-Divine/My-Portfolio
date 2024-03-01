@@ -1,13 +1,15 @@
-import Navbar from "../components/navbar.js"
+import Navbar from "../components/navbar.jsx"
 import LeftSidebar from "../components/leftSidebar.js"
 import RightSidebar from "../components/rightSidebar.js"
 import Footer from "../components/footer.js"
 import ContactMe from "../components/contactMe.js"
 import MyProjects from "../components/myProjects.js"
 import ExperienceAndWork from "../components/experienceAndWork.js"
-import Gigs from "../components/gigs.js"
+// import Gigs from "../components/gigs.js"
 import AboutMe from "../components/aboutMe.js"
 import LandingScreen from "../components/landingScreen.js"
+import TechStack from "../components/techStack.jsx"
+import Education from "../components/education.jsx"
 
 export default function MainLayout(props) {
   const socialMedia = props.dataBus.socialMedia;
@@ -34,14 +36,20 @@ export default function MainLayout(props) {
           {/*AboutMe*/}
           <AboutMe socialMedia={socialMedia} />
 
+          {/* my tech stack */}
+          <TechStack />
+
           {/*ExperienceAndWork*/}
-          {/* <ExperienceAndWork /> */}
+          <ExperienceAndWork />
+
+          {/* My education */}
+          <Education />
 
           {/*myProjects*/}
           <MyProjects openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
 
           {/* gigs */}
-          <Gigs openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
+          {/* <Gigs openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} /> */}
 
           {/*contact me*/}
           <ContactMe openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />

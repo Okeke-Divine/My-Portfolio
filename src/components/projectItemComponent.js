@@ -92,7 +92,7 @@ export default function ProjectItemComponent(props) {
             </div>
             {projectSlideShowImages !== null ?
               (<div className="projectSlideshowCTA">
-                <button>Image Slideshow <i className="fa fa-home"></i>}</button>
+                <button>Image Slideshow <i className="fa fa-angle-double-right"></i></button>
               </div>)
               : null}
             <div className="projectsIcons">

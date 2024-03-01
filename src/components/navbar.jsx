@@ -5,7 +5,7 @@ export default function Navbar(props) {
   const expandButtonIcon = useRef();
 
   function open_navbarLinks() {
-    if (navbarLinks.current.getAttribute("isopened") == "false") {
+    if (navbarLinks.current.getAttribute("isopened") === "false") {
       navbarLinks.current.style.display = "block";
       expandButtonIcon.current.setAttribute("class", "fa fa-times");
       navbarLinks.current.setAttribute("isopened", "true");
@@ -35,24 +35,29 @@ export default function Navbar(props) {
                   <span className="linkHighlight">01.</span> About
                 </a>
               </li>
-              {/* <li>
-                  <a href="#experienceANDwork">
-                    <span className="linkHighlight">02.</span> Experience / Work
-                  </a>
-                </li> */}
               <li>
-                <a href="#myProjects">
-                  <span className="linkHighlight">02.</span> Projects
-                </a>
-              </li>
-                <li>
-                  <a href="#gigs">
-                    <span className="linkHighlight">03.</span> Gigs
+                  <a href="#techstack">
+                    <span className="linkHighlight">02.</span> Tech Stack
+                  </a>
+                </li>
+              <li>
+                  <a href="#experienceANDwork">
+                    <span className="linkHighlight">03.</span> Experience / Work
                   </a>
                 </li>
                 <li>
+                <a href="#education">
+                  <span className="linkHighlight">04.</span> Education
+                </a>
+              </li>
+              <li>
+                <a href="#myProjects">
+                  <span className="linkHighlight">05.</span> Projects
+                </a>
+              </li>
+                <li>
                   <a href="#contactMe">
-                    <span className="linkHighlight">04.</span> Contact
+                    <span className="linkHighlight">06.</span> Contact
                   </a>
                 </li>
             </ol>

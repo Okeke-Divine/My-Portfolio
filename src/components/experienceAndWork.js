@@ -2,7 +2,7 @@ export default function ExperienceAndWork() {
   return (
     <section className="experienceANDwork jnUoFC" id="experienceANDwork">
       <div className="sectionTitle">
-        <div className="text-primary font-mono">02.</div>
+        <div className="text-primary font-mono">03.</div>
         <div className="font-mono">Where I’ve Worked</div>
         <div className="horiLine">
           <div className="horiLineMain"></div>
@@ -10,16 +10,13 @@ export default function ExperienceAndWork() {
       </div>
       <div className="eAw">
         <div className="left">
-          <div>Mtalers</div>
-          <div className="active">Kayric</div>
-          <div>StrillVids</div>
-          <div>Socials(Unamed)</div>
+          <div className="active">Marokug</div>
         </div>
         <div className="right">
           <div className="highlitedTabTitle">
             Senior Full Stack Web Dev{" "}
-            <a href="#" className="text-primary">
-              @ Kayric
+            <a href="https://marokug.vercel.app/" target="_blank" className="text-primary">
+              Marokug
             </a>
           </div>
           <div className="highlitedTabSubTitle">

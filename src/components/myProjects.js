@@ -39,7 +39,7 @@ export default function MyProjects(props) {
 
 
       {projectComponents}
-      {/*<ProjectItemComponent projectDirection="left" />*/}
+      {/* <ProjectItemComponent projectDirection="left" /> */}
 
       {/*OtherProjects*/}
       <OtherProjects openLinkInNewTab={openLinkInNewTab} />

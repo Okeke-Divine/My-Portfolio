@@ -346,6 +346,7 @@ a {
   padding: 20px 40px;
   color: var(--col-primary);
   cursor: pointer;
+  font-size:15px;
 }
 
 .aboutMeScreen .sectionTitle {
@@ -418,8 +419,8 @@ ul {
 
 .experienceANDwork {
   padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .gigsContainer {
@@ -556,9 +557,8 @@ ul {
   left: 0;
   width: 100%;
   height: auto;
-  border: 2px dotted var(--col-primary);
-  border-left: 2px solid var(--col-primary);
-  border-right: 2px solid var(--col-primary);
+  box-shadow: 0 10px 30px -15px white;
+  border-radius:15px;
 }
 
 .projectContainerLayout2 .left {
@@ -947,4 +947,8 @@ ul {
 .gig_links button:hover{
   color: var(--col-dark);
   background-color: var(--col-primary);
+}
+
+.mr-2{
+  margin-right:10px;
 }
