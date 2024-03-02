@@ -40,7 +40,7 @@ export default function ProjectItemComponent(props) {
 
 
   projectTags.forEach((tag, index) => {
-    projectTagsComponents.push(<div key={index} className="projectTags">{tag}</div>)
+    projectTagsComponents.push(<div key={index} className="projectTags otherProjectTags">{tag}</div>)
   })
 
 

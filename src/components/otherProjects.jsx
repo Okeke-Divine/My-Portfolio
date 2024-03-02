@@ -7,17 +7,13 @@ export default function OtherProjects(props) {
   const openLinkInNewTab = props.openLinkInNewTab;
   const socialMedia = props.socialMedia;
   const [repos, setRepos] = useState([]);
-  const [firstTimeLoading, setFirstTimeLoading] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
   const [loadingComponent, setLoadingComponent] = useState("Loading...");
-  const [totalRepos, setTotalRepos] = useState("-");
 
   useEffect(
     function () {
       if (isLoading == false) {
-        setFirstTimeLoading(false);
         setLoadingComponent("");
-        setTotalRepos(repos.length);
       }
     },
     [isLoading]
@@ -30,9 +26,11 @@ export default function OtherProjects(props) {
       try {
         const response = await axios.get(api);
         setRepos(response.data);
-      } catch (error) {
-      } finally {
         setIsLoading(false);
+      } catch (error) {
+        setIsLoading(true);
+      } finally {
+        // setIsLoading(false);
       }
     };
 
