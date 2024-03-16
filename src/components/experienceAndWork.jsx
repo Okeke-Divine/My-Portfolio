@@ -79,11 +79,9 @@ export default function ExperienceAndWork() {
               <li>
                 <b>Collaborated effectively with cross-functional teams, including
                 designers and front-end developers, to translate design mockups
-                into functional and responsive user interfaces using React (Next.js) and
-                Tailwind CSS.</b> Delivered pixel-perfect experiences that exceeded
-                user expectations.
+                into functional and responsive user interfaces</b> using React (Next.js) and
+                Tailwind CSS..
               </li>
-              <li>Played a key role in <b>converting the UI created by the design team into a Pixel-Perfect and responsive web site.</b></li>
             </ul>
           </div>
         </>
