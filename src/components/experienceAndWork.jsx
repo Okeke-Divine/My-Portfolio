@@ -3,7 +3,7 @@ export default function ExperienceAndWork() {
   const [currentExp, setCurrentExp] = useState(0);
   const experiences = [
     {
-      name: "Marokug (Jan 2024 - P)",
+      name: "Marokug",
       exp: (
         <>
           <div className="highlitedTabTitle">
@@ -64,7 +64,7 @@ export default function ExperienceAndWork() {
       ),
     },
     {
-      name: "Jujora (Mar 2024 - P)",
+      name: "Jujora",
       exp: (
         <>
           <div className="highlitedTabTitle">
