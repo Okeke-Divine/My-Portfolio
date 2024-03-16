@@ -16,7 +16,7 @@ export default function LandingScreen(props) {
         </h3>
       </div>
       <div className="breifIntro">
-        Full Stack Developer with 7+ years of hands-on experience designing,
+        Full Stack Web Developer with 7+ years of hands-on experience designing,
         developing, and implementing applications and solutions using a range of
         technologies and programming languages. Seeking to leverage broad
         development experience and hands-on technical expertise in a challenging

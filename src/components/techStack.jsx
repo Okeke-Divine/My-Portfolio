@@ -6,6 +6,10 @@ export default function TechStack(){
         },
         {
             icon: <i className="fa fa-file-code"></i>,
+            name: "Next.js",
+        },
+        {
+            icon: <i className="fa fa-file-code"></i>,
             name: "Typescript",
         },
         {
@@ -30,6 +34,10 @@ export default function TechStack(){
         {
             icon: <i className="fab fa-python"></i>,
             name: "Python (Django)",
+        },
+        {
+            icon: <i className="fab fa-golang"></i>,
+            name: "Golang (Gin) (Basics)"
         },
     ];
     

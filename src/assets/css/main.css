@@ -350,7 +350,7 @@ a {
   padding: 20px 40px;
   color: var(--col-primary);
   cursor: pointer;
-  font-size:14px;
+  font-size:16px;
 }
 
 .aboutMeScreen .sectionTitle {
@@ -968,7 +968,7 @@ ul {
 
 .techStack-item{
   column-gap:10px;
-  font-size:18px;
+  font-size:16px;
   margin-bottom: 10px;
 }
 
@@ -1059,4 +1059,8 @@ ul {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 5px;
+}
+
+.dijdij398h8{
+  display: none;
 }
