@@ -1064,3 +1064,28 @@ ul {
 .dijdij398h8{
   display: none;
 }
+
+/* //start custom scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+  border-radius: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--col-primary);
+  border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* //end custom scroll bar */
