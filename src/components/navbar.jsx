@@ -1,8 +1,48 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 export default function Navbar(props) {
   const navbarLinks = useRef();
   const expandButtonIcon = useRef();
+
+  const [scrollingUp, setScrollingUp] = useState(true);
+  const [showNavbar, setShowNavbar] = useState(true);
+  const [lastScrollPosition, setLastScrollPosition] = useState(0);
+  const navbarRef = useRef();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPosition = window.pageYOffset;
+
+      // Check scrolling direction
+      if (currentScrollPosition > lastScrollPosition) {
+        setScrollingUp(false);
+      } else {
+        setScrollingUp(true);
+      }
+
+      // Check if the user has scrolled past the very top
+      if (currentScrollPosition === 0) {
+        setShowNavbar(true);
+      } else {
+        setShowNavbar(scrollingUp);
+      }
+
+      // Update last scroll position
+      setLastScrollPosition(currentScrollPosition);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollPosition, scrollingUp]);
+
+  const navbarStyle = {
+    boxShadow: !showNavbar ? "none" : "0 4px 8px rgba(0, 0, 0, 0.2)",
+    display: showNavbar ? "block" : "none",
+  };
+
 
   function open_navbarLinks() {
     if (navbarLinks.current.getAttribute("isopened") === "false") {
@@ -18,7 +58,7 @@ export default function Navbar(props) {
 
   return (
     <>
-      <div className="navbar-cont">
+      <div className="navbar-cont" ref={navbarRef} style={navbarStyle}>
         <div className="navbar-inner">
           <div className="navbarLogo">
             <img alt="My Logo" className="myLogo" src={props.dataBus.myLogo} />
