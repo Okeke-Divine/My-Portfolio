@@ -21,7 +21,7 @@ export default function Footer({ socialMedia }) {
         </a>
       </section>
       <section className="mainFooter">
-        <div className="footerSocialsTitle">Socials</div>
+        <div className="footerSocialsTitle">Other Links</div>
         <div className="flex flex-wrap footerLinkList">
           {Object.entries(mySocials).map(
             ([socialMediaName, link], index) =>
@@ -37,7 +37,7 @@ export default function Footer({ socialMedia }) {
           )}
         </div>
       </section>
-      <section className="text-center mt-2">
+      <section className="text-center mt-2 mb-10">
         &copy; Okeke Divine-Vessel - 2024
       </section>
     </>

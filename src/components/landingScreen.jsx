@@ -34,11 +34,21 @@ export default function LandingScreen(props) {
       <div className="contactMe-1-cont">
         <button
           className="contactMe-1"
-          onClick={(e) => openLinkInNewTab("https://wa.me/+2347064878285")}
+          onClick={(e) =>
+            openLinkInNewTab("mailto:" + socialMedia.mySocials.github)
+          }
         >
-          <i className="fa fa-whatsapp mr-2"></i>
-          Whatsapp
+          <i className="fa fa-github mr-2"></i>
+          Github
         </button>
+        <br />
+        <a
+          className="mt-2"
+          href="/Okeke Divine-Vessel - Full Stack Web Dev - Resume.pdf"
+          target="_blank"
+        >
+          Resume
+        </a>
       </div>
     </section>
   );
