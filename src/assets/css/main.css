@@ -340,6 +340,10 @@ a {
 
 .contactMe-1-cont {
   margin-top: 40px;
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  row-gap: 10px;
 }
 
 .contactMe-1-cont .contactMe-1 {
@@ -351,6 +355,11 @@ a {
   color: var(--col-primary);
   cursor: pointer;
   font-size:16px;
+}
+
+.contactMe-1-cont .contactMe-2 {
+  color: var(--col-dark);
+  background: var(--col-primary);
 }
 
 .aboutMeScreen .sectionTitle {

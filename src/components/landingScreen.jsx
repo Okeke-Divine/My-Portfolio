@@ -41,14 +41,14 @@ export default function LandingScreen(props) {
           <i className="fa fa-github mr-2"></i>
           Github
         </button>
-        <br />
-        <a
-          className="mt-2"
-          href="/Okeke Divine-Vessel - Full Stack Web Dev - Resume.pdf"
-          target="_blank"
+        <button
+          className="contactMe-1 contactMe-2"
+          onClick={(e) =>
+            openLinkInNewTab("/Okeke Divine-Vessel - Full Stack Web Dev - Resume.pdf")
+          }
         >
           Resume
-        </a>
+        </button>
       </div>
     </section>
   );
