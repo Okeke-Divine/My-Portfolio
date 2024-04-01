@@ -21,42 +21,24 @@ export default function ExperienceAndWork() {
           <div className="highlitedTabContent">
             <ul>
               <li>
-                <b>
-                  Spearheaded the development of Marokug, an educational
-                  platform empowering students to learn courses, participate in
-                  quizzes and exams, and explore various learning materials.
-                </b>{" "}
-                Utilized a modern tech stack including React, Tailwind CSS,
-                Django, and MySQL to deliver a user-friendly and scalable web
-                application.
+                Developed the back-end infrastructure for a new interactive
+                assessment system, enabling efficient evaluation of student
+                learning outcomes.
               </li>
               <li>
-                <b>
-                  Architected and implemented robust back-end systems for
-                  various projects, leveraging Django's robust framework and
-                  MySQL's efficient database management capabilities.
-                </b>{" "}
-                Ensured data integrity, security, and scalability to meet the
-                evolving needs of the applications.
+                Collaborated with UI/UX designers to convert the education
+                platform UI to a more user-friendly and engaging interface,
+                leading to a significant increase in student course completion
+                rates.
               </li>
               <li>
-                <b>
-                  Collaborated effectively with cross-functional teams,
-                  including designers and front-end developers, to translate
-                  design mockups into functional and responsive user interfaces
-                  using React and Tailwind CSS.
-                </b>{" "}
-                Delivered pixel-perfect experiences that exceeded user
-                expectations.
+                Maintained and scaled the company's database to ensure smooth
+                operation and accommodate a growing user base.
               </li>
               <li>
-                <b>
-                  Played a key role in troubleshooting and resolving complex
-                  technical issues, ensuring the smooth operation and
-                  performance of multiple web applications.
-                </b>{" "}
-                Maintained a deep understanding of various technologies to
-                identify and rectify issues efficiently.
+                Created a gamified learning experience by integrating points,
+                badges, and leaderboards, resulting in a 15% boost in student
+                participation and interaction.
               </li>
             </ul>
           </div>
@@ -68,7 +50,7 @@ export default function ExperienceAndWork() {
       exp: (
         <>
           <div className="highlitedTabTitle">
-            Frontend Web Deb @
+            Lead Frontend Web Developer @
             <a href="#" style={{ marginLeft: "5px" }} className="text-primary">
               Jujora
             </a>
@@ -77,10 +59,19 @@ export default function ExperienceAndWork() {
           <div className="highlitedTabContent">
             <ul>
               <li>
-                <b>Collaborated effectively with cross-functional teams, including
-                designers and front-end developers, to translate design mockups
-                into functional and responsive user interfaces</b> using React (Next.js) and
-                Tailwind CSS..
+                Collaborated with the UI/UX team to refine the e-commerce
+                platform's user interface, ensuring an intuitive and
+                user-friendly experience for both farmers and consumers.
+              </li>
+              <li>
+                Worked closely with back-end developers to integrate a secure
+                payment gateway, enabling seamless online transactions for
+                Jujora's customers.
+              </li>
+              <li>
+                Utilized Git for version control and collaboration, streamlining
+                the development process and ensuring efficient teamwork within
+                the project
               </li>
             </ul>
           </div>
