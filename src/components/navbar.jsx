@@ -39,7 +39,7 @@ export default function Navbar(props) {
   }, [lastScrollPosition, scrollingUp]);
 
   const navbarStyle = {
-    boxShadow: !showNavbar ? "none" : "0 4px 8px rgba(0, 0, 0, 0.2)",
+    boxShadow: (!showNavbar || window.pageYOffset === 0) ? "none" : "0 4px 10px rgba(0, 0, 0, 0.2)",
     display: showNavbar ? "block" : "none",
   };
 
