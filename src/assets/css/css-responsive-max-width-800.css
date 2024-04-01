@@ -125,8 +125,6 @@
     color: var(--col-primary);
   }
 
-  .navbar-inner {
-  }
   .navbar-inner .navbarLinks {
     position: fixed;
     top: 79px;
