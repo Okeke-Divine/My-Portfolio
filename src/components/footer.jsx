@@ -37,6 +37,9 @@ export default function Footer({ socialMedia }) {
           )}
         </div>
       </section>
+      <section className="text-center mt-2">
+        &copy; Okeke Divine-Vessel - 2024
+      </section>
     </>
   );
 }
