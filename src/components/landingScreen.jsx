@@ -17,10 +17,8 @@ export default function LandingScreen(props) {
       </div>
       <div className="breifIntro">
         Full Stack Web Developer with 7+ years of hands-on experience designing,
-        developing, and implementing applications and solutions using a range of
-        technologies and programming languages. Seeking to leverage broad
-        development experience and hands-on technical expertise in a challenging
-        role as a Full Stack Developer.
+        developing, and implementing applications and solutions using a wide
+        range of technologies and programming languages.
         <br />
         <a
           className="portfolio2-0link"
@@ -44,7 +42,9 @@ export default function LandingScreen(props) {
         <button
           className="contactMe-1 contactMe-2"
           onClick={(e) =>
-            openLinkInNewTab("/Okeke Divine-Vessel - Full Stack Web Dev - Resume.pdf")
+            openLinkInNewTab(
+              "/Okeke Divine-Vessel - Full Stack Web Dev - Resume.pdf"
+            )
           }
         >
           Resume
