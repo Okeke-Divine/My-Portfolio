@@ -9,7 +9,7 @@ export default function ExperienceAndWork() {
           <div className="highlitedTabTitle">
             Full Stack Web Dev @
             <a
-              href="https://marokug.vercel.app/"
+              // href="https://marokug.vercel.app/"
               style={{ marginLeft: "5px" }}
               target="_blank"
               className="text-primary"
@@ -51,7 +51,11 @@ export default function ExperienceAndWork() {
         <>
           <div className="highlitedTabTitle">
             Lead Frontend Web Developer @
-            <a href="#" style={{ marginLeft: "5px" }} className="text-primary">
+            <a
+              // href="#"
+              style={{ marginLeft: "5px" }}
+              className="text-primary"
+            >
               Jujora
             </a>
           </div>
