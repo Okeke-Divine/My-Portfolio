@@ -7,7 +7,7 @@ export default function ExperienceAndWork() {
       exp: (
         <>
           <div className="highlitedTabTitle">
-            Senior Full Stack Web Dev @
+            Full Stack Web Dev @
             <a
               href="https://marokug.vercel.app/"
               style={{ marginLeft: "5px" }}
