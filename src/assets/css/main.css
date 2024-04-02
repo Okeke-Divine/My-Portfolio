@@ -391,7 +391,7 @@ a {
 }
 
 .aboutMeScreen {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
   display: grid;
@@ -440,7 +440,7 @@ ul {
 }
 
 .experienceANDwork {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -533,7 +533,7 @@ ul {
 }
 
 .myProjects {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .myProjects .sectionTitle {
@@ -546,7 +546,7 @@ ul {
 
 .projectContainer {
   display: grid;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .projectContainer .projectImage {
@@ -673,6 +673,7 @@ ul {
   max-width: 600px;
   margin: 0px auto 100px;
   text-align: center;
+  margin-bottom: 20px!important;
 }
 
 .getInTouch {
@@ -699,7 +700,7 @@ ul {
   max-width: 80%;
 }
 
-.contactMeInfo-container{
+.contactMeInfo-container {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -1109,4 +1110,21 @@ ul {
 
 .mb-15 {
   margin-bottom: 25px !important;
+}
+
+@media screen and (min-width: 800px) {
+  @media screen and (max-width: 1000px) {
+    .mainContent {
+      margin: 0px 100px 0 100px !important;
+    }
+
+    .sideBar {
+      width: 100px !important;
+    }
+  }
+}
+@media screen and (max-width: 900px){
+  .projectContainer{
+    display: block;
+  }
 }
