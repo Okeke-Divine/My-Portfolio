@@ -33,7 +33,7 @@ export default function LandingScreen(props) {
         <button
           className="contactMe-1"
           onClick={(e) =>
-            openLinkInNewTab("mailto:" + socialMedia.mySocials.github)
+            openLinkInNewTab(socialMedia.mySocials.github)
           }
         >
           <i className="fa fa-github mr-2"></i>
