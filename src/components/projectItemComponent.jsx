@@ -69,7 +69,7 @@ export default function ProjectItemComponent(props) {
             </div>
             {projectSlideShowImages !== null ?
               (<div className="projectSlideshowCTA">
-                <button>Image Slideshow <i className="fa fa-angle-double-right"></i></button>
+                <button onClick={() => alert('This feature is under development.')}>Image Slideshow <i className="fa fa-angle-double-right"></i></button>
               </div>)
               : null}
             <div className="projectsIcons">
@@ -92,7 +92,7 @@ export default function ProjectItemComponent(props) {
             </div>
             {projectSlideShowImages !== null ?
               (<div className="projectSlideshowCTA">
-                <button>Image Slideshow <i className="fa fa-angle-double-right"></i></button>
+                <button onClick={() => alert('This feature is under development.')}>Image Slideshow <i className="fa fa-angle-double-right"></i></button>
               </div>)
               : null}
             <div className="projectsIcons">
