@@ -158,6 +158,9 @@
     display: block;
     padding-bottom: 5px;
   }
+  .eAw .left > div{
+    width: fit-content;
+  }
 }
 
 /* end */
