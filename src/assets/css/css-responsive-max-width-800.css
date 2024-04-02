@@ -161,6 +161,15 @@
   .eAw .left > div{
     width: fit-content;
   }
+
+  .sTitle-cs-1 .horiLineMain{
+    width: 30px!important; 
+  }
+  
+  .sTitle-cs-2 .horiLineMain{
+    width: 80px; 
+  }
+
 }
 
 /* end */

@@ -78,7 +78,7 @@ export default function TechStack(){
     return(
         <>
         <section className="aboutMeScreen block jnUoFC" id="techstack">
-            <div className="sectionTitle">
+            <div className="sectionTitle sTitle-cs-2">
                 <div className="text-primary font-mono">02.</div>
                 <div className="font-mono">Tech Stack</div>
                 <div className="horiLine">

@@ -88,7 +88,7 @@ export default function ExperienceAndWork() {
   }
   return (
     <section className="experienceANDwork jnUoFC" id="experienceANDwork">
-      <div className="sectionTitle">
+      <div className="sectionTitle sTitle-cs-1">
         <div className="text-primary font-mono">03.</div>
         <div className="font-mono">Where I’ve Worked</div>
         <div className="horiLine">
