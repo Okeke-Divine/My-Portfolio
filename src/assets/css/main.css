@@ -376,6 +376,10 @@ a {
   align-items: center;
 }
 
+.sTitle-cs .horiLineMain{
+  width: 30px; 
+}
+
 .horiLineMain {
   width: 130px;
   height: 1px;

@@ -30,7 +30,7 @@ export default function MyProjects(props) {
 
   return (
     <section className="myProjects jnUoFC" id="myProjects">
-      <div className="sectionTitle">
+      <div className="sectionTitle sTitle-cs">
         <div className="text-primary font-mono">05.</div>
         <div className="font-mono">Some Things I’ve Built</div>
         <div className="horiLine">
