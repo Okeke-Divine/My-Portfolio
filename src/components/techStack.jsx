@@ -46,6 +46,10 @@ export default function TechStack(){
             icon: <i className="fas fa-database"></i>,
             name: "MySQL",
         },
+        {
+            icon: <i className="fas fa-database"></i>,
+            name: "SQL Databases",
+        },
     ];
     
     const otherTools = [
