@@ -1,0 +1,8 @@
+@media screen and (max-width: 620px) {
+    .contactMe-1 {
+      padding: 15px 30px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
