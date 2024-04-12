@@ -44,6 +44,9 @@ export default function TechStack(){
     const database = [
         {
             icon: <i className="fas fa-database"></i>,
+            name: "PostgreSQL",
+        },  {
+            icon: <i className="fas fa-database"></i>,
             name: "MySQL",
         },
         {
