@@ -1,3 +1,5 @@
+// import Typewriter from 'react-typewriter-effect';
+
 export default function LandingScreen(props) {
   const openLinkInNewTab = props.openLinkInNewTab;
   const socialMedia = props.socialMedia;
@@ -13,6 +15,12 @@ export default function LandingScreen(props) {
       <div>
         <h3 className="big-heading ibuildt">
           I build pixel-perfect, engaging, and accessible digital experiences.
+          {/* <Typewriter
+      onInit={(typewriter) => {
+        typewriter.typeString("I build pixel-perfect, engaging, and accessible digital experiences.")
+          .start();
+      }}
+    /> */}
         </h3>
       </div>
       <div className="breifIntro">

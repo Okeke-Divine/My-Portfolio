@@ -120,7 +120,7 @@ body {
 }
 
 .navbar-inner .expandButton {
-  /* display: none; */
+  display: none;
 }
 
 .navbar-cont {

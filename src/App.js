@@ -1,10 +1,10 @@
 // import "./App.css";
 
 // stylesheets
-import "./assets/css/main.css";
 import "./assets/css/css-responsive-max-width-800.css";
 import "./assets/css/css-responsive-max-width-1310.css";
 import "./assets/css/css-mW-620.css";
+import "./assets/css/main.css";
 
 // images
 import myLogo from "./assets/images/myLogo.png";
