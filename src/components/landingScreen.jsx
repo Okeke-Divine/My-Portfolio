@@ -15,7 +15,7 @@ export default function LandingScreen(props) {
       </div>
       <div>
         <h3 className="big-heading ibuildt">
-          <TypewriterEffect text="I build pixel-perfect, engaging, and accessible digital experiences." speed={50} pauseFor={2000} />
+          <TypewriterEffect text="I build pixel-perfect, engaging, and accessible digital experiences." speed={50} pauseFor={5000} />
         </h3>
       </div>
       <div className="breifIntro">
