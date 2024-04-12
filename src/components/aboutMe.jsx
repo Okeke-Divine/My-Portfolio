@@ -15,7 +15,7 @@ export default function AboutMe(props) {
         </div>
         <div className="sectionBody">
           <div className="sectionContentList">
-            Greetings! I'm Divine, a seasoned web developer with 7 years of
+            Greetings! I'm Divine, a seasoned full stack web developer with over 7 years of
             experience. My journey began with a passion for web development,
             sparked by customizing templates on CodePen.
           </div>
@@ -28,10 +28,15 @@ export default function AboutMe(props) {
             >
               Github
             </a>{" "}
-            profile showcases my dedication to crafting innovative solutions,
-            from web applications to repositories. I'm committed to continuous
-            growth and learning in this dynamic field, focused on refining my
-            craft and delivering exceptional digital experiences.
+            profile showcases a range of projects, each highlighting my
+            dedication to crafting robust and innovative solutions. From web
+            applications to repositories, I take pride in every line of code
+            I've written.
+          </div>
+          <div className="sectionContentList">
+            I'm committed to continuous growth and learning in this dynamic
+            field, focused on refining my craft and delivering exceptional
+            digital experiences.
           </div>
         </div>
         {/* <div className="sectionBody">
