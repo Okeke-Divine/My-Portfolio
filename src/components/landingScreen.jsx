@@ -1,8 +1,9 @@
-// import Typewriter from 'react-typewriter-effect';
+import { useState, useEffect } from "react";
+import TypewriterEffect from "../utils/TypewriterEffect"
 
 export default function LandingScreen(props) {
   const openLinkInNewTab = props.openLinkInNewTab;
-  const socialMedia = props.socialMedia;
+  const socialMedia = props.socialMedia; 
 
   return (
     <section className="landingScreen jnUoFC" id="me">
@@ -14,13 +15,7 @@ export default function LandingScreen(props) {
       </div>
       <div>
         <h3 className="big-heading ibuildt">
-          I build pixel-perfect, engaging, and accessible digital experiences.
-          {/* <Typewriter
-      onInit={(typewriter) => {
-        typewriter.typeString("I build pixel-perfect, engaging, and accessible digital experiences.")
-          .start();
-      }}
-    /> */}
+          <TypewriterEffect text="I build pixel-perfect, engaging, and accessible digital experiences." speed={50} pauseFor={2000} />
         </h3>
       </div>
       <div className="breifIntro">
@@ -30,7 +25,7 @@ export default function LandingScreen(props) {
         technologies like [React, NextJs, Django, PHP, MySQL, PostgreSQL]
       </div>
       <div className="contactMe-1-cont">
-      <button
+        <button
           className="contactMe-1 contactMe-2"
           onClick={(e) =>
             openLinkInNewTab(
