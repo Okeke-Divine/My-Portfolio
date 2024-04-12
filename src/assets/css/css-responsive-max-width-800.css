@@ -141,7 +141,7 @@
   }
 
   .navbar-inner .expandButton {
-    display: flex!important;
+    display: flex!important!important;
     align-items: center;
   }
   .navbar-inner .expandButton button {
