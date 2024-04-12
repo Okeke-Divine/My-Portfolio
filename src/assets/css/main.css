@@ -400,7 +400,7 @@ a {
 }
 
 .aboutMeScreen .right {
-  padding-top: 70px;
+  /* padding-top: 70px; */
   display: flex;
   justify-content: center;
 }
