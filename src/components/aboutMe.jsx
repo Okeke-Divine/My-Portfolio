@@ -81,6 +81,7 @@ export default function AboutMe(props) {
       <div className="right">
         <div className="myImageCont">
           <img src={me} className="image01md" />
+          <div className="overlay"></div>
         </div>
       </div>
     </section>
