@@ -116,12 +116,12 @@
     color: var(--white-1);
     background: var(--green-tint);
     border-left: 0;
-    border-bottom: 3px solid var(--col-primary);
+    /* border-bottom: 3px solid var(--col-primary); */
   }
 
   .eAw .left > div.active {
     border-left: 0;
-    border-bottom: 3px solid var(--col-primary);
+    /* border-bottom: 3px solid var(--col-primary); */
     color: var(--col-primary);
   }
 
