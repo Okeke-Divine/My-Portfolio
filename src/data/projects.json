@@ -10,8 +10,10 @@
         "MySql"
       ],
       "links": {
-        "github": "https://github.com/Okeke-Divine/marokug-frontend",
-        "livePreview": "https://marokug.vercel.app/"
+        github:null,
+        livePreview: null
+        // "github": "https://github.com/Okeke-Divine/marokug-frontend",
+        // "livePreview": "https://marokug.vercel.app/"
       },
       "coverImage": "/assets/images/marokug/Screenshot (1929).png",
       "slideShowImages": null
@@ -33,16 +35,16 @@
       },
       "coverImage": "/assets/images/mtalers/mtalers1.png",
       "slideShowImages": null,
-      "slideShowImages__": [
-        "../assets/images/mtalers/mtalers1.png",
-        "../assets/images/mtalers/mtalers2.png",
-        "../assets/images/mtalers/mtalers3.png",
-        "../assets/images/mtalers/mtalers4.png",
-        "../assets/images/mtalers/358shots_so.png",
-        "../assets/images/mtalers/85shots_so.png",
-        "../assets/images/mtalers/3shots_so.png",
-        "../assets/images/mtalers/324shots_so.png"
-      ]
+      // "slideShowImages": [
+      //   "../assets/images/mtalers/mtalers1.png",
+      //   "../assets/images/mtalers/mtalers2.png",
+      //   "../assets/images/mtalers/mtalers3.png",
+      //   "../assets/images/mtalers/mtalers4.png",
+      //   "../assets/images/mtalers/358shots_so.png",
+      //   "../assets/images/mtalers/85shots_so.png",
+      //   "../assets/images/mtalers/3shots_so.png",
+      //   "../assets/images/mtalers/324shots_so.png"
+      // ]
     },
     "geepayFrontendChallenge": {
       "title": "Geepay Frontend Challenge",
