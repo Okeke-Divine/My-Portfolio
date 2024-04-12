@@ -79,13 +79,44 @@
       "coverImage": "/assets/images/kayksW/Screenshot (1738).png",
       "slideShowImages": null
     },
+    "jujora": {
+      "title": "Jujora",
+      "description": "Jujora is more than just an app; it's your gateway to a thriving digital marketplace where farmers and buyers converge seamlessly. Built with cutting-edge technologies like Next.js, PostgreSQL, JSON, HTML, CSS, and JavaScript, Jujora ensures a smooth and secure experience every step of the way. Say goodbye to the hassle of traditional markets and hello to a new era of agricultural commerce.",
+      "tags": [
+        "NextJs",
+        "Tailwind",
+        "Postgres"
+      ],
+      "links": {
+        "github": null,
+        "livePreview": null
+      },
+      "coverImage": "/assets/images/jujora/Screenshot (2075).png",
+      "slideShowImages": null
+    },
+    "strender": {
+      "title": "Strender",
+      "description": "",
+      "tags": [
+        "React",
+        "Tailwind",
+        "Django",
+        "Postgres"
+      ],
+      "links": {
+        "github": "https://github.com/okeke-Divine/strender",
+        "livePreview": "https://strender.vercel.app"
+      },
+      "coverImage": "/assets/images/strender/Screenshot (2068).png",
+      "slideShowImages": null
+    },
     "myPortfolio": {
       "title": "My Portfolio 2.0",
-      "description": "My myPortfolio is a showcase of my personal projects and accomplishments. Built with a blend of HTML, CSS, JavaScript, React, and JSON, this portfolio highlights my skills and experiences. It serves as a platform to display my diverse range of projects, providing an insight into my expertise and dedication to web development. The live preview allows visitors to explore and interact with the projects showcased. Check out the source code on GitHub to delve deeper into the development process.",
+      "description": "My myPortfolio 2.0 is the second showcase of my personal projects and accomplishments. Built with a blend of HTML, CSS, Typescript, React, and JSON, this portfolio highlights my skills and experiences. It serves as a platform to display my diverse range of projects, providing an insight into my expertise and dedication to web development. The live preview allows visitors to explore and interact with the projects showcased. Check out the source code on GitHub to delve deeper into the development process.",
       "tags": [
         "Html",
         "Css",
-        "Javascript",
+        "Typescript",
         "React",
         "Json"
       ],
