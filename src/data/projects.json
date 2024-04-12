@@ -2,7 +2,7 @@
   "projects": {
     "marokug": {
       "title": "Marokug",
-      "description": "Marokug is an online learning platform that empowers students to: explore and learn a wide range of courses at their own pace, test their understanding through interactive quizzes and exams and deepen their knowledge with additional learning materials.",
+      "description": "At Marokug, I collaborated with a team of frontend and backend developers to create an online learning platform. Marokug empowers students to explore and learn a wide range of courses at their own pace, test their understanding through interactive quizzes and exams, and deepen their knowledge with additional learning materials.",
       "tags": [
         "React",
         "Tailwind",
@@ -82,7 +82,7 @@
     },
     "jujora": {
       "title": "Jujora",
-      "description": "Jujora is more than just an app; it's your gateway to a thriving digital marketplace where farmers and buyers converge seamlessly. Built with cutting-edge technologies like Next.js, PostgreSQL, JSON, HTML, CSS, and JavaScript, Jujora ensures a smooth and secure experience every step of the way. Say goodbye to the hassle of traditional markets and hello to a new era of agricultural commerce.",
+      "description": "At Jujora, I built an e-commerce app connecting farmers directly with buyers. Shop fresh produce, support local farmers, and enjoy transparency in your food supply chain—all in one place.",
       "tags": [
         "NextJs",
         "Tailwind",
