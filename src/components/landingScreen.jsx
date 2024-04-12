@@ -22,14 +22,7 @@ export default function LandingScreen(props) {
         technologies like [React, NextJs, Django, PHP, MySQL, PostgreSQL]
       </div>
       <div className="contactMe-1-cont">
-        <button
-          className="contactMe-1"
-          onClick={(e) => openLinkInNewTab(socialMedia.mySocials.github)}
-        >
-          <i className="fa fa-github mr-2"></i>
-          Github
-        </button>
-        <button
+      <button
           className="contactMe-1 contactMe-2"
           onClick={(e) =>
             openLinkInNewTab(
@@ -38,6 +31,13 @@ export default function LandingScreen(props) {
           }
         >
           Resume
+        </button>
+        <button
+          className="contactMe-1"
+          onClick={(e) => openLinkInNewTab(socialMedia.mySocials.github)}
+        >
+          <i className="fa fa-github mr-2"></i>
+          Github
         </button>
       </div>
     </section>
