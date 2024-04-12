@@ -32,7 +32,8 @@
         "livePreview": null
       },
       "coverImage": "/assets/images/mtalers/mtalers1.png",
-      "slideShowImages": [
+      "slideShowImages": null,
+      "slideShowImages__": [
         "../assets/images/mtalers/mtalers1.png",
         "../assets/images/mtalers/mtalers2.png",
         "../assets/images/mtalers/mtalers3.png",
