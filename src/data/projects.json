@@ -10,7 +10,7 @@
         "MySql"
       ],
       "links": {
-        "github": "https://github.com/Okeke-Divine/marokug-frontend",
+          "github": "https://github.com/Okeke-Divine/marokug-frontend",
         "livePreview": "https://marokug.vercel.app/"
       },
       "coverImage": "/assets/images/marokug/Screenshot (1929).png",
@@ -97,7 +97,7 @@
     },
     "strender": {
       "title": "Strender",
-      "description": "",
+      "description": "Web app for all your sports needs! Access news, scores, and highlights across every sport. Engage with anonymous comments and more. Your go-to sports hub, all in one place.",
       "tags": [
         "React",
         "Tailwind",
