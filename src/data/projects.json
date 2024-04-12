@@ -20,9 +20,6 @@
       "title": "Mtalers",
       "description": "Mtalers is an educational platform developed for a client, focusing on providing a comprehensive learning experience. It incorporates various technologies such as HTML, CSS, JavaScript, React, Php and MySql to deliver interactive and engaging educational content. The platform aims to enhance the learning process through its user-friendly interface and extensive functionality.",
       "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
         "React",
         "Php",
         "MySql"
@@ -46,7 +43,7 @@
     },
     "geepayFrontendChallenge": {
       "title": "Geepay Frontend Challenge",
-      "description": "Converted a Figma design to HTML in the Geepay Frontend Challenge. Analyzed design, hand-coded clean & semantic HTML, ensured responsiveness & accessibility, tested & refined for a pixel-perfect outcome.",
+      "description": "I converted a Figma design to HTML in the Geepay Frontend Challenge. Analyzed design, hand-coded clean & semantic HTML, ensured responsiveness & accessibility, tested & refined for a pixel-perfect outcome.",
       "tags": [
         "Html",
         "Css",
