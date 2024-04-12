@@ -10,7 +10,7 @@
         "MySql"
       ],
       "links": {
-          "github": "https://github.com/Okeke-Divine/marokug-frontend",
+        "github": "https://github.com/Okeke-Divine/marokug-frontend",
         "livePreview": "https://marokug.vercel.app/"
       },
       "coverImage": "/assets/images/marokug/Screenshot (1929).png",
@@ -18,9 +18,9 @@
     },
     "mtalers": {
       "title": "Mtalers",
-      "description": "Mtalers is an educational platform developed for a client, focusing on providing a comprehensive learning experience. It incorporates various technologies such as HTML, CSS, JavaScript, React, Php and MySql to deliver interactive and engaging educational content. The platform aims to enhance the learning process through its user-friendly interface and extensive functionality.",
+      "description": "Mtalers is an educational platform developed for a client, focusing on providing a comprehensive learning experience. It incorporates various technologies such as jQuery, Php and MySql to deliver interactive and engaging educational content. The platform aims to enhance the learning process through its user-friendly interface and extensive functionality.",
       "tags": [
-        "React",
+        "jQuery",
         "Php",
         "MySql"
       ],
@@ -61,14 +61,9 @@
       "title": "Music Website for Prod. Kayks",
       "description": "This project is a dynamic and immersive music website crafted for the talented music producer, Kayks. Utilizing technologies such as Django, React, MySQL, HTML, CSS, and JavaScript, the website provides a seamless platform for showcasing Kayks' musical creations. From elegant design elements to a user-friendly interface, the website aims to enhance the overall music discovery experience.",
       "tags": [
-        "Django",
-        "React",
-        "MySQL",
-        "React",
-        "Json",
-        "Html",
-        "Css",
-        "Javascript"
+        "NextJs",
+        "Tailwind",
+        "Postgres"
       ],
       "links": {
         "github": null,
@@ -112,11 +107,9 @@
       "title": "My Portfolio 2.0",
       "description": "My myPortfolio 2.0 is the second showcase of my personal projects and accomplishments. Built with a blend of HTML, CSS, Typescript, React, and JSON, this portfolio highlights my skills and experiences. It serves as a platform to display my diverse range of projects, providing an insight into my expertise and dedication to web development. The live preview allows visitors to explore and interact with the projects showcased. Check out the source code on GitHub to delve deeper into the development process.",
       "tags": [
-        "Html",
-        "Css",
         "Typescript",
         "React",
-        "Json"
+        "Tailwind"
       ],
       "links": {
         "github": "https://github.com/Okeke-Divine/My-Portfolio-2.0",
