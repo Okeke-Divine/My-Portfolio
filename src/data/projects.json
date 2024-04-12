@@ -41,8 +41,8 @@
         "../assets/images/mtalers/324shots_so.png"
       ]
     },
-    "geepayFrontendChallenge": {
-      "title": "Geepay Frontend Challenge",
+    "geegpayFrontendChallenge": {
+      "title": "Geegpay Frontend Challenge",
       "description": "I converted a Figma design to HTML in the Geepay Frontend Challenge. Analyzed design, hand-coded clean & semantic HTML, ensured responsiveness & accessibility, tested & refined for a pixel-perfect outcome.",
       "tags": [
         "Html",
