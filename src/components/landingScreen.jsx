@@ -19,7 +19,7 @@ export default function LandingScreen(props) {
         Full Stack Web Developer with 7+ years of hands-on experience designing,
         developing, and implementing applications and solutions using a wide
         range of technologies and programming languages.
-        <br />
+        {/* <br />
         <a
           className="portfolio2-0link"
           target="_blank"
@@ -27,7 +27,7 @@ export default function LandingScreen(props) {
         >
           Portfolio 2.0
           <i className="fa fa-external-link pl-2 text-[0.6rem]"></i>
-        </a>
+        </a> */}
       </div>
       <div className="contactMe-1-cont">
         <button
