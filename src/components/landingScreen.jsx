@@ -16,25 +16,15 @@ export default function LandingScreen(props) {
         </h3>
       </div>
       <div className="breifIntro">
-        Full Stack Web Developer with 7+ years of hands-on experience designing,
-        developing, and implementing applications and solutions using a wide
-        range of technologies and programming languages.
-        {/* <br />
-        <a
-          className="portfolio2-0link"
-          target="_blank"
-          href="https://okekedivine2.vercel.app/"
-        >
-          Portfolio 2.0
-          <i className="fa fa-external-link pl-2 text-[0.6rem]"></i>
-        </a> */}
+        Results-oriented Full Stack Web Developer with 7+ years of experience
+        building user-friendly and scalable web applications. Successfully
+        designed, developed, and deployed over 18 web applications using
+        technologies like [React, NextJs, Django, PHP, MySQL, PostgreSQL]
       </div>
       <div className="contactMe-1-cont">
         <button
           className="contactMe-1"
-          onClick={(e) =>
-            openLinkInNewTab(socialMedia.mySocials.github)
-          }
+          onClick={(e) => openLinkInNewTab(socialMedia.mySocials.github)}
         >
           <i className="fa fa-github mr-2"></i>
           Github
