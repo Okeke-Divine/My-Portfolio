@@ -58,8 +58,8 @@
       "slideShowImages": null
     },
     "music website": {
-      "title": "Music Website for Prod. Kayks",
-      "description": "This project is a dynamic and immersive music website crafted for the talented music producer, Kayks. Utilizing technologies such as Django, React, MySQL, HTML, CSS, and JavaScript, the website provides a seamless platform for showcasing Kayks' musical creations. From elegant design elements to a user-friendly interface, the website aims to enhance the overall music discovery experience.",
+      "title": "Beat Website for Prod. Kayks",
+      "description": "This project is a dynamic and immersive beat website crafted for the talented music producer, Kayks. Utilizing technologies such as Next.js, Tailwind, PostgreSQL and RESTful Api, the website provides a seamless platform for showcasing Kayks' musical creations (such as: beats, final mixes, mashups and lots more). From elegant design elements to a user-friendly interface, the website aims to enhance the overall music discovery experience.",
       "tags": [
         "NextJs",
         "Tailwind",
