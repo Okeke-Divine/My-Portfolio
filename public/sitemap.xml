@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://okekedivine.vercel.app/#me</loc>
-        <lastmod>2023-11-17</lastmod>
+        <lastmod>2024-4-13</lastmod>
         <name>Me Section</name>
     </url>
     <url>
         <loc>https://okekedivine.vercel.app/#about</loc>
-        <lastmod>2023-11-17</lastmod>
+        <lastmod>2024-4-13</lastmod>
         <name>About Section</name>
     </url>
     <url>
         <loc>https://okekedivine.vercel.app/#experienceANDwork</loc>
-        <lastmod>2023-11-17</lastmod>
+        <lastmod>2024-4-13</lastmod>
         <name>Experience and Work Section</name>
     </url>
     <url>
         <loc>https://okekedivine.vercel.app/#myProjects</loc>
-        <lastmod>2023-11-17</lastmod>
+        <lastmod>2024-4-13</lastmod>
         <name>Projects Section</name>
     </url>
     <url>
         <loc>https://okekedivine.vercel.app/#contactMe</loc>
-        <lastmod>2023-11-17</lastmod>
+        <lastmod>2024-4-13</lastmod>
         <name>Contact Me Section</name>
     </url>
 </urlset>
