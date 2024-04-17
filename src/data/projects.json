@@ -63,13 +63,14 @@
       "tags": [
         "NextJs",
         "Tailwind",
-        "Postgres"
+        "Postgres",
+        "Prisma"
       ],
       "links": {
-        "github": null,
-        "livePreview": null
+        "github": "https://github.com/Okeke-Divine/Prod-Kayks",
+        "livePreview": "https://prodkayks.vercel.app"
       },
-      "coverImage": "/assets/images/kayksW/Screenshot (1738).png",
+      "coverImage": "/assets/images/kayksW/Screenshot (2087).png",
       "slideShowImages": null
     },
     "jujora": {
