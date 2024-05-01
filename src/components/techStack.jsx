@@ -54,6 +54,10 @@ export default function TechStack() {
       icon: <i className="fas fa-database"></i>,
       name: "SQL Databases",
     },
+    {
+      icon: <i className="fas fa-cog"></i>,
+      name: "Prisma",
+    },
   ];
 
   const otherTools = [
@@ -77,10 +81,8 @@ export default function TechStack() {
       icon: <i className="fab fa-docker"></i>,
       name: "Docker (Basics)",
     },
-    {
-      icon: <i className="fas fa-database"></i>,
-      name: "Prisma",
-    },
+   
+
   ];
 
   return (
