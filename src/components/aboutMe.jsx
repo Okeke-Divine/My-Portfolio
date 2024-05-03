@@ -1,5 +1,3 @@
-import me from "../assets/images/ME.jpg";
-
 export default function AboutMe(props) {
   const socialMedia = props.socialMedia;
 
@@ -80,7 +78,7 @@ export default function AboutMe(props) {
       </div>
       <div className="right">
         <div className="myImageCont">
-          <img src={me} className="image01md" />
+          <img src={"/assets/images/image.jpg"} className="image01md" />
           <div className="overlay"></div>
         </div>
       </div>
