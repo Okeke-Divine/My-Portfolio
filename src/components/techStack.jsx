@@ -32,8 +32,16 @@ export default function TechStack() {
       name: "PHP",
     },
     {
+      icon: <i className="fa fa-file-code"></i>,
+      name: "Next.js",
+    },
+    {
       icon: <i className="fab fa-python"></i>,
       name: "Python (Django)",
+    },
+    {
+      icon: <i className="fab fa-js"></i>,
+      name: "Node Js",
     },
     {
       icon: <i className="fab fa-golang"></i>,
