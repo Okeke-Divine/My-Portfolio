@@ -85,7 +85,10 @@ export default function TechStack() {
       icon: <i className="fab fa-docker"></i>,
       name: "Docker (Basics)",
     },
-   
+   {
+    icon: <i className="fas fa-flask"></i>,
+    name: "Postman"
+   }
 
   ];
 
