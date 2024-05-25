@@ -22,7 +22,7 @@ export default function TechStack() {
     },
     {
       icon: <i className="fab fa-js"></i>,
-      name: "jQuery (Basics)",
+      name: "jQuery",
     },
   ];
 
@@ -48,13 +48,13 @@ export default function TechStack() {
   const database = [
     {
       icon: <i className="fas fa-database"></i>,
-      name: "PostgreSQL",
-    },
-    {
-      icon: <i className="fas fa-database"></i>,
       name: "MySQL",
     },
     {
+      icon: <i className="fas fa-database"></i>,
+      name: "PostgreSQL",
+    },
+g    {
       icon: <i className="fas fa-database"></i>,
       name: "MongoDb",
     },

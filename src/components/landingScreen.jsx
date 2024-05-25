@@ -18,7 +18,7 @@ export default function LandingScreen(props) {
         </h3>
       </div>
       <div className="breifIntro">
-        Results-oriented Full Stack Web Developer with 7+ years of experience
+        Results-oriented Full Stack Web Developer with over 7+ years of experience
         building user-friendly and scalable web applications. Successfully
         designed, developed, and deployed over 18 web applications using
         technologies like [React, NextJs, Django, PHP, MySQL, PostgreSQL and so on]
