@@ -54,7 +54,7 @@ export default function TechStack() {
       icon: <i className="fas fa-database"></i>,
       name: "PostgreSQL",
     },
-g    {
+    {
       icon: <i className="fas fa-database"></i>,
       name: "MongoDb",
     },
