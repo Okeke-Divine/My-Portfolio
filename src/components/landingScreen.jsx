@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import TypewriterEffect from "../utils/TypewriterEffect"
 
 export default function LandingScreen(props) {
