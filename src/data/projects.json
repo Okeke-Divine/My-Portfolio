@@ -16,6 +16,22 @@
       "coverImage": "/assets/images/marokug/Screenshot (1929).png",
       "slideShowImages": null
     },
+    "deeperlifehighschool": {
+      "title": "Deeper Life High School",
+      "description": "",
+      "tags": [
+        "Php",
+        "jQuery",
+        "Bootstrap",
+        "Ajax",
+        "MySql"
+      ],
+      "links": {
+        "livePreview": "https://deeperlifehighschool.org/"
+      },
+      "coverImage": "/assets/images/deeperlifehighschool/Screenshot (2251).png",
+      "slideShowImages": null
+    },
     "mtalers": {
       "title": "Mtalers",
       "description": "Mtalers is an educational platform developed for a client, focusing on providing a comprehensive learning experience. It incorporates various technologies such as jQuery, Php and MySql to deliver interactive and engaging educational content. The platform aims to enhance the learning process through its user-friendly interface and extensive functionality.",
