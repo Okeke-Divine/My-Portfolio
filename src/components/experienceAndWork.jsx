@@ -17,7 +17,7 @@ export default function ExperienceAndWork() {
               Marokug
             </a>
           </div>
-          <div className="highlitedTabSubTitle">August 2023 - Apr 2024</div>
+          <div className="highlitedTabSubTitle">March 2023 - Feb 2024</div>
           <div className="highlitedTabContent">
             <ul>
               <li>
@@ -59,7 +59,7 @@ export default function ExperienceAndWork() {
               Jujora
             </a>
           </div>
-          <div className="highlitedTabSubTitle">March 2024 - Present</div>
+          <div className="highlitedTabSubTitle">Jan 2024 - May 2024</div>
           <div className="highlitedTabContent">
             <ul>
               <li>
