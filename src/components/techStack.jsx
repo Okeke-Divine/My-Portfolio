@@ -62,6 +62,10 @@ export default function TechStack() {
       icon: <i className="fas fa-cog"></i>,
       name: "Prisma",
     },
+    {
+      icon: <i className="fas fa-cog"></i>,
+      name: "Mongoose"
+    }
   ];
 
   const otherTools = [
