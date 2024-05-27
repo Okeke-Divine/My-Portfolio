@@ -28,7 +28,7 @@ export default function LandingScreen(props) {
           className="contactMe-1 contactMe-2"
           onClick={(e) =>
             openLinkInNewTab(
-              "/Okeke Divine-Vessel - Full Stack Web Dev - Resume.pdf"
+              "/Resume - Full Stack Web Developer - Okeke Divine-Vessel.pdf"
             )
           }
         >
