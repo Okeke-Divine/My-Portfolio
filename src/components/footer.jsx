@@ -3,7 +3,7 @@ export default function Footer({ socialMedia }) {
   return (
     <>
       <section className="mainFooter">
-        <div className="footerSocialsTitle">Other Links</div>
+        <div className="footerSocialsTitle text-center">Other Links</div>
         <div className="flex flex-wrap footerLinkList">
           {Object.entries(mySocials).map(
             ([socialMediaName, link], index) =>

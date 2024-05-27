@@ -30,3 +30,7 @@ code {
 .mb-10{
   margin-bottom: 10px;
 }
+
+.footerLinkList{
+  justify-items: center;
+}
