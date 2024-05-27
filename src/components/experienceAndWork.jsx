@@ -37,10 +37,10 @@ export default function ExperienceAndWork() {
                 student learning outcomes for a user base of 1832 students.
               </li>
               <li>
-                Collaborated with UI/UX designers to convert the education
+                Collaborated with UI/UX designers to <b>convert the education
                 platform UI to a more user-friendly and engaging interface,
                 leading to a significant increase in student course completion
-                rates.
+                rates.</b>
               </li>
               <li>
                 <b>Optimized and scaled the company's database</b> to ensure smooth
