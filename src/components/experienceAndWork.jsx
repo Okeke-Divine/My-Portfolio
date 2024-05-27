@@ -21,12 +21,12 @@ export default function ExperienceAndWork() {
           <div className="highlitedTabContent">
             <ul>
               <li>
-                Enhanced student participation and interaction by 15% by
-                implementing a gamified learning experience with points, badges,
+                <b>Enhanced student participation and interaction by 15%</b> by
+                implementing a <b>gamified learning experience</b> with points, badges,
                 and leaderboards
               </li>
               <li>
-                Increased student course completion rates by 20% through
+                <b>Increased student course completion rates by 20%</b> through
                 collaboration with UI/UX designers to create a more
                 user-friendly and engaging interface for thecompany's education
                 platform.
@@ -43,9 +43,9 @@ export default function ExperienceAndWork() {
                 rates.
               </li>
               <li>
-                Optimized and scaled the company's database to ensure smooth
-                operation and accommodate a 300% growth in users, while reducing
-                API latency by 50% through implementing caching mechanisms and
+                <b>Optimized and scaled the company's database</b> to ensure smooth
+                operation and <b>accommodate a 300% growth in users</b>, while <b>reducing
+                API latency by 50%</b> through implementing caching mechanisms and
                 optimizing database queries.
               </li>
             </ul>
@@ -71,17 +71,17 @@ export default function ExperienceAndWork() {
           <div className="highlitedTabContent">
             <ul>
               <li>
-                Led a team of 4 developers, resulting in a 40% increase in
+                <b>Led a team of 4 developers</b>, resulting in a 40% increase in
                 development velocity through optimized workflows and code
                 reviews.
               </li>
               <li>
-                Designed and Coded an e-commerce platform connecting farmers
-                directly with buyers, reducing middlemen costs by 25% and
-                increasing farmer profits by 40% within the first quarter.
+                <b>Designed and Coded an e-commerce platform</b> connecting farmers
+                directly with buyers, <b>reducing middlemen costs by 25%</b> and
+                <b>increasing farmer profits by 40% within the first quarter.</b>
               </li>
               <li>
-                Reported directly to CPO: Engineering lead for designing and
+                <b>Reported directly to CPO:</b> Engineering lead for designing and
                 developing the companys’ transaction dashboard that provides a
                 rich visual summary of daily user purchase patterns powered by
                 Google Chart. Used by the board of directors in the
