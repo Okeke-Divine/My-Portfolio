@@ -58,14 +58,7 @@ export default function TechStack() {
       icon: <i className="fas fa-database"></i>,
       name: "MongoDb",
     },
-    {
-      icon: <i className="fas fa-cog"></i>,
-      name: "Prisma",
-    },
-    {
-      icon: <i className="fas fa-cog"></i>,
-      name: "Mongoose"
-    }
+
   ];
 
   const otherTools = [
@@ -92,7 +85,19 @@ export default function TechStack() {
    {
     icon: <i className="fas fa-flask"></i>,
     name: "Postman"
-   }
+   },
+   {
+    icon: <i className="fas fa-cog"></i>,
+    name: "Prisma",
+  },
+  {
+    icon: <i className="fas fa-cog"></i>,
+    name: "Mongoose"
+  },
+  {
+    icon: <i className="fas fa-cog"></i>,
+    name: "Django ORM",
+  }
 
   ];
 
