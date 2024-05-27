@@ -21,9 +21,20 @@ export default function ExperienceAndWork() {
           <div className="highlitedTabContent">
             <ul>
               <li>
-                Developed the back-end infrastructure for a new interactive
-                assessment system, enabling efficient evaluation of student
-                learning outcomes.
+                Enhanced student participation and interaction by 15% by
+                implementing a gamified learning experience with points, badges,
+                and leaderboards
+              </li>
+              <li>
+                Increased student course completion rates by 20% through
+                collaboration with UI/UX designers to create a more
+                user-friendly and engaging interface for thecompany's education
+                platform.
+              </li>
+              <li>
+                Developed and deployed the back-end infrastructure for a new
+                interactive assessment system, enabling efficient evaluation of
+                student learning outcomes for a user base of 1832 students.
               </li>
               <li>
                 Collaborated with UI/UX designers to convert the education
@@ -32,13 +43,10 @@ export default function ExperienceAndWork() {
                 rates.
               </li>
               <li>
-                Maintained and scaled the company's database to ensure smooth
-                operation and accommodate a growing user base.
-              </li>
-              <li>
-                Created a gamified learning experience by integrating points,
-                badges, and leaderboards, resulting in a 15% boost in student
-                participation and interaction.
+                Optimized and scaled the company's database to ensure smooth
+                operation and accommodate a 300% growth in users, while reducing
+                API latency by 50% through implementing caching mechanisms and
+                optimizing database queries.
               </li>
             </ul>
           </div>
@@ -50,7 +58,7 @@ export default function ExperienceAndWork() {
       exp: (
         <>
           <div className="highlitedTabTitle">
-            Lead Frontend Web Developer @
+            Lead Full Stack Web Developer @
             <a
               // href="#"
               style={{ marginLeft: "5px" }}
@@ -62,6 +70,23 @@ export default function ExperienceAndWork() {
           <div className="highlitedTabSubTitle">Jan 2024 - May 2024</div>
           <div className="highlitedTabContent">
             <ul>
+              <li>
+                Led a team of 4 developers, resulting in a 40% increase in
+                development velocity through optimized workflows and code
+                reviews.
+              </li>
+              <li>
+                Designed and Coded an e-commerce platform connecting farmers
+                directly with buyers, reducing middlemen costs by 25% and
+                increasing farmer profits by 40% within the first quarter.
+              </li>
+              <li>
+                Reported directly to CPO: Engineering lead for designing and
+                developing the companys’ transaction dashboard that provides a
+                rich visual summary of daily user purchase patterns powered by
+                Google Chart. Used by the board of directors in the
+                decision-making process.
+              </li>
               <li>
                 Collaborated with the UI/UX team to refine the e-commerce
                 platform's user interface, ensuring an intuitive and
