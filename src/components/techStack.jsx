@@ -101,6 +101,14 @@ export default function TechStack() {
       icon: <i className="fas fa-cog"></i>,
       name: "Django ORM",
     },
+    {
+      icon: <i className="fa fa-file"></i>,
+      name: "Cloudinary",
+    },
+    {
+      icon: <i className="fas fa-cog"></i>,
+      name: "AWS",
+    },
   ];
 
   return (
