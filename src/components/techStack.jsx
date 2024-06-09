@@ -28,10 +28,6 @@ export default function TechStack() {
 
   const backend = [
     {
-      icon: <i className="fab fa-php"></i>,
-      name: "PHP",
-    },
-    {
       icon: <i className="fa fa-file-code"></i>,
       name: "Next.js",
     },
@@ -42,7 +38,15 @@ export default function TechStack() {
     {
       icon: <i className="fab fa-js"></i>,
       name: "Node Js (Express)",
-    }
+    },
+    {
+      icon: <i className="fab fa-php"></i>,
+      name: "PHP (Core)",
+    },
+    {
+      icon: <i className="fab fa-php"></i>,
+      name: "PHP (Laravel)",
+    },
   ];
 
   const database = [
@@ -58,7 +62,6 @@ export default function TechStack() {
       icon: <i className="fas fa-database"></i>,
       name: "MongoDb",
     },
-
   ];
 
   const otherTools = [
@@ -82,23 +85,22 @@ export default function TechStack() {
       icon: <i className="fab fa-docker"></i>,
       name: "Docker (Basics)",
     },
-   {
-    icon: <i className="fas fa-flask"></i>,
-    name: "Postman"
-   },
-   {
-    icon: <i className="fas fa-cog"></i>,
-    name: "Prisma",
-  },
-  {
-    icon: <i className="fas fa-cog"></i>,
-    name: "Mongoose"
-  },
-  {
-    icon: <i className="fas fa-cog"></i>,
-    name: "Django ORM",
-  }
-
+    {
+      icon: <i className="fas fa-flask"></i>,
+      name: "Postman",
+    },
+    {
+      icon: <i className="fas fa-cog"></i>,
+      name: "Prisma",
+    },
+    {
+      icon: <i className="fas fa-cog"></i>,
+      name: "Mongoose",
+    },
+    {
+      icon: <i className="fas fa-cog"></i>,
+      name: "Django ORM",
+    },
   ];
 
   return (
