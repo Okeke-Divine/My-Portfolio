@@ -67,7 +67,7 @@ export default function ExperienceAndWork() {
               Jujora
             </a>
           </div>
-          <div className="highlitedTabSubTitle">Jan 2024 - May 2024</div>
+          <div className="highlitedTabSubTitle">July 2023 - June 2024</div>
           <div className="highlitedTabContent">
             <ul>
               <li>
