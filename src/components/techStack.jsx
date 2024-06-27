@@ -17,6 +17,10 @@ export default function TechStack() {
       name: "Tailwind CSS",
     },
     {
+      icon: <i className="fa fa-code"></i>,
+      name: "Daisy UI",
+    },
+    {
       icon: <i className="fab fa-bootstrap"></i>,
       name: "Bootstrap",
     },
