@@ -2,7 +2,7 @@
   "projects": {
     "portfoliia": {
       "title": "Portfoliia",
-      "description": "At Marokug, I collaborated with a team of frontend and backend developers to create an online learning platform. Marokug empowers students to explore and learn a wide range of courses at their own pace, test their understanding through interactive quizzes and exams, and deepen their knowledge with additional learning materials.",
+      "description": "I created Portfoliia to make building professional portfolios and resumes simple and fast. This CMS-powered platform has helped over 100 users create stunning portfolios. It also includes insightful analytics to track their performance.",
       "tags": [
         "NextJS",
         "Tailwind",
