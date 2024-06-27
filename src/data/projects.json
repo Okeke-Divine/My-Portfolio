@@ -11,10 +11,10 @@
         "Redis"
       ],
       "links": {
-        "github": "https://github.com/Okeke-Divine/marokug-frontend",
-        "livePreview": "https://marokug.vercel.app/"
+        "github": null,
+        "livePreview": "https://portfoliia.vercel.app/"
       },
-      "coverImage": "/assets/images/marokug/Screenshot (1929).png",
+      "coverImage": "/assets/images/portfoliia/Screenshot (2422).png",
       "slideShowImages": null
     },
     "marokug": {
