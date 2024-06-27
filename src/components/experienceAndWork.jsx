@@ -3,57 +3,6 @@ export default function ExperienceAndWork() {
   const [currentExp, setCurrentExp] = useState(0);
   const experiences = [
     {
-      name: "Marokug",
-      exp: (
-        <>
-          <div className="highlitedTabTitle">
-            Full Stack Web Developer @
-            <a
-              // href="https://marokug.vercel.app/"
-              style={{ marginLeft: "5px" }}
-              target="_blank"
-              className="text-primary"
-            >
-              Marokug
-            </a>
-          </div>
-          <div className="highlitedTabSubTitle">March 2023 - Feb 2024</div>
-          <div className="highlitedTabContent">
-            <ul>
-              <li>
-                <b>Enhanced student participation and interaction by 15%</b> by
-                implementing a <b>gamified learning experience</b> with points, badges,
-                and leaderboards
-              </li>
-              <li>
-                <b>Increased student course completion rates by 20%</b> through
-                collaboration with UI/UX designers to create a more
-                user-friendly and engaging interface for thecompany's education
-                platform.
-              </li>
-              <li>
-                Developed and deployed the back-end infrastructure for a new
-                interactive assessment system, enabling efficient evaluation of
-                student learning outcomes for a user base of 1832 students.
-              </li>
-              <li>
-                Collaborated with UI/UX designers to <b>convert the education
-                platform UI to a more user-friendly and engaging interface,
-                leading to a significant increase in student course completion
-                rates.</b>
-              </li>
-              <li>
-                <b>Optimized and scaled the company's database</b> to ensure smooth
-                operation and <b>accommodate a 300% growth in users</b>, while <b>reducing
-                API latency by 50%</b> through implementing caching mechanisms and
-                optimizing database queries.
-              </li>
-            </ul>
-          </div>
-        </>
-      ),
-    },
-    {
       name: "Jujora",
       exp: (
         <>
@@ -67,7 +16,7 @@ export default function ExperienceAndWork() {
               Jujora
             </a>
           </div>
-          <div className="highlitedTabSubTitle">July 2023 - June 2024</div>
+          <div className="highlitedTabSubTitle">Jan 2024 - June 2024</div>
           <div className="highlitedTabContent">
             <ul>
               <li>
@@ -107,6 +56,57 @@ export default function ExperienceAndWork() {
         </>
       ),
     },
+    {
+      name: "Marokug",
+      exp: (
+        <>
+          <div className="highlitedTabTitle">
+            Full Stack Web Developer @
+            <a
+              // href="https://marokug.vercel.app/"
+              style={{ marginLeft: "5px" }}
+              target="_blank"
+              className="text-primary"
+            >
+              Marokug
+            </a>
+          </div>
+          <div className="highlitedTabSubTitle">March 2023 - Dec 2023</div>
+          <div className="highlitedTabContent">
+            <ul>
+              <li>
+                <b>Enhanced student participation and interaction by 15%</b> by
+                implementing a <b>gamified learning experience</b> with points, badges,
+                and leaderboards
+              </li>
+              <li>
+                <b>Increased student course completion rates by 20%</b> through
+                collaboration with UI/UX designers to create a more
+                user-friendly and engaging interface for thecompany's education
+                platform.
+              </li>
+              <li>
+                Developed and deployed the back-end infrastructure for a new
+                interactive assessment system, enabling efficient evaluation of
+                student learning outcomes for a user base of 1832 students.
+              </li>
+              <li>
+                Collaborated with UI/UX designers to <b>convert the education
+                platform UI to a more user-friendly and engaging interface,
+                leading to a significant increase in student course completion
+                rates.</b>
+              </li>
+              <li>
+                <b>Optimized and scaled the company's database</b> to ensure smooth
+                operation and <b>accommodate a 300% growth in users</b>, while <b>reducing
+                API latency by 50%</b> through implementing caching mechanisms and
+                optimizing database queries.
+              </li>
+            </ul>
+          </div>
+        </>
+      ),
+    }
   ];
   function updateCurrentExp(e) {
     setCurrentExp(e);
