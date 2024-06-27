@@ -1,5 +1,22 @@
 {
   "projects": {
+    "portfoliia": {
+      "title": "Portfoliia",
+      "description": "At Marokug, I collaborated with a team of frontend and backend developers to create an online learning platform. Marokug empowers students to explore and learn a wide range of courses at their own pace, test their understanding through interactive quizzes and exams, and deepen their knowledge with additional learning materials.",
+      "tags": [
+        "NextJS",
+        "Tailwind",
+        "Daisy UI",
+        "MySQL",
+        "Redis"
+      ],
+      "links": {
+        "github": "https://github.com/Okeke-Divine/marokug-frontend",
+        "livePreview": "https://marokug.vercel.app/"
+      },
+      "coverImage": "/assets/images/marokug/Screenshot (1929).png",
+      "slideShowImages": null
+    },
     "marokug": {
       "title": "Marokug",
       "description": "At Marokug, I collaborated with a team of frontend and backend developers to create an online learning platform. Marokug empowers students to explore and learn a wide range of courses at their own pace, test their understanding through interactive quizzes and exams, and deepen their knowledge with additional learning materials.",
