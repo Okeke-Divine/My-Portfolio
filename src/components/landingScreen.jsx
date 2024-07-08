@@ -2,7 +2,7 @@ import TypewriterEffect from "../utils/TypewriterEffect"
 
 export default function LandingScreen(props) {
   const openLinkInNewTab = props.openLinkInNewTab;
-  const socialMedia = props.socialMedia; 
+  const socialMedia = props.socialMedia;
 
   return (
     <section className="landingScreen jnUoFC" id="me">
@@ -17,18 +17,21 @@ export default function LandingScreen(props) {
           <TypewriterEffect text="I build pixel-perfect, engaging, and accessible digital experiences." speed={50} pauseFor={5000} />
         </h3>
       </div>
-      <div className="breifIntro">
+      {/* <div className="breifIntro">
         Results-oriented Full Stack Web Developer with over 7+ years of experience
         building user-friendly and scalable web applications. Successfully
         designed, developed, and deployed over 18 web applications using
         technologies like [React, NextJs, Django, PHP, MySQL, PostgreSQL and so on]
+      </div> */}
+      <div className="breifIntro">
+        Full Stack Software Engineer
       </div>
       <div className="contactMe-1-cont">
         <button
           className="contactMe-1 contactMe-2"
           onClick={(e) =>
             openLinkInNewTab(
-              "/Resume - Full Stack Web Developer - Okeke Divine-Vessel.pdf"
+              "/Resume - Full Stack Software Engineer - Okeke Divine-Vessel.pdf"
             )
           }
         >
