@@ -88,7 +88,7 @@ export default function ExperienceAndWork() {
               <li>
                 Developed and deployed the back-end infrastructure for a new
                 interactive assessment system, enabling efficient evaluation of
-                student learning outcomes for a user base of 1832 students.
+                student learning outcomes for a user base of 2800+ students.
               </li>
               <li>
                 Collaborated with UI/UX designers to <b>convert the education
