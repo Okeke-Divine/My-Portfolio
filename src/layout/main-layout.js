@@ -34,7 +34,7 @@ export default function MainLayout(props) {
           <LandingScreen openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
 
           {/*AboutMe*/}
-          <AboutMe socialMedia={socialMedia} />
+          {/* <AboutMe socialMedia={socialMedia} /> */}
 
           {/* my tech stack */}
           <TechStack />
