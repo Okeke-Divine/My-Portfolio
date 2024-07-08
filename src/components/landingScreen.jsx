@@ -20,7 +20,7 @@ export default function LandingScreen(props) {
       <div className="breifIntro">
         Results-oriented Full Stack Software Engineer with over 5+ years of hands on experience
         building user-friendly and scalable web applications. Successfully
-        designed, developed, and deployed over 18 applications using
+        designed, developed, and deployed over 10 applications using
         technologies like [React, NextJs, Django, PHP, MySQL, PostgreSQL and so on]
       </div>
       <div className="contactMe-1-cont">
