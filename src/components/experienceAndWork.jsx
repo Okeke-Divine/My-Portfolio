@@ -7,7 +7,7 @@ export default function ExperienceAndWork(props) {
       exp: (
         <>
           <div className="highlitedTabTitle">
-            Lead Full Stack Web Developer @
+            Lead Full Stack Software Engineer @
             <a
               // href="#"
               style={{ marginLeft: "5px" }}
@@ -30,7 +30,7 @@ export default function ExperienceAndWork(props) {
               </li>
               <li>
                 <b>Reported directly to CPO:</b> Engineering lead for designing and
-                developing the companys’ transaction dashboard that provides a
+                <b>developing the companys’ transaction dashboard</b> that provides a
                 rich visual summary of daily user purchase patterns powered by
                 Google Chart. <b>Used by the board of directors in the
                 decision-making process.</b>
