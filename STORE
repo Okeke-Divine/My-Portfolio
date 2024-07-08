@@ -1,5 +1,25 @@
-        // "facebook": "https://www.facebook.com/profile.php?id=61550281618891&mibextid=ZbWKwL",
-        // "upwork": "https://www.upwork.com/freelancers/~013c44adc45fed7438",
-        // "fiverr": "https://www.fiverr.com/divinho__",
-        // "freelancer": "https://www.freelancer.com/u/okekedivine",
-        // "truelancer": "https://www.truelancer.com/freelancer/okekedivine"
+// "facebook": "https://www.facebook.com/profile.php?id=61550281618891&mibextid=ZbWKwL",
+// "upwork": "https://www.upwork.com/freelancers/~013c44adc45fed7438",
+// "fiverr": "https://www.fiverr.com/divinho__",
+// "freelancer": "https://www.freelancer.com/u/okekedivine",
+// "truelancer": "https://www.truelancer.com/freelancer/okekedivine"
+
+
+myPorject.json
+
+//,
+"myPortfolio": {
+        "title": "My Portfolio 2.0",
+                "description": "My myPortfolio 2.0 is the second showcase of my personal projects and accomplishments. Built with a blend of HTML, CSS, Typescript, React, and JSON, this portfolio highlights my skills and experiences. It serves as a platform to display my diverse range of projects, providing an insight into my expertise and dedication to web development. The live preview allows visitors to explore and interact with the projects showcased. Check out the source code on GitHub to delve deeper into the development process.",
+                        "tags": [
+                                "Typescript",
+                                "React",
+                                "Tailwind"
+                        ],
+                                "links": {
+                "github": "https://github.com/Okeke-Divine/My-Portfolio-2.0",
+                        "livePreview": "https://okekedivine2.vercel.app/"
+        },
+        "coverImage": "/assets/images/myPortfolio2.0/Screenshot (1931).png",
+                "slideShowImages": null
+}
