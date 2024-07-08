@@ -70,11 +70,11 @@ export default function Navbar(props) {
                   <span className="linkHighlight">00.</span> Intro
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#about">
                   <span className="linkHighlight">01.</span> About
                 </a>
-              </li>
+              </li> */}
               <li>
                   <a href="#techstack">
                     <span className="linkHighlight">02.</span> Tech Stack
