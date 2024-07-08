@@ -33,16 +33,16 @@ export default function ExperienceAndWork(props) {
                 <b>developing the companys’ transaction dashboard</b> that provides a
                 rich visual summary of daily user purchase patterns powered by
                 Google Chart. <b>Used by the board of directors in the
-                decision-making process.</b>
+                  decision-making process.</b>
               </li>
               <li>
                 Collaborated with the UI/UX team to <b>refine the e-commerce
-                platform's user interface</b>, ensuring an intuitive and
+                  platform's user interface</b>, ensuring an intuitive and
                 user-friendly experience for both farmers and consumers.
               </li>
               <li>
                 Worked closely with back-end developers to <b>integrate a secure
-                payment gateway</b>, enabling seamless online transactions for
+                  payment gateway</b>, enabling seamless online transactions for
                 Jujora's customers.
               </li>
             </ul>
@@ -80,20 +80,20 @@ export default function ExperienceAndWork(props) {
                 platform.
               </li>
               <li>
-                Developed and deployed the back-end infrastructure for a new
-                interactive assessment system, enabling efficient evaluation of
-                student learning outcomes for a user base of 2800+ students.
+                Developed and deployed the <b>back-end infrastructure for a new
+                  interactive assessment system</b>, enabling efficient evaluation of
+                student learning outcomes for a <b>user base of 2800+ students.</b>
               </li>
               <li>
                 Collaborated with UI/UX designers to <b>convert the education
-                platform UI to a more user-friendly and engaging interface,
-                leading to a significant increase in student course completion
-                rates.</b>
+                  platform UI to a more user-friendly and engaging interface,
+                  leading to a significant increase in student course completion
+                  rates.</b>
               </li>
               <li>
                 <b>Optimized and scaled the company's database</b> to ensure smooth
                 operation and <b>accommodate a 300% growth in users</b>, while <b>reducing
-                API latency by 50%</b> through implementing caching mechanisms and
+                  API latency by 50%</b> through implementing caching mechanisms and
                 optimizing database queries.
               </li>
             </ul>
