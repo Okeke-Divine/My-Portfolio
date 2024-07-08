@@ -78,10 +78,6 @@ export default function TechStack(props) {
       name: "Git",
     },
     {
-      icon: <i className="fab fa-github"></i>,
-      name: "Github",
-    },
-    {
       icon: <i className="fas fa-robot"></i>,
       name: "Puppeteer",
     },
