@@ -36,19 +36,14 @@ export default function ExperienceAndWork(props) {
                 decision-making process.</b>
               </li>
               <li>
-                Collaborated with the UI/UX team to refine the e-commerce
-                platform's user interface, ensuring an intuitive and
+                Collaborated with the UI/UX team to <b>refine the e-commerce
+                platform's user interface</b>, ensuring an intuitive and
                 user-friendly experience for both farmers and consumers.
               </li>
               <li>
-                Worked closely with back-end developers to integrate a secure
-                payment gateway, enabling seamless online transactions for
+                Worked closely with back-end developers to <b>integrate a secure
+                payment gateway</b>, enabling seamless online transactions for
                 Jujora's customers.
-              </li>
-              <li>
-                Utilized Git for version control and collaboration, streamlining
-                the development process and ensuring efficient teamwork within
-                the project
               </li>
             </ul>
           </div>
