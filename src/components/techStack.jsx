@@ -91,7 +91,7 @@ export default function TechStack(props) {
     },
     {
       icon: <i className="fab fa-docker"></i>,
-      name: "Docker (Basics)",
+      name: "Docker",
     },
     {
       icon: <i className="fas fa-flask"></i>,
