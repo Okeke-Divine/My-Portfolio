@@ -104,7 +104,7 @@ export default function Navbar(props) {
             <div>
               <a
                 className="resume-button"
-                href="/Resume - Full Stack Web Developer - Okeke Divine-Vessel.pdf"
+                href="/Resume - Full Stack Software Engineer - Okeke Divine-Vessel.pdf"
                 target="_blank"
               >
                 Resume
