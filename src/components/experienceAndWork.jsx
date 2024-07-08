@@ -26,15 +26,14 @@ export default function ExperienceAndWork(props) {
               </li>
               <li>
                 <b>Designed and Coded an e-commerce platform</b> connecting farmers
-                directly with buyers, <b>reducing middlemen costs by 25%</b> and
-                <b>increasing farmer profits by 40% within the first quarter.</b>
+                directly with buyers, <b>reducing middlemen costs by 25%</b> and<b>increasing farmer profits by 40% within the first quarter.</b>
               </li>
               <li>
                 <b>Reported directly to CPO:</b> Engineering lead for designing and
                 developing the companys’ transaction dashboard that provides a
                 rich visual summary of daily user purchase patterns powered by
-                Google Chart. Used by the board of directors in the
-                decision-making process.
+                Google Chart. <b>Used by the board of directors in the
+                decision-making process.</b>
               </li>
               <li>
                 Collaborated with the UI/UX team to refine the e-commerce
