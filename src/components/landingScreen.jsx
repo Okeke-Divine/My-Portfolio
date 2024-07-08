@@ -14,7 +14,7 @@ export default function LandingScreen(props) {
       </div>
       <div>
         <h3 className="big-heading ibuildt">
-          <TypewriterEffect text="I build pixel-perfect, engaging, and accessible digital experiences." speed={50} pauseFor={5000} />
+          <TypewriterEffect text="Full Stack Software Engineer -- I build pixel-perfect, engaging, and accessible digital experiences." speed={50} pauseFor={5000} />
         </h3>
       </div>
       {/* <div className="breifIntro">
@@ -23,9 +23,6 @@ export default function LandingScreen(props) {
         designed, developed, and deployed over 18 web applications using
         technologies like [React, NextJs, Django, PHP, MySQL, PostgreSQL and so on]
       </div> */}
-      <div className="breifIntro">
-        Full Stack Software Engineer
-      </div>
       <div className="contactMe-1-cont">
         <button
           className="contactMe-1 contactMe-2"
