@@ -5,7 +5,7 @@ export default function ContactMe(props) {
   return (
     <section className="contactMe jnUoFC" id="contactMe">
       <div className="contactMeTinyTitle">
-        <div>04.</div>
+        <div>{props.count}</div>
         <div>What’s Next?</div>
       </div>
       <div>

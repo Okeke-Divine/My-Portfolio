@@ -1,4 +1,4 @@
-export default function TechStack() {
+export default function TechStack(props) {
   const frontend = [
     {
       icon: <i className="fab fa-react"></i>,
@@ -123,7 +123,7 @@ export default function TechStack() {
     <>
       <section className="aboutMeScreen block jnUoFC" id="techstack">
         <div className="sectionTitle sTitle-cs-2">
-          <div className="text-primary font-mono">02.</div>
+          <div className="text-primary font-mono">{props.count}</div>
           <div className="font-mono">Tech Stack</div>
           <div className="horiLine">
             <div className="horiLineMain"></div>

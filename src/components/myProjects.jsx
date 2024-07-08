@@ -31,7 +31,7 @@ export default function MyProjects(props) {
   return (
     <section className="myProjects jnUoFC" id="myProjects">
       <div className="sectionTitle sTitle-cs">
-        <div className="text-primary font-mono">05.</div>
+        <div className="text-primary font-mono">{props.count}</div>
         <div className="font-mono">Some Things I’ve Built</div>
         <div className="horiLine">
           <div className="horiLineMain"></div>

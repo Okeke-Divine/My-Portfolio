@@ -1,9 +1,9 @@
-export default function Education(){
+export default function Education(props){
     return (
         <>
        <section className="aboutMeScreen block jnUoFC" id="education">
             <div className="sectionTitle">
-                <div className="text-primary font-mono">04.</div>
+                <div className="text-primary font-mono">{props.count}</div>
                 <div className="font-mono">Education</div>
                 <div className="horiLine">
                   <div className="horiLineMain"></div>

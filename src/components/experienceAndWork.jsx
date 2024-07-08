@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function ExperienceAndWork() {
+export default function ExperienceAndWork(props) {
   const [currentExp, setCurrentExp] = useState(0);
   const experiences = [
     {
@@ -114,7 +114,7 @@ export default function ExperienceAndWork() {
   return (
     <section className="experienceANDwork jnUoFC" id="experienceANDwork">
       <div className="sectionTitle sTitle-cs-1">
-        <div className="text-primary font-mono">03.</div>
+        <div className="text-primary font-mono">{props.count}</div>
         <div className="font-mono">Where I’ve Worked</div>
         <div className="horiLine">
           <div className="horiLineMain"></div>
