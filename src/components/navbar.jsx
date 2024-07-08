@@ -76,30 +76,30 @@ export default function Navbar(props) {
                 </a>
               </li> */}
               <li>
-                  <a href="#techstack">
-                    <span className="linkHighlight">02.</span> Tech Stack
-                  </a>
-                </li>
+                <a href="#techstack">
+                  <span className="linkHighlight">01.</span> Tech Stack
+                </a>
+              </li>
               <li>
-                  <a href="#experienceANDwork">
-                    <span className="linkHighlight">03.</span> Experience / Work
-                  </a>
-                </li>
-                <li>
+                <a href="#experienceANDwork">
+                  <span className="linkHighlight">02.</span> Experience / Work
+                </a>
+              </li>
+              <li>
                 <a href="#education">
-                  <span className="linkHighlight">04.</span> Education
+                  <span className="linkHighlight">03.</span> Education
                 </a>
               </li>
               <li>
                 <a href="#myProjects">
-                  <span className="linkHighlight">05.</span> Projects
+                  <span className="linkHighlight">04.</span> Projects
                 </a>
               </li>
-                <li>
-                  <a href="#contactMe">
-                    <span className="linkHighlight">06.</span> Contact
-                  </a>
-                </li>
+              <li>
+                <a href="#contactMe">
+                  <span className="linkHighlight">05.</span> Contact
+                </a>
+              </li>
             </ol>
             <div>
               <a
