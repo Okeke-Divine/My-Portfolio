@@ -51,6 +51,10 @@ export default function TechStack() {
       icon: <i className="fab fa-php"></i>,
       name: "PHP (Laravel)",
     },
+        {
+      icon: <i className="fa fa-file-code"></i>,
+      name: "Go (Gin)",
+    },
   ];
 
   const database = [
