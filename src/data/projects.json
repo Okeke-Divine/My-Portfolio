@@ -2,7 +2,7 @@
   "projects": {
     "portfoliia": {
       "title": "Portfoliia - Saas",
-      "description": "I created Portfoliia (Saas) to make building professional portfolios and resumes simple and fast. This CMS-powered platform has helped over 100 users create stunning portfolios. It also includes insightful analytics to track their performance.",
+      "description": "I created Portfoliia to make building professional portfolios and resumes simple and fast. This CMS-powered platform has helped over 100 users create stunning portfolios. It also includes insightful analytics to track their performance.",
       "tags": [
         "NextJS",
         "Tailwind",
@@ -20,7 +20,7 @@
     },
     "fluxnet": {
       "title": "Fluxnet - Saas",
-      "description": "I created Fluxnet (Saas) to streamline inventory management for small businesses. This free, intuitive app empowers users to efficiently track and manage their stock, helping them maintain optimal inventory levels and boost their operational efficiency.",
+      "description": "I created Fluxnet to streamline inventory management for small businesses. This free, intuitive app empowers users to efficiently track and manage their stock, helping them maintain optimal inventory levels and boost their operational efficiency.",
       "tags": [
         "NextJS",
         "Tailwind",
