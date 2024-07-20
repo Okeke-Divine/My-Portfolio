@@ -1,8 +1,8 @@
 {
   "projects": {
     "portfoliia": {
-      "title": "Portfoliia",
-      "description": "I created Portfoliia to make building professional portfolios and resumes simple and fast. This CMS-powered platform has helped over 100 users create stunning portfolios. It also includes insightful analytics to track their performance.",
+      "title": "Portfoliia - Saas",
+      "description": "I created Portfoliia (Saas) to make building professional portfolios and resumes simple and fast. This CMS-powered platform has helped over 100 users create stunning portfolios. It also includes insightful analytics to track their performance.",
       "tags": [
         "NextJS",
         "Tailwind",
@@ -16,6 +16,24 @@
         "livePreview": "https://portfoliia.vercel.app/"
       },
       "coverImage": "/assets/images/portfoliia/Screenshot (2422).png",
+      "slideShowImages": null
+    },
+    "fluxnet": {
+      "title": "Fluxnet - Saas",
+      "description": "I created Fluxnet (Saas) to streamline inventory management for small businesses. This free, intuitive app empowers users to efficiently track and manage their stock, helping them maintain optimal inventory levels and boost their operational efficiency.",
+      "tags": [
+        "NextJS",
+        "Tailwind",
+        "Daisy UI",
+        "Prisma",
+        "MySQL",
+        "Redis"
+      ],
+      "links": {
+        "github": null,
+        "livePreview": "https://fluxnet.com.ng/"
+      },
+      "coverImage": "/assets/images/fluxnet/845shots_so.png",
       "slideShowImages": null
     },
     "marokug": {
