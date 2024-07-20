@@ -1,5 +1,25 @@
 {
   "projects": {
+    "fluxnet": {
+      "title": "Fluxnet - Saas",
+      "description": "I created Fluxnet to streamline inventory management for small businesses. This free, intuitive app empowers users to efficiently track and manage their stock, helping them maintain optimal inventory levels and boost their operational efficiency.",
+      "tags": [
+        "NextJS",
+        "Tailwind",
+        "Daisy UI",
+        "Prisma",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Webhooks"
+      ],
+      "links": {
+        "github": null,
+        "livePreview": "https://fluxnet.com.ng/"
+      },
+      "coverImage": "/assets/images/fluxnet/845shots_so.png",
+      "slideShowImages": null
+    },
     "portfoliia": {
       "title": "Portfoliia - Saas",
       "description": "I created Portfoliia to make building professional portfolios and resumes simple and fast. This CMS-powered platform has empowered over 200 users to create stunning portfolios and includes insightful analytics to track their performance. Portfoliia also earned the 'Product of the Day' badge on Faizer.",
@@ -16,24 +36,6 @@
         "livePreview": "https://portfoliia.vercel.app/"
       },
       "coverImage": "/assets/images/portfoliia/Screenshot (2422).png",
-      "slideShowImages": null
-    },
-    "fluxnet": {
-      "title": "Fluxnet - Saas",
-      "description": "I created Fluxnet to streamline inventory management for small businesses. This free, intuitive app empowers users to efficiently track and manage their stock, helping them maintain optimal inventory levels and boost their operational efficiency.",
-      "tags": [
-        "NextJS",
-        "Tailwind",
-        "Daisy UI",
-        "Prisma",
-        "MySQL",
-        "Redis"
-      ],
-      "links": {
-        "github": null,
-        "livePreview": "https://fluxnet.com.ng/"
-      },
-      "coverImage": "/assets/images/fluxnet/845shots_so.png",
       "slideShowImages": null
     },
     "marokug": {
