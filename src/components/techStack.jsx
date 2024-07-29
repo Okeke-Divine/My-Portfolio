@@ -13,6 +13,10 @@ export default function TechStack(props) {
       name: "Typescript",
     },
     {
+      icon: <i className="fab fa-js"></i>,
+      name: "jQuery",
+    },
+    {
       icon: <i className="fa fa-code"></i>,
       name: "Tailwind CSS",
     },
@@ -21,12 +25,12 @@ export default function TechStack(props) {
       name: "Daisy UI",
     },
     {
-      icon: <i className="fab fa-bootstrap"></i>,
-      name: "Bootstrap",
+      icon: <i className="fa fa-code"></i>,
+      name: "Chakra UI",
     },
     {
-      icon: <i className="fab fa-js"></i>,
-      name: "jQuery",
+      icon: <i className="fab fa-bootstrap"></i>,
+      name: "Bootstrap",
     },
   ];
 
@@ -51,7 +55,7 @@ export default function TechStack(props) {
       icon: <i className="fab fa-php"></i>,
       name: "PHP (Laravel)",
     },
-        {
+    {
       icon: <i className="fa fa-file-code"></i>,
       name: "Go (Gin)",
     },
@@ -70,16 +74,28 @@ export default function TechStack(props) {
       icon: <i className="fas fa-database"></i>,
       name: "MongoDb",
     },
+    {
+      icon: <i className="fas fa-database"></i>,
+      name: "Redis",
+    },
   ];
 
   const otherTools = [
+    {
+      icon: <i className="fas fa-cog"></i>,
+      name: "AWS",
+    },
+    {
+      icon: <i className="fas fa-robot"></i>,
+      name: "Puppeteer",
+    },
     {
       icon: <i className="fab fa-git"></i>,
       name: "Git",
     },
     {
-      icon: <i className="fas fa-robot"></i>,
-      name: "Puppeteer",
+      icon: <i className="fa fa-file"></i>,
+      name: "Cloudinary",
     },
     {
       icon: <i className="fas fa-clock"></i>,
@@ -105,14 +121,7 @@ export default function TechStack(props) {
       icon: <i className="fas fa-cog"></i>,
       name: "Django ORM",
     },
-    {
-      icon: <i className="fa fa-file"></i>,
-      name: "Cloudinary",
-    },
-    {
-      icon: <i className="fas fa-cog"></i>,
-      name: "AWS",
-    },
+
   ];
 
   return (
