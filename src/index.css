@@ -34,3 +34,8 @@ code {
 .footerLinkList{
   justify-content: center;
 }
+
+.project-title{
+  word-break: break-all;
+  word-wrap: break-word;
+}
