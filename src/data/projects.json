@@ -1,8 +1,8 @@
 {
   "projects": {
     "fluxnet": {
-      "title": "Fluxnet - Saas",
-      "description": "I created Fluxnet to streamline inventory management for small businesses. This free, intuitive app empowers users to efficiently track and manage their stock, helping them maintain optimal inventory levels and boost their operational efficiency.",
+      "title": "Fluxinet – Saas",
+      "description": "I built Fluxinet to solve a real problem I noticed among small business owners around me — managing inventory was chaotic, often done with pen and paper or clunky spreadsheets. I wanted to make something simple, clean, and efficient. Since launching, over 700 Nigerian businesses have started using it to stay on top of their stock levels and streamline their operations. It's still growing, and I’m constantly improving it based on real feedback from everyday users.",
       "tags": [
         "NextJS",
         "Tailwind",
@@ -15,7 +15,7 @@
       ],
       "links": {
         "github": null,
-        "livePreview": "https://fluxnet.com.ng/"
+        "livePreview": "https://fluxinet.com/"
       },
       "coverImage": "/assets/images/fluxnet/845shots_so.png",
       "slideShowImages": null
@@ -48,8 +48,8 @@
         "MySql"
       ],
       "links": {
-        "github": "https://github.com/Okeke-Divine/marokug-frontend",
-        "livePreview": "https://marokug.vercel.app/"
+        "github": null,
+        "livePreview": null
       },
       "coverImage": "/assets/images/marokug/Screenshot (1929).png",
       "slideShowImages": null
@@ -72,7 +72,7 @@
     },
     "mtalers": {
       "title": "Mtalers",
-      "description": "Mtalers is an educational platform developed for a client, focusing on providing a comprehensive learning experience. It incorporates various technologies such as jQuery, Php and MySql to deliver interactive and engaging educational content. The platform aims to enhance the learning process through its user-friendly interface and extensive functionality.",
+      "description": "Mtalers is an educational blog developed for a client, focusing on providing a comprehensive learning experience. It incorporates various technologies such as jQuery, Php and MySql to deliver interactive and engaging educational content. The platform aims to enhance the learning process through its user-friendly interface and extensive functionality.",
       "tags": [
         "jQuery",
         "Php",
@@ -121,8 +121,8 @@
         "Prisma"
       ],
       "links": {
-        "github": "https://github.com/Okeke-Divine/Prod-Kayks",
-        "livePreview": "https://prodkayks.vercel.app"
+        "github": null,
+        "livePreview": null
       },
       "coverImage": "/assets/images/kayksW/Screenshot (2092).png",
       "slideShowImages": null
@@ -144,7 +144,7 @@
     },
     "strender": {
       "title": "Strender",
-      "description": "Web app for all your sports needs! Access news, scores, and highlights across every sport. Engage with anonymous comments and more. Your go-to sports hub, all in one place.",
+      "description": "I originally built Strender as a sports hub, but it’s grown into a full-on news platform. Now it supports all kinds of news — sports, politics, tech, whatever matters. It pulls in real-time updates, live scores, and highlights, and I kept the anonymous commenting so users can speak freely without filters. It’s my personal take on what a modern news platform should feel like.",
       "tags": [
         "React",
         "Tailwind",
