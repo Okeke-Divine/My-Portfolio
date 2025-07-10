@@ -26,7 +26,7 @@ export default function MainLayout(props) {
         <LeftSidebar openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
 
         {/* right sidebar */}
-        <RightSidebar openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
+        {/* <RightSidebar openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} /> */}
 
         <div className="mainContent">
 

@@ -11,7 +11,7 @@ export default function LandingScreen(props) {
         <h1>Hi, i'm</h1>
       </div>
       <div>
-        <h2 className="big-heading">Divine</h2>
+        <h2 className="big-heading">Divine-Vessel O.</h2>
       </div>
       <div>
         <h3 className="big-heading ibuildt">
