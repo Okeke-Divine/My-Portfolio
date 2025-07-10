@@ -23,7 +23,7 @@ export default function LandingScreen(props) {
       </div>
       <div className="contactMe-1-cont">
         <button
-          className="contactMe-1 contactMe-2"
+          className="contactMe-1 contactMe-2 btn-hover-1 transition-300"
           onClick={(e) =>
             openLinkInNewTab(
               mySocials["whatsapp"]
@@ -33,7 +33,7 @@ export default function LandingScreen(props) {
           Say Hello
         </button>
         <a
-          className="contactMe-1"
+          className="contactMe-1 btn-hover-2"
           href="#myProjects"
         >
           View My Work →

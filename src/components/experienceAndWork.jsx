@@ -39,7 +39,7 @@ export default function ExperienceAndWork(props) {
       exp: (
         <>
           <div className="highlitedTabTitle">
-            Technical Co-Founder @
+            Ex-Technical Co-Founder @
             <span className="text-primary" style={{ marginLeft: "5px" }}>
               Fluxinet
             </span>
@@ -127,7 +127,7 @@ export default function ExperienceAndWork(props) {
     <section className="experienceANDwork" id="experience">
       <div className="sectionTitle">
         <div className="text-primary font-mono">{props.count}</div>
-        <div className="font-mono">Where I've Built Things</div>
+        <div className="font-mono">Where I've Solved Real Problems</div>
         <div className="horiLine">
           <div className="horiLineMain"></div>
         </div>

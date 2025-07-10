@@ -13,7 +13,7 @@ export default function ContactMe(props) {
       </div>
       <div className="contactMeInfo-container">
         <div className="contactMeInfo">
-          I'm open to freelance projects and jobs.
+          I'm open to freelance projects and part-time engineering roles.
         </div>
       </div>
       <div className="sayHello">
@@ -21,7 +21,7 @@ export default function ContactMe(props) {
           className="sayHelloButton"
           onClick={(e) => openLinkInNewTab("https://wa.me/+2347064878285")}
         >
-          Say Hello (Whatsapp)
+          Say Hello
         </button>
       </div>
     </section>

@@ -38,7 +38,7 @@ export default function Footer({ socialMedia }) {
         </a>
       </section> */}
       <section className="text-center mt-2 mb-15">
-        &copy; Okeke Divine-Vessel - 2025
+        &copy; Divine‑Vessel O. - 2025
       </section>
     </>
   );
