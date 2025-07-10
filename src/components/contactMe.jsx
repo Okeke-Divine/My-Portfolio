@@ -13,9 +13,7 @@ export default function ContactMe(props) {
       </div>
       <div className="contactMeInfo-container">
         <div className="contactMeInfo">
-          I am actively seeking job opportunities and open to exciting offers in
-          the field. Ready to contribute and eager to explore new roles and
-          challenges.
+          I'm open to freelance projects and creative partnerships.
         </div>
       </div>
       <div className="sayHello">

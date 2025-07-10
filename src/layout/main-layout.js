@@ -37,22 +37,22 @@ export default function MainLayout(props) {
           {/* <AboutMe socialMedia={socialMedia} /> */}
 
           {/* my tech stack */}
-          <TechStack count={"01."} />
+          {/* <TechStack count={"01."} /> */}
 
           {/*ExperienceAndWork*/}
-          <ExperienceAndWork count={"02."} />
+          <ExperienceAndWork count={"01."} />
 
           {/* My education */}
-          <Education count={"03."} />
+          {/* <Education count={"03."} /> */}
 
           {/*myProjects*/}
-          <MyProjects openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} count={"04."} />
+          <MyProjects openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} count={"02."} />
 
           {/* gigs */}
           {/* <Gigs openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} /> */}
 
           {/*contact me*/}
-          <ContactMe openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} count={"05."} />
+          <ContactMe openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} count={"03."} />
 
           {/*footer*/}
           <Footer socialMedia={socialMedia} />

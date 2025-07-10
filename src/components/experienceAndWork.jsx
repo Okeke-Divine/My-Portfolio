@@ -3,6 +3,42 @@ export default function ExperienceAndWork(props) {
   const [currentExp, setCurrentExp] = useState(0);
   const experiences = [
     {
+      name: "Ilanafuse",
+      exp: (
+        <>
+          <div className="highlitedTabTitle">
+            Full Stack Software Engineer @
+            <a
+              // href="#"
+              style={{ marginLeft: "5px" }}
+              className="text-primary"
+            >
+              Ilanafuse
+            </a>
+          </div>
+          <div className="highlitedTabSubTitle">August 2024 - Present</div>
+        </>
+      ),
+    },
+    {
+      name: "Fluxinet",
+      exp: (
+        <>
+          <div className="highlitedTabTitle">
+            Ex Technical Co-Founder @
+            <a
+              // href="#"
+              style={{ marginLeft: "5px" }}
+              className="text-primary"
+            >
+              Fluxinet
+            </a>
+          </div>
+          <div className="highlitedTabSubTitle">Mar 2024 - Mar 2025</div>
+        </>
+      ),
+    },
+    {
       name: "Jujora",
       exp: (
         <>
