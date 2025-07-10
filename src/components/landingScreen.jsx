@@ -30,26 +30,14 @@ export default function LandingScreen(props) {
             )
           }
         >
-          Contact Me
+          Say Hello
         </button>
         <a
           className="contactMe-1"
           href="#myProjects"
-          // onClick={(e) =>
-          //   openLinkInNewTab(
-          //     "/Resume - Full Stack Software Engineer - Okeke Divine-Vessel.pdf"
-          //   )
-          // }
         >
-          See my work
+          View My Work →
         </a>
-        {/* <button
-          className="contactMe-1"
-          onClick={(e) => openLinkInNewTab(socialMedia.mySocials.github)}
-        >
-          <i className="fa fa-github mr-2"></i>
-          Github
-        </button> */}
       </div>
     </section>
   );

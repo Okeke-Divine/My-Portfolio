@@ -4,6 +4,9 @@ export default function Navbar(props) {
   const navbarLinks = useRef();
   const expandButtonIcon = useRef();
 
+  const socialMedia = props.socialMedia;
+  const mySocials = socialMedia.mySocials;
+
   const [scrollingUp, setScrollingUp] = useState(true);
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollPosition, setLastScrollPosition] = useState(0);
@@ -65,11 +68,11 @@ export default function Navbar(props) {
           </div>
           <div className="navbarLinks" ref={navbarLinks} isopened="false">
             <ol>
-              <li>
+              {/* <li>
                 <a href="#me">
                   <span className="linkHighlight">00.</span> Intro
                 </a>
-              </li>
+              </li> */}
               {/* <li>
                 <a href="#about">
                   <span className="linkHighlight">01.</span> About
@@ -81,7 +84,7 @@ export default function Navbar(props) {
                 </a>
               </li> */}
               <li>
-                <a href="#experienceANDwork">
+                <a href="#experience">
                   <span className="linkHighlight">01.</span> Experience / Work
                 </a>
               </li>
@@ -104,10 +107,10 @@ export default function Navbar(props) {
             <div>
               <a
                 className="resume-button"
-                href="/Resume - Full Stack Software Engineer - Okeke Divine-Vessel.pdf"
+                href={mySocials["whatsapp"]}
                 target="_blank"
               >
-                Resume
+                Say Hello
               </a>
             </div>
           </div>
