@@ -18,10 +18,10 @@ export default function ExperienceAndWork(props) {
           <div className="highlitedTabContent">
             <ul>
               <li>
-                <b>Built a comprehensive FHIR server from scratch</b> to enable seamless health data exchange across CCDA, HL7, and FHIR standards
+                <b>I built a comprehensive FHIR server from scratch</b> to enable seamless health data exchange across CCDA, HL7, and FHIR standards
               </li>
               <li>
-                <b>Developed an EHR frontend</b> with multi-server integration, OAuth management, and secure credential handling using two-way encryption
+                <b>Developed an EHR frontend</b> with multi-server integration, OAuth management, and secure credential handling
               </li>
               <li>
                 <b>Created an interactive FHIR resource browser</b> with dynamic query building - essentially Postman for healthcare data
@@ -39,7 +39,7 @@ export default function ExperienceAndWork(props) {
       exp: (
         <>
           <div className="highlitedTabTitle">
-            Ex-Technical Co-Founder @
+            Technical Co-Founder @
             <span className="text-primary" style={{ marginLeft: "5px" }}>
               Fluxinet
             </span>
@@ -48,7 +48,7 @@ export default function ExperienceAndWork(props) {
           <div className="highlitedTabContent">
             <ul>
               <li>
-                <b>Built and launched an inventory SaaS</b> that replaced pen-and-paper systems for 700+ Nigerian businesses
+                <b>I built and launched an inventory SaaS</b> that replaced pen-and-paper systems for 700+ Nigerian businesses
               </li>
               <li>
                 <b>Handled full-stack development</b> including security implementation (rate limiting, encryption)
@@ -57,7 +57,37 @@ export default function ExperienceAndWork(props) {
                 <b>Integrated multi-currency payments</b> (USD & NGN) for business subscriptions
               </li>
               <li>
-                <b>Continuously refined product</b> based on user feedback from active customers
+                <b>Continuously refined product</b> based on direct user feedback
+              </li>
+            </ul>
+          </div>
+        </>
+      ),
+    },
+    {
+      name: "Lily Solutions",
+      exp: (
+        <>
+          <div className="highlitedTabTitle">
+            Backend Developer @
+            <span className="text-primary" style={{ marginLeft: "5px" }}>
+              Lily Solutions
+            </span>
+          </div>
+          <div className="highlitedTabSubTitle">July 2024 - December 2024</div>
+          <div className="highlitedTabContent">
+            <ul>
+              <li>
+                <b>Built the core backend systems</b> for a food delivery platform handling vendor, logistics and customer operations
+              </li>
+              <li>
+                <b>Integrated payment processing</b> and implemented WebSockets for real-time order tracking
+              </li>
+              <li>
+                <b>Created a proximity-based matching algorithm</b> to optimize delivery routes between vendors and customers
+              </li>
+              <li>
+                <b>Collaborated with frontend team</b> to ensure seamless API integrations across the platform
               </li>
             </ul>
           </div>
@@ -78,10 +108,10 @@ export default function ExperienceAndWork(props) {
           <div className="highlitedTabContent">
             <ul>
               <li>
-                <b>Led a 4-developer team</b> to build a farmer-to-buyer platform that increased farmer profits by 40%
+                <b>Led a 4-developer team</b> building farmer-to-buyer platform that increased farmer profits by 40%
               </li>
               <li>
-                <b>Designed transaction dashboard</b> used by board of directors for decision-making
+                <b>Designed transaction dashboard</b> used by board of directors for strategic decisions
               </li>
               <li>
                 <b>Integrated secure payment gateway</b> handling thousands of transactions

@@ -13,7 +13,7 @@ export default function ContactMe(props) {
       </div>
       <div className="contactMeInfo-container">
         <div className="contactMeInfo">
-          I'm open to freelance projects and creative partnerships.
+          I'm open to freelance projects and jobs.
         </div>
       </div>
       <div className="sayHello">
