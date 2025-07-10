@@ -1,22 +1,36 @@
 import { useState } from "react";
+
 export default function ExperienceAndWork(props) {
   const [currentExp, setCurrentExp] = useState(0);
+  
   const experiences = [
     {
       name: "Ilanafuse",
       exp: (
         <>
           <div className="highlitedTabTitle">
-            Full Stack Software Engineer @
-            <a
-              // href="#"
-              style={{ marginLeft: "5px" }}
-              className="text-primary"
-            >
+            Full Stack Engineer @
+            <span className="text-primary" style={{ marginLeft: "5px" }}>
               Ilanafuse
-            </a>
+            </span>
           </div>
           <div className="highlitedTabSubTitle">August 2024 - Present</div>
+          <div className="highlitedTabContent">
+            <ul>
+              <li>
+                <b>Built a comprehensive FHIR server from scratch</b> to enable seamless health data exchange across CCDA, HL7, and FHIR standards
+              </li>
+              <li>
+                <b>Developed an EHR frontend</b> with multi-server integration, OAuth management, and secure credential handling using two-way encryption
+              </li>
+              <li>
+                <b>Created an interactive FHIR resource browser</b> with dynamic query building - essentially Postman for healthcare data
+              </li>
+              <li>
+                <b>Implemented auth flows</b> that securely connect both internal and external FHIR servers
+              </li>
+            </ul>
+          </div>
         </>
       ),
     },
@@ -25,16 +39,28 @@ export default function ExperienceAndWork(props) {
       exp: (
         <>
           <div className="highlitedTabTitle">
-            Ex Technical Co-Founder @
-            <a
-              // href="#"
-              style={{ marginLeft: "5px" }}
-              className="text-primary"
-            >
+            Ex-Technical Co-Founder @
+            <span className="text-primary" style={{ marginLeft: "5px" }}>
               Fluxinet
-            </a>
+            </span>
           </div>
           <div className="highlitedTabSubTitle">Mar 2024 - Mar 2025</div>
+          <div className="highlitedTabContent">
+            <ul>
+              <li>
+                <b>Built and launched an inventory SaaS</b> that replaced pen-and-paper systems for 700+ Nigerian businesses
+              </li>
+              <li>
+                <b>Handled full-stack development</b> including security implementation (rate limiting, encryption)
+              </li>
+              <li>
+                <b>Integrated multi-currency payments</b> (USD & NGN) for business subscriptions
+              </li>
+              <li>
+                <b>Continuously refined product</b> based on user feedback from active customers
+              </li>
+            </ul>
+          </div>
         </>
       ),
     },
@@ -43,94 +69,22 @@ export default function ExperienceAndWork(props) {
       exp: (
         <>
           <div className="highlitedTabTitle">
-            Lead Full Stack Software Engineer @
-            <a
-              // href="#"
-              style={{ marginLeft: "5px" }}
-              className="text-primary"
-            >
+            Lead Engineer @
+            <span className="text-primary" style={{ marginLeft: "5px" }}>
               Jujora
-            </a>
+            </span>
           </div>
           <div className="highlitedTabSubTitle">Jan 2024 - June 2024</div>
           <div className="highlitedTabContent">
             <ul>
               <li>
-                <b>Led a team of 4 developers</b>, resulting in a 40% increase in
-                development velocity through optimized workflows and code
-                reviews.
+                <b>Led a 4-developer team</b> to build a farmer-to-buyer platform that increased farmer profits by 40%
               </li>
               <li>
-                <b>Designed and Coded an e-commerce platform</b> connecting farmers
-                directly with buyers, <b>reducing middlemen costs by 25%</b> and <b>increasing farmer profits by 40% within the first quarter.</b>
+                <b>Designed transaction dashboard</b> used by board of directors for decision-making
               </li>
               <li>
-                <b>Reported directly to CPO:</b> Engineering lead for designing and
-                <b>developing the companys’ transaction dashboard</b> that provides a
-                rich visual summary of daily user purchase patterns powered by
-                Google Chart. <b>Used by the board of directors in the
-                  decision-making process.</b>
-              </li>
-              <li>
-                Collaborated with the UI/UX team to <b>refine the e-commerce
-                  platform's user interface</b>, ensuring an intuitive and
-                user-friendly experience for both farmers and consumers.
-              </li>
-              <li>
-                Worked closely with back-end developers to <b>integrate a secure
-                  payment gateway</b>, enabling seamless online transactions for
-                Jujora's customers.
-              </li>
-            </ul>
-          </div>
-        </>
-      ),
-    },
-    {
-      name: "Marokug",
-      exp: (
-        <>
-          <div className="highlitedTabTitle">
-            Full Stack Web Developer @
-            <a
-              // href="https://marokug.vercel.app/"
-              style={{ marginLeft: "5px" }}
-              target="_blank"
-              className="text-primary"
-            >
-              Marokug
-            </a>
-          </div>
-          <div className="highlitedTabSubTitle">March 2023 - Dec 2023</div>
-          <div className="highlitedTabContent">
-            <ul>
-              <li>
-                <b>Enhanced student participation and interaction by 15%</b> by
-                implementing a <b>gamified learning experience</b> with points, badges,
-                and leaderboards
-              </li>
-              <li>
-                <b>Increased student course completion rates by 20%</b> through
-                collaboration with UI/UX designers to create a more
-                user-friendly and engaging interface for thecompany's education
-                platform.
-              </li>
-              <li>
-                Developed and deployed the <b>back-end infrastructure for a new
-                  interactive assessment system</b>, enabling efficient evaluation of
-                student learning outcomes for a <b>user base of 2800+ students.</b>
-              </li>
-              <li>
-                Collaborated with UI/UX designers to <b>convert the education
-                  platform UI to a more user-friendly and engaging interface,
-                  leading to a significant increase in student course completion
-                  rates.</b>
-              </li>
-              <li>
-                <b>Optimized and scaled the company's database</b> to ensure smooth
-                operation and <b>accommodate a 300% growth in users</b>, while <b>reducing
-                  API latency by 50%</b> through implementing caching mechanisms and
-                optimizing database queries.
+                <b>Integrated secure payment gateway</b> handling thousands of transactions
               </li>
             </ul>
           </div>
@@ -138,36 +92,32 @@ export default function ExperienceAndWork(props) {
       ),
     }
   ];
-  function updateCurrentExp(e) {
-    setCurrentExp(e);
-  }
+
   return (
-    <section className="experienceANDwork jnUoFC" id="experienceANDwork">
-      <div className="sectionTitle sTitle-cs-1">
+    <section className="experienceANDwork" id="experience">
+      <div className="sectionTitle">
         <div className="text-primary font-mono">{props.count}</div>
-        <div className="font-mono">Where I’ve Worked</div>
+        <div className="font-mono">Where I've Built Things</div>
         <div className="horiLine">
           <div className="horiLineMain"></div>
         </div>
       </div>
-      <div className="dijdij398h8">
-        Swipe/Scroll <i className="fa fa-angle-double-left"></i> left or right{" "}
-        <i className="fa fa-angle-double-right"></i>
-      </div>
+      
       <div className="eAw">
         <div className="left">
-          {experiences.map((experience, index) => (
+          {experiences.map((exp, index) => (
             <div
-              className={currentExp == index ? "active" : ""}
-              onClick={() => updateCurrentExp(index)}
               key={index}
+              className={currentExp === index ? "active" : ""}
+              onClick={() => setCurrentExp(index)}
             >
-              {experience.name}
+              {exp.name}
             </div>
           ))}
         </div>
+        
         <div className="right">
-          <div>{experiences[currentExp].exp}</div>
+          {experiences[currentExp].exp}
         </div>
       </div>
     </section>
