@@ -39,6 +39,13 @@ export default function LandingScreen(props) {
         >
           View My Work →
         </a>
+        <a
+          className="contactMe-1 link-1 myResume"
+          href="/Resume - Full Stack Software Engineer - Okeke Divine-Vessel.pdf"
+          target="_blank"
+        >
+          My Resume
+        </a>
       </div>
     </section>
   );

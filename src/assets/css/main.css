@@ -1095,15 +1095,21 @@ ul {
 
 
 .footerLinkList a,
+.link-1,
 .navbarLinks ol li a {
   transition: 0.3s;
   border-bottom: 1px dotted transparent;
 }
 
 .footerLinkList a:hover,
+.link-1:hover,
 .navbarLinks ol li a:hover {
   color: var(--col-primary);
-  border-bottom: 1px dotted;
+  border-bottom: 1px dotted !important;
+}
+
+.myResume{
+  border: transparent!important;
 }
 
 .otherProjectTags {
