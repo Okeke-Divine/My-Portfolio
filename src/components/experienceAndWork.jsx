@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function ExperienceAndWork(props) {
   const [currentExp, setCurrentExp] = useState(0);
-  
+
   const experiences = [
     {
       name: "Ilanafuse",
@@ -18,16 +18,16 @@ export default function ExperienceAndWork(props) {
           <div className="highlitedTabContent">
             <ul>
               <li>
-                <b>I built a comprehensive FHIR server from scratch</b> to enable seamless health data exchange across CCDA, HL7, and FHIR standards
+                <b>I built a comprehensive FHIR server from scratch</b> for <b>50K+ patient records</b> to enable seamless health data exchange across CCDA and HL7 standards
               </li>
               <li>
                 <b>Developed an EHR frontend</b> with multi-server integration, OAuth management, and secure credential handling
               </li>
               <li>
-                <b>Created an interactive FHIR resource browser</b> with dynamic query building - essentially Postman for healthcare data
+                <b>Created an interactive FHIR resource browser</b> with dynamic query building that enabled healthcare organizations to perform in-depth analytics on their patients
               </li>
               <li>
-                <b>Implemented auth flows</b> that securely connect both internal and external FHIR servers
+                <b>Implemented secure auth flows</b> bridging internal & external FHIR servers
               </li>
             </ul>
           </div>
@@ -57,7 +57,7 @@ export default function ExperienceAndWork(props) {
                 <b>Integrated multi-currency payments</b> (USD & NGN) for business subscriptions
               </li>
               <li>
-                <b>Continuously refined product</b> based on direct user feedback
+                <b>Shipped 15+ user-requested features</b> increasing retention by 30%
               </li>
             </ul>
           </div>
@@ -132,7 +132,7 @@ export default function ExperienceAndWork(props) {
           <div className="horiLineMain"></div>
         </div>
       </div>
-      
+
       <div className="eAw">
         <div className="left">
           {experiences.map((exp, index) => (
@@ -145,7 +145,7 @@ export default function ExperienceAndWork(props) {
             </div>
           ))}
         </div>
-        
+
         <div className="right">
           {experiences[currentExp].exp}
         </div>
