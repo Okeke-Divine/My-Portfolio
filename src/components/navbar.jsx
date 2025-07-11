@@ -110,7 +110,7 @@ export default function Navbar(props) {
                 href={mySocials["whatsapp"]}
                 target="_blank"
               >
-                Say Hello
+                Let's talk
               </a>
             </div>
           </div>

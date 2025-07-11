@@ -21,7 +21,7 @@ export default function ContactMe(props) {
           className="sayHelloButton"
           onClick={(e) => openLinkInNewTab("https://wa.me/+2347064878285")}
         >
-          Say Hello
+          Let's talk
         </button>
       </div>
     </section>

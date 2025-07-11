@@ -19,7 +19,7 @@ export default function Footer({ socialMedia }) {
           )}
         </div>
       </section>
-      {/* <section className="footer jnUoFC">
+      <section className="footer jnUoFC">
         Designed by{" "}
         <a
           href={socialMedia.originalCreatorBchiang}
@@ -36,7 +36,7 @@ export default function Footer({ socialMedia }) {
         >
           Okeke Divine-Vessel <i className="fa fa-external-link fj93j9r"></i>
         </a>
-      </section> */}
+      </section>
       <section className="text-center mt-2 mb-15">
         &copy; Divine‑Vessel O. - 2025
       </section>

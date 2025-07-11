@@ -8,18 +8,19 @@ export default function LandingScreen(props) {
   return (
     <section className="landingScreen jnUoFC" id="me">
       <div className="hi">
-        <h1>Hi, i'm</h1>
+        <h1>Hi, I'm</h1>
       </div>
       <div>
         <h2 className="big-heading">Divine-Vessel O.</h2>
       </div>
       <div>
         <h3 className="big-heading ibuildt">
-          <TypewriterEffect text="I build pixel-perfect, engaging, and accessible digital experiences." speed={50} pauseFor={5000} />
+          {/* <TypewriterEffect text="I build pixel-perfect, engaging, and accessible digital experiences." speed={50} pauseFor={5000} /> */}
+          Full Stack Software Engineer
         </h3>
       </div>
       <div className="breifIntro">
-        I’m a full-stack dev with 5 years of experience building real-world apps and server based architectures using JavaScript, Python, and PHP.
+        I’m a full-stack engineer with 5 years of experience building real-world apps and server-side architectures using JavaScript, Python, and PHP.
       </div>
       <div className="contactMe-1-cont">
         <button
@@ -30,7 +31,7 @@ export default function LandingScreen(props) {
             )
           }
         >
-          Say Hello
+          Let's talk
         </button>
         <a
           className="contactMe-1 btn-hover-2"
