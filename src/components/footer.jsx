@@ -34,7 +34,7 @@ export default function Footer({ socialMedia }) {
           target="_blank"
           className="designNdInspiredByLink"
         >
-          Okeke Divine-Vessel <i className="fa fa-external-link fj93j9r"></i>
+          Divine‑Vessel O. <i className="fa fa-external-link fj93j9r"></i>
         </a>
       </section>
       <section className="text-center mt-2 mb-15">
