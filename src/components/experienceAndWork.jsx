@@ -39,7 +39,7 @@ export default function ExperienceAndWork(props) {
       exp: (
         <>
           <div className="highlitedTabTitle">
-            Ex-Technical Co-Founder @
+            Technical Co-Founder @
             <span className="text-primary" style={{ marginLeft: "5px" }}>
               Fluxinet
             </span>
