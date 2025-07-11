@@ -118,7 +118,7 @@ body {
 }
 
 .btn-hover-1:hover {
-  background: var(--col-primary-hover)!important;
+  background: var(--col-primary-hover) !important;
   color: var(--col-dark);
 }
 
@@ -205,11 +205,11 @@ a {
   border: 1px solid var(--col-primary);
   border-radius: var(--border-radius);
   padding: 0.75rem 1rem;
+  font-size: var(--fz-xs);
   font-family: var(--font-mono);
   text-decoration: none;
   transition: var(--transition);
   margin-left: 15px;
-  font-size: var(--fz-xs);
   position: relative;
   top: 5px;
   font-family: var(--CalibreMedium);
@@ -356,7 +356,13 @@ a {
   row-gap: 10px;
 }
 
-.contactMe-1-cont .contactMe-1 {
+.btn-sm {
+  padding: 0.75rem 1rem!important;
+  font-size: var(--fz-xs);
+}
+
+.contactMe-1-cont .contactMe-1,
+.btn-2 {
   border: 1px solid var(--col-primary);
   border-radius: 3px;
   background: transparent;

@@ -6,20 +6,14 @@ import axios from "axios";
 export default function OtherProjects(props) {
   const openLinkInNewTab = props.openLinkInNewTab;
   const socialMedia = props.socialMedia;
+
   const [repos, setRepos] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [showAll, setShowAll] = useState(false);
   const [loadingComponent, setLoadingComponent] = useState("Loading...");
 
-  useEffect(
-    function () {
-      if (isLoading == false) {
-        setLoadingComponent("");
-      }
-    },
-    [isLoading]
-  );
-
   const api = "https://api.github.com/users/okeke-divine/repos?sort=pushed";
+
   useEffect(() => {
     const fetchRepos = async () => {
       setIsLoading(true);
@@ -28,26 +22,31 @@ export default function OtherProjects(props) {
         setRepos(response.data);
         setIsLoading(false);
       } catch (error) {
-        setIsLoading(true);
-      } finally {
-        // setIsLoading(false);
+        setIsLoading(false); // Fix this to avoid stuck loading
       }
     };
 
     fetchRepos();
   }, []);
 
+  useEffect(() => {
+    if (!isLoading) setLoadingComponent("");
+  }, [isLoading]);
+
+  const displayedRepos = showAll ? repos : repos.slice(0, 9);
+
   return (
     <div className="otherProjects">
       <div className="otherProjectsTitle">Other Noteworthy Projects</div>
       <div className="otherProjectsLinkOnGithub">
         <a href={socialMedia.mySocials.github} target="_blank" className="text-primary">
-          view the archieve (github)
+          view the archive (github)
         </a>
       </div>
+
       <div className="otherProjectsFlexContainer">
         {loadingComponent}
-        {repos.map((repo, index) => (
+        {displayedRepos.map((repo, index) => (
           <OtherProjectItemComponent
             key={index}
             openLinkInNewTab={openLinkInNewTab}
@@ -64,6 +63,17 @@ export default function OtherProjects(props) {
           />
         ))}
       </div>
+
+      {repos.length > 9 && (
+        <div className="toggleShowMoreBtn text-center mt-4">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="btn-2 btn-sm btn-hover-2 transition-300"
+          >
+            {showAll ? "Show Less" : "Show More"}
+          </button>
+        </div>
+      )}
     </div>
   );
 }
