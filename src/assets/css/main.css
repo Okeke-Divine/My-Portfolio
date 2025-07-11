@@ -245,7 +245,13 @@ a {
   transition: 0.3s;
 }
 
-.sidebarSocials .icons a:hover {
+.projectLinkIcon {
+  transition: 0.3s;
+}
+
+.sidebarSocials .icons a:hover,
+.projectLinkIcon:hover {
+  transition: 0.3s;
   color: var(--col-primary);
 }
 
@@ -357,7 +363,7 @@ a {
 }
 
 .btn-sm {
-  padding: 0.75rem 1rem!important;
+  padding: 0.75rem 1rem !important;
   font-size: var(--fz-xs);
 }
 
@@ -1087,12 +1093,15 @@ ul {
   /* justify-content: space-between; */
 }
 
-.footerLinkList a {
+
+.footerLinkList a,
+.navbarLinks ol li a {
   transition: 0.3s;
   border-bottom: 1px dotted transparent;
 }
 
-.footerLinkList a:hover {
+.footerLinkList a:hover,
+.navbarLinks ol li a:hover {
   color: var(--col-primary);
   border-bottom: 1px dotted;
 }

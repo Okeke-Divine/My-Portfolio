@@ -19,11 +19,11 @@ export default function OtherProjectItemComponent(props) {
         </div>
         <div>
           {(projectLinks.github != null || projectLinks.github != "" ) ? (
-            <div className="" onClick={(e) => openLinkInNewTab(projectLinks.github)}>
+            <div className="projectLinkIcon" onClick={(e) => openLinkInNewTab(projectLinks.github)}>
               <i className="fa fa-github"></i>
             </div>) : (null)}
           {(projectLinks.livePreview != null & projectLinks.livePreview != "") ? (
-            <div className="" onClick={(e) => openLinkInNewTab(projectLinks.livePreview)}>
+            <div className="projectLinkIcon" onClick={(e) => openLinkInNewTab(projectLinks.livePreview)}>
               <i className="fa fa-external-link"></i>
             </div>) : (null)}
         </div>

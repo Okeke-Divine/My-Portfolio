@@ -65,7 +65,7 @@ export default function ProjectItemComponent(props) {
               {projectDescription}
             </div>
             <div className="projectsTags">
-              Built with: {projectTagsComponents}
+              {projectTagsComponents}
             </div>
             {projectSlideShowImages !== null ?
               (<div className="projectSlideshowCTA">
@@ -88,7 +88,7 @@ export default function ProjectItemComponent(props) {
               {projectDescription}
             </div>
             <div className="projectsTags">
-              Built with: {projectTagsComponents}
+              {projectTagsComponents}
             </div>
             {projectSlideShowImages !== null ?
               (<div className="projectSlideshowCTA">
