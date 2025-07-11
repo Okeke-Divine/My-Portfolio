@@ -9,7 +9,7 @@ export default function ContactMe(props) {
         <div>What’s Next?</div>
       </div>
       <div>
-        <h2 className="big-heading getInTouch">Get in Touch</h2>
+        <h2 className="big-heading getInTouch">Let's talk</h2>
       </div>
       <div className="contactMeInfo-container">
         <div className="contactMeInfo">
