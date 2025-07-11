@@ -19,7 +19,7 @@ export default function LandingScreen(props) {
         </h3>
       </div>
       <div className="breifIntro">
-        I craft digital experiences that users love, from pixel-perfect UIs to scalable backends. My superpower? Turning complex problems into simple, joyful solutions
+        I’m a full-stack dev with 5 years of experience building real-world apps and server based architectures using JavaScript, Python, and PHP.
       </div>
       <div className="contactMe-1-cont">
         <button
