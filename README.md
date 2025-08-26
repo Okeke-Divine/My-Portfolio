@@ -8,8 +8,6 @@
 ## 📖 Overview
 This is the source code for my personal developer portfolio, a **responsive React application** designed to showcase my projects and skills in a clear, professional manner. It demonstrates practical frontend engineering with a focus on clean code and user experience.
 
-## ⚡ The Engineering Choice
-
 ## 🛠️ Tech Stack
 - **Frontend:** React.js
 - **Language:** JavaScript
