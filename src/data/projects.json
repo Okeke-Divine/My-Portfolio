@@ -111,37 +111,6 @@
       "coverImage": "/assets/images/geepay-frontend-challenge/Screenshot (1803).png",
       "slideShowImages": null
     },
-    "music website": {
-      "title": "Beat Website for Prod. Kayks",
-      "description": "This project is a dynamic and immersive beat website crafted for the talented music producer, Kayks. Utilizing technologies such as Next.js, Tailwind, PostgreSQL and RESTful Api, the website provides a seamless platform for showcasing Kayks' musical creations (such as: beats, final mixes, mashups and lots more). From elegant design elements to a user-friendly interface, the website aims to enhance the overall music discovery experience.",
-      "tags": [
-        "NextJs",
-        "Tailwind",
-        "Postgres",
-        "Prisma"
-      ],
-      "links": {
-        "github": null,
-        "livePreview": null
-      },
-      "coverImage": "/assets/images/kayksW/Screenshot (2092).png",
-      "slideShowImages": null
-    },
-    "jujora": {
-      "title": "Jujora",
-      "description": "At Jujora, I built an e-commerce app connecting farmers directly with buyers. Shop fresh produce, support local farmers, and enjoy transparency in your food supply chain—all in one place.",
-      "tags": [
-        "NextJs",
-        "Tailwind",
-        "Postgres"
-      ],
-      "links": {
-        "github": null,
-        "livePreview": null
-      },
-      "coverImage": "/assets/images/jujora/Screenshot (2075).png",
-      "slideShowImages": null
-    },
     "strender": {
       "title": "Strender",
       "description": "I originally built Strender as a sports hub, but it’s grown into a full-on news platform. Now it supports all kinds of news — sports, politics, tech, whatever matters. It pulls in real-time updates, live scores, and highlights, and I kept the anonymous commenting so users can speak freely without filters. It’s my personal take on what a modern news platform should feel like.",
