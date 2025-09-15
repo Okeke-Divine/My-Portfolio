@@ -28,7 +28,7 @@ export default function Footer({ socialMedia }) {
         >
           Brittany Chiang <i className="fa fa-external-link fj93j9r"></i>
         </a>{" "}
-        & Rebuilt by{" "}
+        & Reimagined and Rebuilt by{" "}
         <a
           href={socialMedia.mySocials.github}
           target="_blank"

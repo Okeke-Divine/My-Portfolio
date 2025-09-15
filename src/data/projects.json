@@ -1,5 +1,23 @@
 {
   "projects": {
+    "portfoliia": {
+      "title": "Portfoliia - Saas",
+      "description": "I created Portfoliia to make building professional portfolios and resumes simple and fast. This CMS-powered platform has empowered over 200 users to create stunning portfolios and includes insightful analytics to track their performance. Portfoliia also earned the 'Product of the Day' badge on Faizer.",
+      "tags": [
+        "NextJS",
+        "Tailwind",
+        "Daisy UI",
+        "Prisma",
+        "MySQL",
+        "Redis"
+      ],
+      "links": {
+        "github": null,
+        "livePreview": "https://portfoliia.vercel.app/"
+      },
+      "coverImage": "/assets/images/portfoliia/Screenshot (2422).png",
+      "slideShowImages": null
+    },
     "fluxnet": {
       "title": "Fluxinet – Saas",
       "description": "I built Fluxinet to solve a real problem I noticed among small business owners around me — managing inventory was chaotic, often done with pen and paper or clunky spreadsheets. I wanted to make something simple, clean, and efficient. Since launching, over 700 Nigerian businesses have started using it to stay on top of their stock levels and streamline their operations. It's still growing, and I’m constantly improving it based on real feedback from everyday users.",
@@ -18,24 +36,6 @@
         "livePreview": "https://fluxinet.com/"
       },
       "coverImage": "/assets/images/fluxnet/845shots_so.png",
-      "slideShowImages": null
-    },
-    "portfoliia": {
-      "title": "Portfoliia - Saas",
-      "description": "I created Portfoliia to make building professional portfolios and resumes simple and fast. This CMS-powered platform has empowered over 200 users to create stunning portfolios and includes insightful analytics to track their performance. Portfoliia also earned the 'Product of the Day' badge on Faizer.",
-      "tags": [
-        "NextJS",
-        "Tailwind",
-        "Daisy UI",
-        "Prisma",
-        "MySQL",
-        "Redis"
-      ],
-      "links": {
-        "github": null,
-        "livePreview": "https://portfoliia.vercel.app/"
-      },
-      "coverImage": "/assets/images/portfoliia/Screenshot (2422).png",
       "slideShowImages": null
     },
     "marokug": {

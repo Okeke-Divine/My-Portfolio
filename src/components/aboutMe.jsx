@@ -18,6 +18,17 @@ export default function AboutMe(props) {
           <div className="sectionContentList">
             When I'm not coding, you can find me exploring a new tech or thinking about the next product idea. I'm always open to new challenges and opportunities to learn.
           </div>
+          <div class="tech-section">
+            <h3 class="tech-heading">Here are a few technologies I've been working with recently:</h3>
+            <ul class="tech-list">
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>PHP</li>
+              <li>NextJS</li>
+              <li>Docker</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="right">

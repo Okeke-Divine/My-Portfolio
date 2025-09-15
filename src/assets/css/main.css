@@ -1280,6 +1280,41 @@ ul {
   gap:15px;
 }
 
+
+.tech-section {
+  margin-top: 2.5rem;
+}
+
+.tech-heading {
+  font-family: var(--font-sans);
+  font-size: var(--fz-lg);
+  color: var(--white-1);
+  margin-bottom: 1.5rem;
+}
+
+.tech-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem 2rem;
+  padding-left: 1.5rem;
+}
+
+.tech-list li {
+  position: relative;
+  font-family: var(--font-mono);
+  font-size: var(--fz-sm);
+  color: var(--slate);
+  list-style: none;
+}
+
+.tech-list li::before {
+  content: "▹";
+  position: absolute;
+  left: -1.5rem;
+  color: var(--col-primary);
+  font-size: var(--fz-sm);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .timeline::before {
