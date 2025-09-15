@@ -107,7 +107,7 @@ export default function Navbar(props) {
             <div>
               <a
                 className="resume-button btn-hover-1 transition-300"
-                href={mySocials["whatsapp"]}
+                href={mySocials["linkedin"]}
                 target="_blank"
               >
                 Let's talk

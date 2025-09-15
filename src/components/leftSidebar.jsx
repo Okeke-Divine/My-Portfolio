@@ -21,14 +21,14 @@ export default function LeftSidebar(props) {
           <i className="fa fa-github"></i>
         </a>
       </div>
-      <div
+      {/* <div
         className="icons"
         onClick={(e) => openLinkInNewTab("mailto:" + socialMedia.mySocials.github)}
       >
         <a className="">
           <i className="fa fa-envelope"></i>
         </a>
-      </div>
+      </div> */}
       <div
         className="icons"
         onClick={(e) => openLinkInNewTab(socialMedia.mySocials.twitter)}

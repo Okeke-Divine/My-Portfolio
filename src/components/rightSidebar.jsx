@@ -6,14 +6,14 @@ export default function RightSidebar(props){
 		<div className="sideBar sideBarRight">
           <div></div>
           <div className="sidebarSocials">
-            <div
+            {/* <div
               className="email"
               onClick={(e) =>
                 openLinkInNewTab("mailto:" + socialMedia.mySocials.github)
               }
             >
               {socialMedia.mySocials.email}
-            </div>
+            </div> */}
             <div className="lineCont">
               <div></div>
             </div>

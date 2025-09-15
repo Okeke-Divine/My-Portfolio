@@ -51,7 +51,9 @@ export default function ExperienceAndWork(props) {
             >
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <div className="timeline-role">{exp.role}</div>
+                <div className="timeline-role-container">
+                  <div className="timeline-role">{exp.role}</div>
+                </div>
                 <div className="timeline-company">{exp.name}</div>
                 <div className="timeline-duration">{exp.duration}</div>
               </div>

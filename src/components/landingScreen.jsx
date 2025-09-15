@@ -1,4 +1,4 @@
-import TypewriterEffect from "../utils/TypewriterEffect"
+// import TypewriterEffect from "../utils/TypewriterEffect"
 
 export default function LandingScreen(props) {
   const openLinkInNewTab = props.openLinkInNewTab;
@@ -20,14 +20,14 @@ export default function LandingScreen(props) {
         </h3>
       </div>
       <div className="breifIntro">
-        I’m a full-stack engineer with 5 years of experience building real-world apps and server-side architectures using JavaScript, Python, and PHP.
+        I'm a full-stack engineer with over 3 years of experience. I build real-world applications and robust server-side systems using JavaScript, Python, and PHP.
       </div>
       <div className="contactMe-1-cont">
         <button
           className="contactMe-1 contactMe-2 btn-hover-1 transition-300"
           onClick={(e) =>
             openLinkInNewTab(
-              mySocials["whatsapp"]
+              mySocials["linkedin"]
             )
           }
         >

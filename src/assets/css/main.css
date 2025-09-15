@@ -1252,8 +1252,14 @@ ul {
   margin-bottom: 8px;
 }
 
-.timeline-item:nth-child(even) .timeline-role {
-  max-width: 400px;
+.timeline-item:nth-child(odd) .timeline-role {
+  max-width: 300px;
+}
+
+.timeline-item:nth-child(odd) .timeline-role-container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; 
 }
 
 .timeline-company {
@@ -1289,6 +1295,9 @@ ul {
     width: calc(100% - 80px);
     margin-left: 80px !important;
     margin-right: 0 !important;
+  }
+  .timeline-item:nth-child(odd) .timeline-role-container{
+    display: block;
   }
 }
 

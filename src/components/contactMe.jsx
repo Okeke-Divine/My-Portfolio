@@ -2,6 +2,8 @@ export default function ContactMe(props) {
   const socialMedia = props.socialMedia;
   const openLinkInNewTab = props.openLinkInNewTab;
 
+  const mySocials = socialMedia.mySocials;
+
   return (
     <section className="contactMe jnUoFC" id="contactMe">
       <div className="contactMeTinyTitle">
@@ -19,7 +21,7 @@ export default function ContactMe(props) {
       <div className="sayHello">
         <button
           className="sayHelloButton"
-          onClick={(e) => openLinkInNewTab("https://wa.me/+2347064878285")}
+          onClick={(e) => openLinkInNewTab(mySocials["linkedin"])}
         >
           Let's talk
         </button>
