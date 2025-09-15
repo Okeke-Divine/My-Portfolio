@@ -20,22 +20,24 @@ export default function Footer({ socialMedia }) {
         </div>
       </section>
       <section className="footer jnUoFC">
-        Designed by{" "}
+      Design inspired by{" "}
         <a
           href={socialMedia.originalCreatorBchiang}
           target="_blank"
+          rel="noopener noreferrer"
           className="designNdInspiredByLink"
         >
-          Brittany Chiang <i className="fa fa-external-link fj93j9r"></i>
-        </a>{" "}
-        & Reimagined and Rebuilt by{" "}
-        <a
+          Brittany Chiang
+        </a>
+        . Reimagined and implemented by yours truly!
+        {/* <a
           href={socialMedia.mySocials.github}
           target="_blank"
+          rel="noopener noreferrer"
           className="designNdInspiredByLink"
         >
-          Divine‑Vessel O. <i className="fa fa-external-link fj93j9r"></i>
-        </a>
+          Divine‑Vessel O.
+        </a> */}
       </section>
       <section className="text-center mt-2 mb-15">
         &copy; Divine‑Vessel O. - 2025
