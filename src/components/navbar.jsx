@@ -68,16 +68,11 @@ export default function Navbar(props) {
           </div>
           <div className="navbarLinks" ref={navbarLinks} isopened="false">
             <ol>
-              {/* <li>
-                <a href="#me">
-                  <span className="linkHighlight">00.</span> Intro
-                </a>
-              </li> */}
-              {/* <li>
+              <li>
                 <a href="#about">
                   <span className="linkHighlight">01.</span> About
                 </a>
-              </li> */}
+              </li>
               {/* <li>
                 <a href="#techstack">
                   <span className="linkHighlight">01.</span> Tech Stack
@@ -85,7 +80,7 @@ export default function Navbar(props) {
               </li> */}
               <li>
                 <a href="#experience">
-                  <span className="linkHighlight">01.</span> Experience / Work
+                  <span className="linkHighlight">02.</span> Experience / Work
                 </a>
               </li>
               {/* <li>
@@ -95,15 +90,18 @@ export default function Navbar(props) {
               </li> */}
               <li>
                 <a href="#myProjects">
-                  <span className="linkHighlight">02.</span> Projects
+                  <span className="linkHighlight">03.</span> Projects
                 </a>
               </li>
               <li>
                 <a href="#contactMe">
-                  <span className="linkHighlight">03.</span> Contact
+                  <span className="linkHighlight">04.</span> Contact
                 </a>
               </li>
             </ol>
+          </div>
+
+          <div className="navbar-action-buttons">
             <div>
               <a
                 className="resume-button btn-hover-1 transition-300"
@@ -113,14 +111,16 @@ export default function Navbar(props) {
                 Let's talk
               </a>
             </div>
-          </div>
-          <div className="expandButton">
-            <div onClick={(e) => open_navbarLinks()}>
-              <button>
-                <i ref={expandButtonIcon} className="fa fa-bars"></i>
-              </button>
+
+            <div className="expandButton">
+              <div onClick={(e) => open_navbarLinks()}>
+                <button>
+                  <i ref={expandButtonIcon} className="fa fa-bars"></i>
+                </button>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
     </>

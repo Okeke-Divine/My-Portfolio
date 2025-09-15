@@ -13,72 +13,16 @@ export default function AboutMe(props) {
         </div>
         <div className="sectionBody">
           <div className="sectionContentList">
-            Greetings! I'm Divine, a seasoned full stack web developer with over 7 years of
-            experience. My journey began with a passion for web development,
-            sparked by customizing templates on CodePen.
+            My journey into code started by breaking and fixing templates on CodePen. Today, I'm a full-stack engineer who builds products that solve real problems, like the inventory system now used by several businesses.
           </div>
           <div className="sectionContentList">
-            My{" "}
-            <a
-              href={socialMedia.mySocials.github}
-              target="_blank"
-              className="text-primary "
-            >
-              Github
-            </a>{" "}
-            profile showcases a range of projects, each highlighting my
-            dedication to crafting robust and innovative solutions. From web
-            applications to repositories, I take pride in every line of code
-            I've written.
-          </div>
-          <div className="sectionContentList">
-            I'm committed to continuous growth and learning in this dynamic
-            field, focused on refining my craft and delivering exceptional
-            digital experiences.
+            When I'm not coding, you can find me exploring a new tech or thinking about the next product idea. I'm always open to new challenges and opportunities to learn.
           </div>
         </div>
-        {/* <div className="sectionBody">
-          <div className="sectionContentList">
-            Hello there, I'm Divine. My fascination with web development sparked
-            7 years ago, and it's been a thrilling journey ever since. Embarking
-            on my coding journey through the customization of tailored templates
-            on CodePen, I unearthed a natural affinity for delving into the
-            intricate details of HTML & CSS.
-          </div>
-
-          <div className="sectionContentList">
-            My professional tenure has primarily been at Marokug, where I honed
-            my skills and contributed extensively to various projects. During my
-            time there, I delved into diverse projects, pushing boundaries and
-            mastering new technologies.
-          </div>
-
-          <div className="sectionContentList">
-            My{" "}
-            <a
-              href={socialMedia.mySocials.github}
-              target="_blank"
-              className="text-primary "
-            >
-              Github
-            </a>{" "}
-            profile showcases a range of projects, each highlighting my
-            dedication to crafting robust and innovative solutions. From web
-            applications to repositories, I take pride in every line of code
-            I've written.
-          </div>
-
-          <div className="sectionContentList">
-            My focus remains on refining my craft and delving deeper into the
-            world of web development. Passionate about building exceptional
-            digital experiences, I'm committed to continuous growth and learning
-            in this dynamic field.
-          </div>
-        </div> */}
       </div>
       <div className="right">
         <div className="myImageCont">
-          <img src={"/assets/images/image.jpg"} className="image01md" />
+          <img src={"https://avatars.githubusercontent.com/u/71028248?v=4"} className="image01md" />
           <div className="overlay"></div>
         </div>
       </div>

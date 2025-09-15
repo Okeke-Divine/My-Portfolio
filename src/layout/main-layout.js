@@ -6,6 +6,10 @@ import MyProjects from "../components/myProjects.jsx"
 import ExperienceAndWork from "../components/experienceAndWork.jsx"
 import LandingScreen from "../components/landingScreen.jsx"
 
+import AboutMe from "../components/aboutMe.jsx"
+// import TechStack from "../components/techStack.jsx"
+
+
 export default function MainLayout(props) {
   const socialMedia = props.dataBus.socialMedia;
   const openLinkInNewTab = props.dataBus.openLinkInNewTab;
@@ -29,25 +33,25 @@ export default function MainLayout(props) {
           <LandingScreen openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} />
 
           {/*AboutMe*/}
-          {/* <AboutMe socialMedia={socialMedia} /> */}
+          <AboutMe socialMedia={socialMedia} />
 
           {/* my tech stack */}
           {/* <TechStack count={"01."} /> */}
 
           {/*ExperienceAndWork*/}
-          <ExperienceAndWork count={"01."} />
+          <ExperienceAndWork count={"02."} />
 
           {/* My education */}
           {/* <Education count={"03."} /> */}
 
           {/*myProjects*/}
-          <MyProjects openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} count={"02."} />
+          <MyProjects openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} count={"03."} />
 
           {/* gigs */}
           {/* <Gigs openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} /> */}
 
           {/*contact me*/}
-          <ContactMe openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} count={"03."} />
+          <ContactMe openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} count={"04."} />
 
           {/*footer*/}
           <Footer socialMedia={socialMedia} />

@@ -1275,6 +1275,11 @@ ul {
   font-size: var(--fz-sm);
 }
 
+.navbar-action-buttons{
+  display: flex;
+  gap:15px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .timeline::before {
