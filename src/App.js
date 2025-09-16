@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react"
+
 // import "./App.css";
 
 // stylesheets
@@ -22,7 +24,14 @@ const dataBus = {
 };
 
 function App() {
-  return <MainLayout dataBus={dataBus} />;
+  return 
+(
+<>
+<Analytics />
+<MainLayout dataBus={dataBus} />
+</>
+);
+
 }
 
 export default App;
