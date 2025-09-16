@@ -200,8 +200,11 @@ a {
 }
 
 .resume-button {
-  color: var(--col-dark);
-  background-color: var(--col-primary);
+  /* color: var(--col-dark); */
+  color: var(--white-1);
+  background-color: transparent;
+  border: 2px solid var(--col-primary);
+
   border: 1px solid var(--col-primary);
   border-radius: var(--border-radius);
   padding: 0.75rem 1rem;
@@ -215,6 +218,11 @@ a {
   font-family: var(--CalibreMedium);
   padding: 10px;
   letter-spacing: 1px;
+}
+
+.resume-button:hover{
+  background-color: var(--green-tint)!important;
+  color: var(--white-1);
 }
 
 .mainContent {
@@ -909,8 +917,7 @@ ul {
   transition: var(--transition);
 }
 
-.projectSlideshowCTA button:hover,
-.resume-button:hover {
+.projectSlideshowCTA button:hover {
   background: var(--col-primary);
   color: var(--col-dark);
 }

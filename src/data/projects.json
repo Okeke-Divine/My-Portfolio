@@ -2,7 +2,7 @@
   "projects": {
     "portfoliia": {
       "title": "Portfoliia - Saas",
-      "description": "I created Portfoliia to make building professional portfolios and resumes simple and fast. This CMS-powered platform has empowered over 200 users to create stunning portfolios and includes insightful analytics to track their performance. Portfoliia also earned the 'Product of the Day' badge on Faizer.",
+      "description": "I created Portfoliia to make building professional portfolios and resumes simple and fast. This CMS-powered platform has empowered several users to create stunning portfolios and includes insightful analytics to track their performance. Portfoliia also earned the <a class='text-primary designNdInspiredByLink' href='https://fazier.com/launches/portfoliia' target='_blank'>#1 Product of the Day</a> badge on Faizer.",
       "tags": [
         "NextJS",
         "Tailwind",
@@ -27,7 +27,7 @@
     },
     "fluxnet": {
       "title": "Fluxinet – Saas",
-      "description": "I built Fluxinet to solve a real problem I noticed among small business owners around me — managing inventory was chaotic, often done with pen and paper or clunky spreadsheets. I wanted to make something simple, clean, and efficient. Since launching, over 700 Nigerian businesses have started using it to stay on top of their stock levels and streamline their operations. It's still growing, and I’m constantly improving it based on real feedback from everyday users.",
+      "description": "I built Fluxinet to solve a real problem I noticed among small business owners around me. Managing inventory was chaotic, often done with pen and paper or clunky spreadsheets. I wanted to make something simple, clean, and efficient. Since launching, over 700 Nigerian businesses have started using it to stay on top of their stock levels and streamline their operations. It's still growing, and I’m constantly improving it based on real feedback from everyday users.",
       "tags": [
         "NextJS",
         "Tailwind",

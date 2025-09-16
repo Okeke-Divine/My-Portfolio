@@ -193,7 +193,10 @@ export default function ProjectItemComponent(props) {
           <div className="right">
             <div className="featuredProject text-primary">Featured Project</div>
             <div className="projectName">{projectTitle}</div>
-            <div className="projectInfo">{projectDescription}</div>
+            <div
+              className="projectInfo"
+              dangerouslySetInnerHTML={{ __html: projectDescription }}
+            />
             <div className="projectsTags">{projectTagsComponents}</div>
             <div className="projectsIcons">{projectLinkComponents}</div>
           </div>
@@ -203,7 +206,10 @@ export default function ProjectItemComponent(props) {
           <div className="right">
             <div className="featuredProject text-primary">Featured Project</div>
             <div className="projectName">{projectTitle}</div>
-            <div className="projectInfo">{projectDescription}</div>
+            <div
+              className="projectInfo"
+              dangerouslySetInnerHTML={{ __html: projectDescription }}
+            />
             <div className="projectsTags">{projectTagsComponents}</div>
             <div className="projectsIcons">{projectLinkComponents}</div>
           </div>

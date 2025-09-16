@@ -33,12 +33,12 @@ export default function LandingScreen(props) {
         >
           Let's talk
         </button>
-        <a
+        {/* <a
           className="contactMe-1 btn-hover-2"
           href="#myProjects"
         >
           View My Work →
-        </a>
+        </a> */}
         <a
           className="contactMe-1 link-1 myResume"
           href="/Resume - Full Stack Software Engineer - Okeke Divine-Vessel.pdf"
