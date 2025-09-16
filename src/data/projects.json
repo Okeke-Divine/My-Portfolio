@@ -12,11 +12,18 @@
         "Redis"
       ],
       "links": {
-        "github": null,
-        "livePreview": "https://portfoliia.vercel.app/"
+        "github": "https://github.com/Okeke-Divine/portfolia",
+        "livePreview": "https://portfoliia.okekedivine.com.ng/"
       },
       "coverImage": "/assets/images/portfoliia/Screenshot (2422).png",
-      "slideShowImages": null
+      "slideShowImages": [
+        "/assets/images/portfoliia/portfoliia-user-info.png",
+        "/assets/images/portfoliia/Screenshot 2025-09-16 at 02-39-42 Portfolio Builder Portfoliia.png",
+        "/assets/images/portfoliia/Screenshot 2025-09-16 at 02-39-50 Divine-Vessel O - Lead Full Stack Software Developer @ Skiyen Portfolio Portfoliia.png",
+        "/assets/images/portfoliia/Screenshot 2025-09-16 at 02-39-57 Resume Builder Portfoliia.png",
+        "/assets/images/portfoliia/Screenshot 2025-09-16 at 02-40-04 Divine-Vessel O - Lead Full Stack Software Developer @ Skiyen Resume Portfoliia.png",
+        "/assets/images/portfoliia/Screenshot 2025-09-16 at 02-40-21 Dashboard Portfoliia.png"
+      ]
     },
     "fluxnet": {
       "title": "Fluxinet – Saas",
@@ -54,22 +61,6 @@
       "coverImage": "/assets/images/marokug/Screenshot (1929).png",
       "slideShowImages": null
     },
-    "deeperlifehighschool": {
-      "title": "Deeper Life High School",
-      "description": "I collaborated with a team to develop the official website for Deeper Life High School. This website enhanced the school's online presence by providing an intuitive user interface, improving accessibility, and incorporating dynamic content. It digitalized processes such as admission, result management, and student information systems, streamlining operations and making information easily accessible to students, parents, and staff.",
-      "tags": [
-        "Php",
-        "jQuery",
-        "Bootstrap",
-        "Ajax",
-        "MySql"
-      ],
-      "links": {
-        "livePreview": "https://deeperlifehighschool.org/"
-      },
-      "coverImage": "/assets/images/deeperlifehighschool/Screenshot (2251).png",
-      "slideShowImages": null
-    },
     "mtalers": {
       "title": "Mtalers",
       "description": "Mtalers is an educational blog developed for a client, focusing on providing a comprehensive learning experience. It incorporates various technologies such as jQuery, Php and MySql to deliver interactive and engaging educational content. The platform aims to enhance the learning process through its user-friendly interface and extensive functionality.",
@@ -83,16 +74,10 @@
         "livePreview": null
       },
       "coverImage": "/assets/images/mtalers/mtalers1.png",
-      "slideShowImages": null,
-      "slideShowImages__": [
-        "../assets/images/mtalers/mtalers1.png",
+      "slideShowImages": [
         "../assets/images/mtalers/mtalers2.png",
         "../assets/images/mtalers/mtalers3.png",
-        "../assets/images/mtalers/mtalers4.png",
-        "../assets/images/mtalers/358shots_so.png",
-        "../assets/images/mtalers/85shots_so.png",
-        "../assets/images/mtalers/3shots_so.png",
-        "../assets/images/mtalers/324shots_so.png"
+        "../assets/images/mtalers/mtalers4.png"
       ]
     },
     "geegpayFrontendChallenge": {
@@ -106,7 +91,7 @@
       ],
       "links": {
         "github": "https://github.com/Okeke-Divine/Geegpay-Front-End-Challenge",
-        "livePreview": "https://okeke-divine.github.io/Geegpay-Front-End-Challenge"
+        "livePreview": "https://geegpay-dashboard.okekedivine.com.ng/"
       },
       "coverImage": "/assets/images/geepay-frontend-challenge/Screenshot (1803).png",
       "slideShowImages": null
@@ -122,7 +107,7 @@
       ],
       "links": {
         "github": "https://github.com/okeke-Divine/strender",
-        "livePreview": "https://strender.vercel.app"
+        "livePreview": "https://strender.okekedivine.com.ng/"
       },
       "coverImage": "/assets/images/strender/Screenshot (2068).png",
       "slideShowImages": null
