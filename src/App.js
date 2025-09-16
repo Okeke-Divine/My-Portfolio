@@ -1,20 +1,11 @@
 import { Analytics } from "@vercel/analytics/react"
-
-// import "./App.css";
-
-// stylesheets
 import "./assets/css/css-responsive-max-width-800.css";
 import "./assets/css/css-responsive-max-width-1310.css";
 import "./assets/css/css-mW-620.css";
 import "./assets/css/main.css";
-
-// images
 import myLogo from "./assets/images/myLogo.png";
-// json
 import socialMedia from "./data/socialMedia.json";
-// utils
 import openLinkInNewTab from "./utils/openLinkInNewTab.js";
-// layout
 import MainLayout from "./layout/main-layout.js";
 
 const dataBus = {
@@ -24,14 +15,12 @@ const dataBus = {
 };
 
 function App() {
-  return 
-(
-<>
-<Analytics />
-<MainLayout dataBus={dataBus} />
-</>
-);
-
+  return (
+    <>
+      <Analytics />
+      <MainLayout dataBus={dataBus} />
+    </>
+  );
 }
 
 export default App;
