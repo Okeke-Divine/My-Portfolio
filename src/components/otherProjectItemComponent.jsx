@@ -15,7 +15,7 @@ export default function OtherProjectItemComponent(props) {
     <div className="project-inner">
       <div className="icons">
         <div className="">
-          <i className="ri-folder-line remix-icon text-primary"></i>
+        <i className="fa text-primary fa-folder"></i>
         </div>
         <div>
           {(projectLinks.github != null || projectLinks.github != "" ) ? (
