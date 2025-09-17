@@ -68,6 +68,12 @@
   src: url("../font/Calibre/woff2/Calibre-Semibold-94fc73852539d6733dc0d80252c5e3fb.woff2") format("woff2");
 }
 
+body {
+  color: var(--slate);
+  font-family: var(--font-sans)!important;
+  line-height: 1.3;
+}
+
 .font-sansSb {
   font-family: var(--font-sansSb);
 }
@@ -106,8 +112,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  color: var(--white-2);
-
+  /* color: var(--white-2); */
   -webkit-font-smoothing: antialiased;
   background-color: var(--navy);
   color: var(--slate);
@@ -203,21 +208,22 @@ a {
   /* color: var(--col-dark); */
   color: var(--white-1);
   background-color: transparent;
-  border: 2px solid var(--col-primary);
 
   border: 1px solid var(--col-primary);
   border-radius: var(--border-radius);
   padding: 0.75rem 1rem;
   font-size: var(--fz-xs);
-  font-family: var(--font-mono);
-  text-decoration: none;
   transition: var(--transition);
   margin-left: 15px;
-  position: relative;
-  top: 5px;
+
   font-family: var(--CalibreMedium);
   padding: 10px;
   letter-spacing: 1px;
+}
+
+.resume-button>span{
+  position: relative;
+  top:3px;
 }
 
 .resume-button:hover{
@@ -267,6 +273,10 @@ a {
   color: var(--col-primary);
 }
 
+.sidebarSocials>div.lineCont>div{
+  background: var(--light-slate);
+}
+
 .sideBarLeft>.sidebarSocials>div.lineCont {
   display: flex;
   justify-content: center;
@@ -277,7 +287,7 @@ a {
 .sideBarLeft>.sidebarSocials>div.lineCont>div {
   width: 1px;
   height: 100px;
-  background: var(--col-primary);
+  /* background: var(--col-primary); */
 }
 
 .sideBarLeft>.sidebarSocials>div.icons {
@@ -308,7 +318,7 @@ a {
 .sideBarRight>.sidebarSocials>div.lineCont>div {
   width: 1px;
   height: 100px;
-  background: var(--col-primary);
+  /* background: var(--col-primary); */
 }
 
 .sideBarRight div.email {

@@ -8,6 +8,7 @@ import LandingScreen from "../components/landingScreen.jsx"
 
 import AboutMe from "../components/aboutMe.jsx"
 // import TechStack from "../components/techStack.jsx"
+// import RightSidebar from "../components/rightSidebar.jsx"
 
 
 export default function MainLayout(props) {

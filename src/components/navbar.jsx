@@ -48,7 +48,7 @@ export default function Navbar(props) {
     const handleResize = () => {
       const mobile = window.innerWidth <= 768;
       setIsMobileView(mobile);
-      
+
       // Reset navbar display based on screen size
       if (navbarLinks.current) {
         if (mobile) {
@@ -69,7 +69,7 @@ export default function Navbar(props) {
     };
 
     window.addEventListener("resize", handleResize);
-    
+
     // Initial call to set correct display
     handleResize();
 
@@ -82,11 +82,11 @@ export default function Navbar(props) {
   useEffect(() => {
     const handleClickOutside = (event) => {
       // Check if we're on mobile and menu is open
-      if (isMobileView && 
-          isMobileMenuOpen && 
-          navbarLinks.current && 
-          !navbarLinks.current.contains(event.target) &&
-          !event.target.closest('.expandButton')) {
+      if (isMobileView &&
+        isMobileMenuOpen &&
+        navbarLinks.current &&
+        !navbarLinks.current.contains(event.target) &&
+        !event.target.closest('.expandButton')) {
         closeNavbar();
       }
     };
@@ -136,12 +136,12 @@ export default function Navbar(props) {
     if (isMobileView) {
       closeNavbar();
     }
-    
+
     // Hide the navbar completely after a short delay to allow smooth scrolling
     setTimeout(() => {
       setShowNavbar(false);
     }, 100);
-    
+
     // Allow default anchor behavior (smooth scrolling)
     // The timeout ensures the navbar hides after the scroll begins
   };
@@ -185,7 +185,9 @@ export default function Navbar(props) {
                 href={mySocials["linkedin"]}
                 target="_blank"
               >
-                Let's talk
+                <span>
+                  Let's talk
+                </span>
               </a>
             </div>
 
