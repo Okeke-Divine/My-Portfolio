@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/react"
 import "./assets/css/css-responsive-max-width-800.css";
 import "./assets/css/css-responsive-max-width-1310.css";
 import "./assets/css/css-mW-620.css";
@@ -17,7 +16,6 @@ const dataBus = {
 function App() {
   return (
     <>
-      <Analytics />
       <MainLayout dataBus={dataBus} />
     </>
   );
