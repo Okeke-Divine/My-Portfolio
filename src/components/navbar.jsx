@@ -185,9 +185,9 @@ export default function Navbar(props) {
                 href={mySocials["linkedin"]}
                 target="_blank"
               >
-                <span>
+                {/* <span> */}
                   Let's talk
-                </span>
+                {/* </span> */}
               </a>
             </div>
 

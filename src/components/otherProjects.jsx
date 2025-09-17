@@ -68,7 +68,7 @@ export default function OtherProjects(props) {
         <div className="toggleShowMoreBtn text-center mt-4">
           <button
             onClick={() => setShowAll(!showAll)}
-            className="btn-2 btn-sm btn-hover-2 transition-300"
+            className="resume-button btn-hover-2 transition-300"
           >
             {showAll ? "Show Less" : "Show More"}
           </button>
