@@ -1107,6 +1107,10 @@ ul {
   color: currentColor;
 }
 
+.ri-folder-line{
+font-size: 40px;
+}
+
 .mainFooter {
   width: 100%;
   padding: 20px;
