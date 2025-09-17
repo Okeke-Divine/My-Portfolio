@@ -1,0 +1,120 @@
+/* introScreen.css */
+.intro-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #0a192f 0%, #172a45 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease-out;
+}
+
+.intro-screen.visible {
+    opacity: 1;
+}
+
+.intro-screen.hidden {
+    opacity: 0;
+}
+
+.intro-content {
+    text-align: center;
+}
+
+.logo-animation {
+    margin-bottom: 2rem;
+}
+
+.logo-svg {
+    width: 120px;
+    height: 120px;
+}
+
+.logo-circle {
+    fill: none;
+    stroke: #64ffda;
+    stroke-width: 3;
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    animation: drawCircle 1.2s ease-in-out forwards;
+}
+
+.logo-hexagon {
+    fill: none;
+    stroke: #64ffda;
+    stroke-width: 3;
+    stroke-dasharray: 270;
+    /* Corrected value for hexagon perimeter */
+    stroke-dashoffset: 270;
+    /* Should match stroke-dasharray */
+    animation: drawHexagon 1.2s ease-in-out forwards;
+}
+
+@keyframes drawHexagon {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.logo-d {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    fill: #64ffda;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out forwards;
+    animation-delay: 0.8s;
+}
+
+@keyframes drawCircle {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #e6f1ff;
+    margin-bottom: 0.5rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: 1s;
+}
+
+.intro-tagline {
+    font-size: 1.2rem;
+    color: #8892b0;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: 1.4s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Prevent scrolling during intro */
+body.intro-active {
+    overflow: hidden;
+}

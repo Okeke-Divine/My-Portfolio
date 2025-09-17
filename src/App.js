@@ -1,7 +1,10 @@
+// App.js (updated)
+import { useEffect, useState } from 'react';
 import myLogo from "./assets/images/myLogo.png";
 import socialMedia from "./data/socialMedia.json";
 import openLinkInNewTab from "./utils/openLinkInNewTab.js";
 import MainLayout from "./layout/main-layout.js";
+import IntroScreen from "./components/IntroScreen.jsx"; // Add this import
 
 //css
 import "./assets/css/css-responsive-max-width-800.css";
@@ -21,8 +24,22 @@ const dataBus = {
 };
 
 function App() {
+  const [introComplete, setIntroComplete] = useState(false);
+
+  useEffect(() => {
+    document.body.classList.add('intro-active');
+    
+    const timer = setTimeout(() => {
+      document.body.classList.remove('intro-active');
+      setIntroComplete(true);
+    }, 3500);
+    
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
+      {!introComplete && <IntroScreen />}
       <MainLayout dataBus={dataBus} />
     </>
   );
