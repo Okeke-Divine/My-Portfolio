@@ -26,6 +26,14 @@ export default function ContactMe(props) {
           Let's talk
         </button>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </section>
   );
 }

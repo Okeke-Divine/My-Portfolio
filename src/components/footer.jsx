@@ -1,11 +1,11 @@
-export default function Footer({ socialMedia }) {
+export default function Footer({ socialMedia,openLinkInNewTab }) {
   const mySocials = socialMedia.mySocials;
   return (
     <>
       <section className="mainFooter">
-        <div className="footerSocialsTitle text-center">Other Links</div>
-        <div className="flex flex-wrap footerLinkList">
-          {Object.entries(mySocials).map(
+        {/* <div className="footerSocialsTitle text-center">Other Links</div> */}
+        <div className="flex flex-wrap footerLinkList mb-2">
+          {/* {Object.entries(mySocials).map(
             ([socialMediaName, link], index) =>
               socialMediaName !== "email" &&
               socialMediaName !== "email_link" && (
@@ -16,11 +16,39 @@ export default function Footer({ socialMedia }) {
                   </a>
                 </div>
               )
-          )}
+          )} */}
+
+          <div
+            className="icons"
+            onClick={(e) => openLinkInNewTab(socialMedia.mySocials.linkedin)}
+          >
+            <a className="">
+              <i className="fa fa-linkedin"></i>
+            </a>
+          </div>
+          <div
+            className="icons"
+            onClick={(e) => openLinkInNewTab(socialMedia.mySocials.github)}
+          >
+            <a className="#">
+              <i className="fa fa-github"></i>
+            </a>
+          </div>
+
+          <div
+            className="icons"
+            onClick={(e) => openLinkInNewTab(socialMedia.mySocials.twitter)}
+          >
+            <a className="">
+              <i className="fa fa-twitter"></i>
+            </a>
+          </div>
+
+
         </div>
       </section>
-      <section className="footer jnUoFC">
-      Design inspired by{" "}
+      <section className="footer mb-2 jnUoFC">
+        Design inspired by{" "}
         <a
           href={socialMedia.originalCreatorBchiang}
           target="_blank"

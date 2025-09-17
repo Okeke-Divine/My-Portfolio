@@ -213,7 +213,7 @@ a {
   color: var(--white-1);
   background-color: transparent;
 
-  border: 1px solid var(--col-primary);
+  border: 1px solid var(--green-tint);
   border-radius: var(--border-radius);
   padding: 0.75rem 1rem;
   font-size: var(--fz-xs);
@@ -789,7 +789,6 @@ ul {
 
 .footer {
   text-align: center;
-  padding: 20px;
 }
 
 .designNdInspiredByLink {
@@ -920,9 +919,8 @@ ul {
   margin-top: 30px;
 }
 
-.icons .fa-external-link,
-.icons .fa-github {
-  cursor: pointer !important;
+.icons{
+  cursor: pointer;
 }
 
 .projectSlideshowCTA button {
@@ -1115,7 +1113,6 @@ ul {
 
 .footerLinkList {
   column-gap: 20px;
-  /* justify-content: space-between; */
 }
 
 
@@ -1123,18 +1120,25 @@ ul {
 .link-1,
 .navbarLinks ol li a {
   transition: 0.3s;
-  border-bottom: 1px dotted transparent;
+  /* border-bottom: 1px dotted transparent; */
 }
 
 .footerLinkList a:hover,
 .link-1:hover,
 .navbarLinks ol li a:hover {
   color: var(--col-primary);
-  border-bottom: 1px dotted !important;
+  /* border-bottom: 1px dotted !important; */
 }
 
 .myResume {
-  border: transparent !important;
+  color: var(--white-1)!important;
+  background-color: transparent;
+  border: 1px solid var(--green-tint)!important;
+}
+
+.myResume:hover {
+  background-color: var(--green-tint) !important;
+  color: var(--white-1);
 }
 
 .otherProjectTags {
@@ -1180,6 +1184,10 @@ ul {
 }
 
 /* //end custom scroll bar */
+
+.mb-2 {
+  margin-bottom: 10px;
+}
 
 .mb-15 {
   margin-bottom: 25px !important;

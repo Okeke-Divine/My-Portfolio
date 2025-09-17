@@ -55,7 +55,7 @@ export default function MainLayout(props) {
           <ContactMe openLinkInNewTab={openLinkInNewTab} socialMedia={socialMedia} count={"04."} />
 
           {/*footer*/}
-          <Footer socialMedia={socialMedia} />
+          <Footer socialMedia={socialMedia} openLinkInNewTab={openLinkInNewTab} />
 
         </div>
       </div>
