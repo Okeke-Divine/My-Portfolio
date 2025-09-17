@@ -10,7 +10,7 @@ export default function LeftSidebar(props) {
         onClick={(e) => openLinkInNewTab(socialMedia.mySocials.linkedin)}
       >
         <a className="">
-          <i className="fa fa-linkedin"></i>
+          <i className="ri-linkedin-line remix-icon"></i>
         </a>
       </div>
       <div
@@ -18,7 +18,7 @@ export default function LeftSidebar(props) {
         onClick={(e) => openLinkInNewTab(socialMedia.mySocials.github)}
       >
         <a className="#">
-          <i className="fa fa-github"></i>
+          <i className="ri-github-line remix-icon"></i>
         </a>
       </div>
       <div
@@ -26,7 +26,7 @@ export default function LeftSidebar(props) {
         onClick={(e) => openLinkInNewTab(socialMedia.mySocials.twitter)}
       >
         <a className="">
-          <i className="fa fa-twitter"></i>
+          <i className="ri-twitter-line remix-icon"></i>
         </a>
       </div>
       <div className="lineCont">

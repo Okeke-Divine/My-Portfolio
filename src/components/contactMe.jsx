@@ -11,7 +11,7 @@ export default function ContactMe(props) {
         <div>What’s Next?</div>
       </div>
       <div>
-        <h2 className="big-heading getInTouch">Let's talk</h2>
+        <h2 className="big-heading getInTouch">Contact me</h2>
       </div>
       <div className="contactMeInfo-container">
         <div className="contactMeInfo">

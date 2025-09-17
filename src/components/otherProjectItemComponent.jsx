@@ -15,16 +15,16 @@ export default function OtherProjectItemComponent(props) {
     <div className="project-inner">
       <div className="icons">
         <div className="">
-          <i className="fa text-primary fa-folder"></i>
+          <i className="ri-folder-line remix-icon text-primary"></i>
         </div>
         <div>
           {(projectLinks.github != null || projectLinks.github != "" ) ? (
             <div className="projectLinkIcon" onClick={(e) => openLinkInNewTab(projectLinks.github)}>
-              <i className="fa fa-github"></i>
+              <i className="ri-github-line remix-icon"></i>
             </div>) : (null)}
           {(projectLinks.livePreview != null & projectLinks.livePreview != "") ? (
             <div className="projectLinkIcon" onClick={(e) => openLinkInNewTab(projectLinks.livePreview)}>
-              <i className="fa fa-external-link"></i>
+              <i className="ri-external-link-line remix-icon"></i>
             </div>) : (null)}
         </div>
       </div>

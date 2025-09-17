@@ -73,7 +73,7 @@ export default function ProjectItemComponent(props) {
             openLinkInNewTab(projectLinks[link]);
           }}
         >
-          <i className="fa fa-github"></i>
+          <i className="ri-github-line remix-icon"></i>
         </div>
       );
     } else if (link === "livePreview" && projectLinks[link] !== null) {
@@ -86,7 +86,7 @@ export default function ProjectItemComponent(props) {
             openLinkInNewTab(projectLinks[link]);
           }}
         >
-          <i className="fa fa-external-link"></i>
+          <i className="ri-external-link-line remix-icon"></i>
         </div>
       );
     }
@@ -103,7 +103,7 @@ export default function ProjectItemComponent(props) {
         }}
         className="slideshow-nav-btn"
       >
-        <i className="fa fa-chevron-left"></i>
+        <i className="ri-arrow-left-s-line remix-icon"></i>
       </button>
       <button
         onClick={(e) => {
@@ -112,7 +112,7 @@ export default function ProjectItemComponent(props) {
         }}
         className="slideshow-play-pause"
       >
-        <i className={`fa ${isSlideshowPlaying ? "fa-pause" : "fa-play"}`}></i>
+        <i className={`remix-icon ${isSlideshowPlaying ? "ri-pause-line" : "ri-play-fill"}`}></i>
       </button>
       <button
         onClick={(e) => {
@@ -121,7 +121,7 @@ export default function ProjectItemComponent(props) {
         }}
         className="slideshow-nav-btn"
       >
-        <i className="fa fa-chevron-right"></i>
+        <i className="ri-arrow-right-s-line remix-icon"></i>
       </button>
     </div>
   );
@@ -131,7 +131,7 @@ export default function ProjectItemComponent(props) {
     <div className="fullscreen-modal" onClick={closeFullscreen}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <button className="close-modal" onClick={closeFullscreen}>
-          <i className="fa fa-times"></i>
+          <i className="ri-close-line remix-icon"></i>
         </button>
         <img
           src={allImages[currentImageIndex]}
@@ -141,13 +141,13 @@ export default function ProjectItemComponent(props) {
         {hasMultipleImages && (
           <div className="modal-controls">
             <button onClick={goToPrevImage} className="modal-nav-btn">
-              <i className="fa fa-chevron-left"></i>
+              <i className="ri-arrow-left-s-line remix-icon"></i>
             </button>
             <div className="image-counter">
               {currentImageIndex + 1} / {allImages.length}
             </div>
             <button onClick={goToNextImage} className="modal-nav-btn">
-              <i className="fa fa-chevron-right"></i>
+              <i className="ri-arrow-right-s-line remix-icon"></i>
             </button>
           </div>
         )}

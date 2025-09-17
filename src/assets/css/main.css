@@ -1101,6 +1101,12 @@ ul {
   top: -2px;
 }
 
+.remix-icon{
+  font-size: 20px;
+  transition: all 0.3s ease;
+  color: currentColor;
+}
+
 .mainFooter {
   width: 100%;
   padding: 20px;

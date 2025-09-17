@@ -2,4 +2,9 @@
     .footerLinkList {
         display: none !important;
     }
+
+    .navbarLinks ol {
+        position: relative;
+        top: 6px;
+    }
 }

@@ -1,13 +1,18 @@
+import myLogo from "./assets/images/myLogo.png";
+import socialMedia from "./data/socialMedia.json";
+import openLinkInNewTab from "./utils/openLinkInNewTab.js";
+import MainLayout from "./layout/main-layout.js";
+
+//css
 import "./assets/css/css-responsive-max-width-800.css";
 import "./assets/css/css-responsive-max-width-1310.css";
 import "./assets/css/css-mW-620.css";
 import "./assets/css/main.css";
 import "./assets/css/css-min-width-801.css"
 import "./assets/css/scrollbar.css";
-import myLogo from "./assets/images/myLogo.png";
-import socialMedia from "./data/socialMedia.json";
-import openLinkInNewTab from "./utils/openLinkInNewTab.js";
-import MainLayout from "./layout/main-layout.js";
+
+// remix icon
+import '../node_modules/remixicon/fonts/remixicon.css';
 
 const dataBus = {
   myLogo: myLogo,
