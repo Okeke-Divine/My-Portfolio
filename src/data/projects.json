@@ -27,7 +27,7 @@
     },
     "fluxnet": {
       "title": "Fluxinet – Saas",
-      "description": "I built Fluxinet to solve a real problem I noticed among small business owners around me. Managing inventory was chaotic, often done with pen and paper or clunky spreadsheets. I wanted to make something simple, clean, and efficient. Since launching, over 700 Nigerian businesses have started using it to stay on top of their stock levels and streamline their operations. It's still growing, and I’m constantly improving it based on real feedback from everyday users.",
+      "description": "I built Fluxinet to solve a real problem I noticed among small business owners around me. Managing inventory was chaotic, often done with pen and paper or clunky spreadsheets. I wanted to make something simple, clean, and efficient. Since launching, <span class='text-primary'>several Nigerian businesses</span> have started using it to <span class='text-primary'>digitalize their store book keeping</span> and streamline their operations.",
       "tags": [
         "NextJS",
         "Tailwind",
@@ -47,7 +47,7 @@
     },
     "marokug": {
       "title": "Marokug",
-      "description": "At Marokug, I collaborated with a team of frontend and backend developers to create an online learning platform. Marokug empowers students to explore and learn a wide range of courses at their own pace, test their understanding through interactive quizzes and exams, and deepen their knowledge with additional learning materials.",
+      "description": "At Marokug, I collaborated with a team to create an online learning platform. Marokug empowers students to explore and learn a wide range of courses at their own pace, test their understanding through interactive quizzes and exams, and deepen their knowledge with additional learning materials.",
       "tags": [
         "React",
         "Tailwind",
@@ -82,7 +82,7 @@
     },
     "geegpayFrontendChallenge": {
       "title": "Geegpay Frontend Challenge",
-      "description": "I converted a Figma design to HTML in the Geepay Frontend Challenge. Analyzed design, hand-coded clean & semantic HTML, ensured responsiveness & accessibility, tested & refined for a pixel-perfect outcome.",
+      "description": "I converted a <span class='text-primary'>Figma design to code</span> in the <a class='text-primary designNdInspiredByLink' href='https://www.geegpay.africa/blog/geegpay-design-and-front-end-challenge-unleash-your-creativity' target='_blank'>Geegpay Design and Front-End Challenge @ 2024</a>. My main goals were achieving a pixel-perfect design, ensuring it was fully responsive, and implementing dynamic charts using Chart.js.",
       "tags": [
         "Html",
         "Css",
@@ -98,7 +98,7 @@
     },
     "strender": {
       "title": "Strender",
-      "description": "I originally built Strender as a sports hub, but it’s grown into a full-on news platform. Now it supports all kinds of news — sports, politics, tech, whatever matters. It pulls in real-time updates, live scores, and highlights, and I kept the anonymous commenting so users can speak freely without filters. It’s my personal take on what a modern news platform should feel like.",
+      "description": "I originally built Strender as a sports hub, but it’s grown into a full-on news platform. Now it supports all kinds of news: sports, politics, tech, etc. It pulls in real-time updates, live scores, and highlights, and I introduced an anonymous commenting so users can speak freely without filters. It’s my personal take on what a modern news platform should feel like.",
       "tags": [
         "React",
         "Tailwind",
