@@ -1,7 +1,9 @@
 import React from 'react'
 import TabBadgeComponent from './TabBadgeComponent';
+import { useClickTracking } from '../hooks/useClickTracking';
 
 export default function ProjectItemComponent(props) {
+  const trackClick = useClickTracking('ProjectItem');
   const openLinkInNewTab = props.openLinkInNewTab;
   const projectDirection = props.projectDirection;
   const projectTitle = props.projectTitle;
@@ -10,6 +12,27 @@ export default function ProjectItemComponent(props) {
   const projectLinks = props.projectLinks;
   const projectCoverImage = props.projectCoverImage;
   const projectSlideShowImages = props.projectSlideShowImages;
+
+  const handleGithubClick = (e) => {
+    e.stopPropagation();
+    trackClick('Github_Link', projectTitle);
+    openLinkInNewTab(projectLinks.github);
+  };
+
+  const handleLivePreviewClick = (e) => {
+    e.stopPropagation();
+    trackClick('LivePreview_Link', projectTitle);
+    openLinkInNewTab(projectLinks.livePreview);
+  };
+
+  const handleImageClick = () => {
+    trackClick('Project_Image', projectTitle);
+    openFullscreen();
+  };
+
+  const handleSlideshowControl = (action) => {
+    trackClick(`Slideshow_${action}`, projectTitle);
+  };
 
   // Combine cover image with slideshow images if available
   const allImages = [projectCoverImage, ...(projectSlideShowImages || [])].filter(Boolean);
@@ -69,10 +92,7 @@ export default function ProjectItemComponent(props) {
         <div
           key={link}
           className="projectLinkIcon"
-          onClick={(e) => {
-            e.stopPropagation();
-            openLinkInNewTab(projectLinks[link]);
-          }}
+          onClick={handleGithubClick}
         >
           <i className="ri-github-line remix-icon"></i>
         </div>
@@ -82,10 +102,7 @@ export default function ProjectItemComponent(props) {
         <div
           key={link}
           className="projectLinkIcon"
-          onClick={(e) => {
-            e.stopPropagation();
-            openLinkInNewTab(projectLinks[link]);
-          }}
+          onClick={handleLivePreviewClick}
         >
           <i className="ri-external-link-line remix-icon"></i>
         </div>

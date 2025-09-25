@@ -1,12 +1,16 @@
-// import TypewriterEffect from "../utils/TypewriterEffect"
+import { useScrollTracking } from '../hooks/useScrollTracking';
+import { useClickTracking } from '../hooks/useClickTracking';
 
 export default function LandingScreen(props) {
+  const componentRef = useScrollTracking('LandingScreen', 0.1);
+  const trackClick = useClickTracking('LandingScreen');
+
   const openLinkInNewTab = props.openLinkInNewTab;
   const socialMedia = props.socialMedia;
   const mySocials = socialMedia.mySocials;
 
   return (
-    <section className="landingScreen jnUoFC" id="me">
+    <section ref={componentRef} className="landingScreen jnUoFC" id="me">
       <div className="hi">
         <h1>Hi, I'm</h1>
       </div>
@@ -25,24 +29,18 @@ export default function LandingScreen(props) {
       <div className="contactMe-1-cont">
         <button
           className="contactMe-1 contactMe-2 btn-hover-1 transition-300"
-          onClick={(e) =>
-            openLinkInNewTab(
-              mySocials["linkedin"]
-            )
-          }
+          onClick={(e) => {
+            trackClick('LetsTalk_Button');
+            openLinkInNewTab(mySocials.linkedin);
+          }}
         >
           Let's talk
         </button>
-        {/* <a
-          className="contactMe-1 btn-hover-2"
-          href="#myProjects"
-        >
-          View My Work →
-        </a> */}
         <a
           className="contactMe-1 myResume"
           href="/Resume - Full Stack Software Engineer - Okeke Divine-Vessel.pdf"
           target="_blank"
+          onClick={() => trackClick('Resume_Download')}
         >
           My Resume
         </a>

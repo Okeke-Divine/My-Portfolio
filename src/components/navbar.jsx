@@ -1,6 +1,9 @@
 import { useRef, useState, useEffect } from "react";
+import { useClickTracking } from '../hooks/useClickTracking';
 
 export default function Navbar(props) {
+  const trackClick = useClickTracking('Navbar');
+
   const navbarLinks = useRef();
   const expandButtonIcon = useRef();
   const navbarRef = useRef();
@@ -132,6 +135,9 @@ export default function Navbar(props) {
 
   // Function to handle link clicks - hides navbar on all screen sizes
   const handleLinkClick = (e) => {
+    const linkText = e.target.textContent || e.target.innerText;
+    trackClick(`NavLink_${linkText.replace(/\s+/g, '_')}`);
+    
     // Close mobile menu if open
     if (isMobileView) {
       closeNavbar();
@@ -186,7 +192,7 @@ export default function Navbar(props) {
                 target="_blank"
               >
                 {/* <span> */}
-                  Let's talk
+                Let's talk
                 {/* </span> */}
               </a>
             </div>

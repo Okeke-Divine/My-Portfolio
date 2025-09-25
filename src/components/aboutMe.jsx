@@ -1,8 +1,11 @@
+import { useScrollTracking } from '../hooks/useScrollTracking';
+
 export default function AboutMe(props) {
+  const componentRef = useScrollTracking('AboutMe', 0.3);
   const socialMedia = props.socialMedia;
 
   return (
-    <section className="aboutMeScreen jnUoFC" id="about">
+    <section ref={componentRef} className="aboutMeScreen jnUoFC" id="about">
       <div className="left">
         <div className="sectionTitle">
           <div className="text-primary font-mono">01.</div>
@@ -18,9 +21,9 @@ export default function AboutMe(props) {
           <div className="sectionContentList">
             When I'm not coding, you can find me exploring a new tech or thinking about the next product idea. I'm always open to new challenges and opportunities to learn.
           </div>
-          <div class="tech-section">
-            <h3 class="tech-heading">Here are a few technologies I've been working with recently:</h3>
-            <ul class="tech-list">
+          <div className="tech-section">
+            <h3 className="tech-heading">Here are a few technologies I've been working with recently:</h3>
+            <ul className="tech-list">
               <li>Python</li>
               <li>JavaScript</li>
               <li>TypeScript</li>

@@ -2,10 +2,15 @@ import { useState, useEffect } from "react";
 import otherProjects from "../data/otherProjects.json";
 import OtherProjectItemComponent from "./otherProjectItemComponent.jsx";
 import axios from "axios";
+import { useScrollTracking } from '../hooks/useScrollTracking';
+import { useClickTracking } from '../hooks/useClickTracking';
+
 
 export default function OtherProjects(props) {
   const openLinkInNewTab = props.openLinkInNewTab;
   const socialMedia = props.socialMedia;
+  const componentRef = useScrollTracking('OtherProjects', 0.3);
+  const trackClick = useClickTracking('OtherProjects');
 
   const [repos, setRepos] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -36,10 +41,10 @@ export default function OtherProjects(props) {
   const displayedRepos = showAll ? repos : repos.slice(0, 9);
 
   return (
-    <div className="otherProjects">
+    <div ref={componentRef} className="otherProjects">
       <div className="otherProjectsTitle">Other Noteworthy Projects</div>
       <div className="otherProjectsLinkOnGithub">
-        <a href={socialMedia.mySocials.github} target="_blank" className="text-primary">
+        <a href={socialMedia.mySocials.github} target="_blank" onClick={() => trackClick('ViewGithubArchive_Link')} className="text-primary">
           view the archive (github)
         </a>
       </div>
@@ -60,6 +65,7 @@ export default function OtherProjects(props) {
             }
             tags={repo.topics}
             links={{ github: repo.html_url, livePreview: repo.homepage }}
+            onProjectClick={() => trackClick('Project_Card', repo.name)}
           />
         ))}
       </div>
@@ -67,7 +73,10 @@ export default function OtherProjects(props) {
       {repos.length > 9 && (
         <div className="toggleShowMoreBtn text-center mt-4">
           <button
-            onClick={() => setShowAll(!showAll)}
+            onClick={() => {
+              trackClick('ShowMore_Button', showAll ? 'Show Less' : 'Show More');
+              setShowAll(!showAll);
+            }}
             className="resume-button btn-hover-2 transition-300"
           >
             {showAll ? "Show Less" : "Show More"}

@@ -1,7 +1,11 @@
 import { useState } from "react";
+import { useScrollTracking } from '../hooks/useScrollTracking';
+import { useClickTracking } from '../hooks/useClickTracking';
 
 export default function ExperienceAndWork(props) {
   const [activeCompany, setActiveCompany] = useState(0);
+  const componentRef = useScrollTracking('Experience', 0.3);
+  const trackClick = useClickTracking('Experience');
 
   const experiences = [
     {
@@ -31,8 +35,13 @@ export default function ExperienceAndWork(props) {
     }
   ];
 
+  const handleCompanyClick = (index, companyName) => {
+    trackClick('Company_Selection', companyName);
+    setActiveCompany(index);
+  };
+
   return (
-    <section className="experienceANDwork" id="experience">
+    <section ref={componentRef} className="experienceANDwork" id="experience">
       <div className="sectionTitle">
         <div className="text-primary font-mono">{props.count}</div>
         <div className="font-mono">Where I've Worked</div>
@@ -47,7 +56,7 @@ export default function ExperienceAndWork(props) {
             <div
               key={index}
               className={`timeline-item ${activeCompany === index ? 'active' : ''}`}
-              onClick={() => setActiveCompany(index)}
+              onClick={() => handleCompanyClick(index, exp.name)}
             >
               <div className="timeline-marker"></div>
               <div className="timeline-content">

@@ -1,8 +1,10 @@
 import projects from "../data/projects.json"
 import OtherProjects from "./otherProjects.jsx"
 import ProjectItemComponent from "./projectItemComponent.jsx"
+import { useScrollTracking } from '../hooks/useScrollTracking';
 
 export default function MyProjects(props) {
+  const componentRef = useScrollTracking('MyProjects', 0.3);
 
   const openLinkInNewTab = props.openLinkInNewTab
   const socialMedia = props.socialMedia
@@ -29,7 +31,7 @@ export default function MyProjects(props) {
   }
 
   return (
-    <section className="myProjects jnUoFC" id="myProjects">
+    <section ref={componentRef} className="myProjects jnUoFC" id="myProjects">
       <div className="sectionTitle sTitle-cs">
         <div className="text-primary font-mono">{props.count}</div>
         <div className="font-mono">Some Things I’ve Built</div>

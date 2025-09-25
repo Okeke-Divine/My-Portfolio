@@ -946,7 +946,7 @@ ul {
   padding-top: 40px;
   display: flex;
   justify-content: center;
-  column-gap: 10px;
+  column-gap: 5px;
   flex-wrap: wrap;
 }
 
