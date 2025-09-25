@@ -44,8 +44,8 @@ export default function OtherProjects(props) {
     <div ref={componentRef} className="otherProjects">
       <div className="otherProjectsTitle">Other Noteworthy Projects</div>
       <div className="otherProjectsLinkOnGithub">
-        <a href={socialMedia.mySocials.github} target="_blank" onClick={() => trackClick('ViewGithubArchive_Link')} className="text-primary">
-          view the archive (github)
+        <a href={socialMedia.mySocials.github+"?tab=repositories"} target="_blank" onClick={() => trackClick('ViewGithubArchive_Link')} className="text-primary">
+          view the complete archive (github: 60+)
         </a>
       </div>
 
