@@ -1,3 +1,5 @@
+import TabBadgeComponent from './TabBadgeComponent';
+
 export default function OtherProjectItemComponent(props) {
   const openLinkInNewTab = props.openLinkInNewTab
 
@@ -6,10 +8,11 @@ export default function OtherProjectItemComponent(props) {
   const projectTags = props.tags
   const projectLinks = props.links
 
-  const otherProjectTagsComponents = []
-  projectTags.forEach((tag, index) => {
-    otherProjectTagsComponents.push(<div key={index} className="otherProjectTags">{tag}</div>)
-  })
+  const otherProjectTagsComponents = projectTags.map((tag, index) => (
+    <TabBadgeComponent key={index} variant="muted" size="small">
+      {tag}
+    </TabBadgeComponent>
+  ));
 
   return (
     <div className="project-inner">

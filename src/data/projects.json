@@ -4,12 +4,11 @@
       "title": "Portfoliia - Saas",
       "description": "I created Portfoliia to make building professional portfolios and resumes simple and fast. This CMS-powered platform has empowered several users to create stunning portfolios and includes insightful analytics to track their performance. Portfoliia also earned the <a class='text-primary designNdInspiredByLink' href='https://fazier.com/launches/portfoliia' target='_blank'>#1 Product of the Day</a> badge on Faizer.",
       "tags": [
-        "NextJS",
+        "Next.js",
         "Tailwind",
         "Daisy UI",
         "Prisma",
-        "MySQL",
-        "Redis"
+        "MySQL"
       ],
       "links": {
         "github": "https://github.com/Okeke-Divine/portfolia",
@@ -29,14 +28,11 @@
       "title": "Fluxinet – Saas",
       "description": "I built Fluxinet to solve a real problem I noticed among small business owners around me. Managing inventory was chaotic, often done with pen and paper or clunky spreadsheets. I wanted to make something simple, clean, and efficient. Since launching, <span class='text-primary'>several Nigerian businesses</span> have started using it to <span class='text-primary'>digitalize their store book keeping</span> and streamline their operations.",
       "tags": [
-        "NextJS",
+        "Next.js",
         "Tailwind",
         "Daisy UI",
         "Prisma",
-        "MySQL",
-        "MongoDB",
-        "Redis",
-        "Webhooks"
+        "MySQL"
       ],
       "links": {
         "github": null,
@@ -51,7 +47,7 @@
       "tags": [
         "React",
         "Tailwind",
-        "Django",
+        "Python: Django",
         "MySql"
       ],
       "links": {
@@ -65,8 +61,8 @@
       "title": "Mtalers",
       "description": "Mtalers is an educational blog developed for a client, focusing on providing a comprehensive learning experience. It incorporates various technologies such as jQuery, Php and MySql to deliver interactive and engaging educational content. The platform aims to enhance the learning process through its user-friendly interface and extensive functionality.",
       "tags": [
-        "jQuery",
         "Php",
+        "jQuery",
         "MySql"
       ],
       "links": {
@@ -87,7 +83,7 @@
         "Html",
         "Css",
         "Javascript",
-        "ChartJs"
+        "Chart.js"
       ],
       "links": {
         "github": "https://github.com/Okeke-Divine/Geegpay-Front-End-Challenge",
@@ -100,10 +96,9 @@
       "title": "Strender",
       "description": "I originally built Strender as a sports hub, but it’s grown into a full-on news platform. Now it supports all kinds of news: sports, politics, tech, etc. It pulls in real-time updates, live scores, and highlights, and I introduced an anonymous commenting so users can speak freely without filters. It’s my personal take on what a modern news platform should feel like.",
       "tags": [
-        "React",
+        "Next.js",
         "Tailwind",
-        "Django",
-        "Postgres"
+        "MySQL"
       ],
       "links": {
         "github": "https://github.com/okeke-Divine/strender",

@@ -1,0 +1,154 @@
+/* Tab Badge Component Styles */
+.tab-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: var(--font-mono);
+    font-weight: 400;
+    transition: all 0.3s ease;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+/* Size Variants */
+.tab-badge-sm {
+    padding: 4px 10px;
+    font-size: var(--fz-xxs);
+    letter-spacing: 0.5px;
+}
+
+.tab-badge-md {
+    padding: 6px 12px;
+    font-size: var(--fz-xs);
+    letter-spacing: 0.5px;
+}
+
+.tab-badge-lg {
+    padding: 8px 16px;
+    font-size: var(--fz-sm);
+    letter-spacing: 0.5px;
+}
+
+/* Color Variants */
+.tab-badge-default {
+    background: rgba(100, 255, 218, 0.08);
+    color: var(--col-primary);
+    border: 1px solid rgba(100, 255, 218, 0.2);
+}
+
+.tab-badge-primary {
+    background: linear-gradient(135deg, rgba(100, 255, 218, 0.15), rgba(100, 255, 218, 0.08));
+    color: var(--col-primary);
+    border: 1px solid rgba(100, 255, 218, 0.3);
+    box-shadow: 0 2px 8px rgba(100, 255, 218, 0.1);
+}
+
+.tab-badge-secondary {
+    background: rgba(136, 146, 176, 0.08);
+    color: var(--light-slate);
+    border: 1px solid rgba(136, 146, 176, 0.2);
+}
+
+.tab-badge-tech {
+    background: rgba(10, 25, 47, 0.6);
+    color: var(--lightest-slate);
+    border: 1px solid var(--lightest-navy);
+    backdrop-filter: blur(10px);
+}
+
+.tab-badge-outline {
+    background: transparent;
+    color: var(--slate);
+    border: 1px solid var(--dark-slate);
+}
+
+/* Hover Effects */
+.tab-badge:hover {
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+}
+
+.tab-badge-default:hover {
+    background: rgba(100, 255, 218, 0.12);
+    border-color: rgba(100, 255, 218, 0.4);
+    box-shadow: 0 4px 12px rgba(100, 255, 218, 0.15);
+}
+
+.tab-badge-primary:hover {
+    background: linear-gradient(135deg, rgba(100, 255, 218, 0.2), rgba(100, 255, 218, 0.12));
+    border-color: rgba(100, 255, 218, 0.5);
+    box-shadow: 0 4px 16px rgba(100, 255, 218, 0.2);
+}
+
+.tab-badge-secondary:hover {
+    background: rgba(136, 146, 176, 0.12);
+    border-color: rgba(136, 146, 176, 0.4);
+}
+
+.tab-badge-tech:hover {
+    background: rgba(10, 25, 47, 0.8);
+    border-color: var(--col-primary);
+    color: var(--col-primary);
+}
+
+.tab-badge-outline:hover {
+    background: rgba(136, 146, 176, 0.05);
+    border-color: var(--col-primary);
+    color: var(--col-primary);
+}
+
+/* Active State */
+.tab-badge:active {
+    transform: translateY(0);
+}
+
+/* Focus State for Accessibility */
+.tab-badge:focus {
+    outline: 2px solid rgba(100, 255, 218, 0.5);
+    outline-offset: 2px;
+}
+
+/* Badge Group Container */
+.badge-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.badge-group-center {
+    justify-content: center;
+}
+
+.badge-group-end {
+    justify-content: flex-end;
+}
+
+.badge-group-start {
+    justify-content: flex-start;
+}
+
+.tab-badge-muted {
+    text-transform: capitalize;
+    background: transparent;
+    color: var(--slate);
+    border: none;
+    font-weight: 300;
+    opacity: 0.8;
+    letter-spacing: 0.3px;
+}
+
+.tab-badge-muted:hover {
+    transform: none;
+    background: transparent;
+    border: none;
+    color: var(--slate);
+    opacity: 1;
+    box-shadow: none;
+}
+
+.tab-badge-muted.tab-badge-sm {
+    opacity: 0.8;
+    padding: 3px 8px;
+}

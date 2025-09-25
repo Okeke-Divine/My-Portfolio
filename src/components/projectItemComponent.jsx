@@ -1,4 +1,5 @@
 import React from 'react'
+import TabBadgeComponent from './TabBadgeComponent';
 
 export default function ProjectItemComponent(props) {
   const openLinkInNewTab = props.openLinkInNewTab;
@@ -56,9 +57,9 @@ export default function ProjectItemComponent(props) {
 
   // Project tags components
   const projectTagsComponents = projectTags.map((tag, index) => (
-    <div key={index} className="projectTags otherProjectTags">
+    <TabBadgeComponent key={index} variant="tech" size="small">
       {tag}
-    </div>
+    </TabBadgeComponent>
   ));
 
   // Project link components

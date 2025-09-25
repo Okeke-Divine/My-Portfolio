@@ -5,7 +5,7 @@ export default function ExperienceAndWork(props) {
 
   const experiences = [
     {
-      "name": "Ilanafuse",
+      "name": "Ilanatech",
       "role": "Full Stack Engineer",
       "duration": "August 2024 - Present"
     },
