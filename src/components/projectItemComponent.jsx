@@ -1,6 +1,7 @@
 import React from 'react'
 import TabBadgeComponent from './TabBadgeComponent';
 import { useClickTracking } from '../hooks/useClickTracking';
+import { useInView } from '../hooks/useInView'; 
 
 export default function ProjectItemComponent(props) {
   const trackClick = useClickTracking('ProjectItem');
@@ -12,6 +13,11 @@ export default function ProjectItemComponent(props) {
   const projectLinks = props.projectLinks;
   const projectCoverImage = props.projectCoverImage;
   const projectSlideShowImages = props.projectSlideShowImages;
+
+  const [componentRef, isInView] = useInView({
+    threshold: 0.3,
+    triggerOnce: false 
+  });
 
   const handleGithubClick = (e) => {
     e.stopPropagation();
@@ -43,16 +49,16 @@ export default function ProjectItemComponent(props) {
   const [isSlideshowPlaying, setIsSlideshowPlaying] = React.useState(hasMultipleImages);
   const [isFullscreen, setIsFullscreen] = React.useState(false);
 
-  // Auto-advance slideshow
+  // Auto-advance slideshow ONLY when component is in view
   React.useEffect(() => {
-    if (!hasMultipleImages || !isSlideshowPlaying || isFullscreen) return;
+    if (!hasMultipleImages || !isSlideshowPlaying || isFullscreen || !isInView) return;
 
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % allImages.length);
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [hasMultipleImages, isSlideshowPlaying, isFullscreen, allImages.length]);
+  }, [hasMultipleImages, isSlideshowPlaying, isFullscreen, allImages.length, isInView]);
 
   // Handle fullscreen mode
   const openFullscreen = () => {
@@ -78,6 +84,7 @@ export default function ProjectItemComponent(props) {
     setCurrentImageIndex((prevIndex) => (prevIndex - 1 + allImages.length) % allImages.length);
   };
 
+  // Rest of your component code remains the same...
   // Project tags components
   const projectTagsComponents = projectTags.map((tag, index) => (
     <TabBadgeComponent key={index} variant="tech" size="small">
@@ -203,7 +210,7 @@ export default function ProjectItemComponent(props) {
 
   // Conditional rendering based on project direction
   return (
-    <div>
+    <div ref={componentRef}> {/* Add the ref here to track visibility */}
       {fullscreenModal}
       {projectDirection === "left" ? (
         <div className="projectContainer projectContainerLayout1">
