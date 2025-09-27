@@ -63,7 +63,7 @@ export default function Footer({ socialMedia, openLinkInNewTab }) {
         <span>&copy; Divine‑Vessel O. - 2025</span>
         {/* <br /> */}
         <div style={{ fontSize: '12px', color: '#666', marginTop: '20px' }}>
-          This site uses google analytics to improve user experience. No personal data is collected.
+          This site uses analytics to improve user experience. No personal data is collected.
         </div>
       </section>
     </>
