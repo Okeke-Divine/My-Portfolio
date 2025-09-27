@@ -99,21 +99,6 @@
       },
       "coverImage": "/assets/images/geepay-frontend-challenge/Screenshot (1803).png",
       "slideShowImages": null
-    },
-    "strender": {
-      "title": "Strender",
-      "description": "I originally built Strender as a sports hub, but it’s grown into a full-on news platform. Now it supports all kinds of news: sports, politics, tech, etc. It pulls in real-time updates, live scores, and highlights, and I introduced an anonymous commenting so users can speak freely without filters. It’s my personal take on what a modern news platform should feel like.",
-      "tags": [
-        "Next.js",
-        "Tailwind",
-        "MySQL"
-      ],
-      "links": {
-        "github": "https://github.com/okeke-Divine/strender",
-        "livePreview": null
-      },
-      "coverImage": "/assets/images/strender/Screenshot (2068).png",
-      "slideShowImages": null
     }
   }
 }

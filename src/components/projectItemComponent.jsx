@@ -77,14 +77,15 @@ export default function ProjectItemComponent(props) {
   const goToNextImage = (e) => {
     e && e.stopPropagation();
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % allImages.length);
+    setIsSlideshowPlaying(false)
   };
 
   const goToPrevImage = (e) => {
     e && e.stopPropagation();
     setCurrentImageIndex((prevIndex) => (prevIndex - 1 + allImages.length) % allImages.length);
+    setIsSlideshowPlaying(false)
   };
 
-  // Rest of your component code remains the same...
   // Project tags components
   const projectTagsComponents = projectTags.map((tag, index) => (
     <TabBadgeComponent key={index} variant="tech" size="small">
