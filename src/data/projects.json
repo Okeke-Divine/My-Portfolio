@@ -24,8 +24,8 @@
         "/assets/images/portfoliia/Screenshot 2025-09-16 at 02-40-21 Dashboard Portfoliia.png"
       ]
     },
-    "marokug": {
-      "title": "ApexLearn",
+    "apexlearn": {
+      "title": "ApexLearn - Prototype",
       "description": "ApexLearn is a front-end prototype I designed and built for a modern learning management system (LMS) I designed and built. It features a dynamic dashboard, interactive course components, customer onboarding pages and a responsive layout.",
       "tags": [
         "Next.js",
@@ -37,10 +37,10 @@
         "github": null,
         "livePreview": "https://apexlearn.okekedivine.com.ng/"
       },
-      "coverImage": "/assets/images/apexlearn/preview1.png",
+      "coverImage": "/assets/images/apexlearn/landingpage1.png",
       "slideShowImages": [
-        "/assets/images/apexlearn/landingpage1.png",
         "/assets/images/apexlearn/signup1.png",
+        "/assets/images/apexlearn/preview1.png",
         "/assets/images/apexlearn/landingpage2.png",
         "/assets/images/apexlearn/landingpage3.png",
         "/assets/images/apexlearn/preview2.png",
