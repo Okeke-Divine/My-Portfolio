@@ -39,13 +39,12 @@
       },
       "coverImage": "/assets/images/apexlearn/landingpage1.png",
       "slideShowImages": [
+        "/assets/images/apexlearn/landingpage3.png",
         "/assets/images/apexlearn/signup1.png",
         "/assets/images/apexlearn/preview1.png",
-        "/assets/images/apexlearn/landingpage2.png",
-        "/assets/images/apexlearn/landingpage3.png",
         "/assets/images/apexlearn/preview2.png",
-        "/assets/images/apexlearn/signin1.png",
         "/assets/images/apexlearn/preview3.png",
+        "/assets/images/apexlearn/signin1.png",
         "/assets/images/apexlearn/reset-password1.png"
       ]
     },
