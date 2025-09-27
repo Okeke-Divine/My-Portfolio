@@ -1,7 +1,7 @@
 import React from 'react'
 import TabBadgeComponent from './TabBadgeComponent';
 import { useClickTracking } from '../hooks/useClickTracking';
-import { useInView } from '../hooks/useInView'; 
+import { useInView } from '../hooks/useInView';
 
 export default function ProjectItemComponent(props) {
   const trackClick = useClickTracking('ProjectItem');
@@ -16,7 +16,7 @@ export default function ProjectItemComponent(props) {
 
   const [componentRef, isInView] = useInView({
     threshold: 0.3,
-    triggerOnce: false 
+    triggerOnce: false
   });
 
   const handleGithubClick = (e) => {
@@ -148,6 +148,15 @@ export default function ProjectItemComponent(props) {
         className="slideshow-nav-btn"
       >
         <i className="ri-arrow-right-s-line remix-icon"></i>
+      </button>
+      <button
+        onClick={(e) => {
+          e.stopPropagation();
+          setIsFullscreen(true);
+        }}
+        className="slideshow-nav-btn"
+      >
+        <i className="ri-fullscreen-line remix-icon"></i>
       </button>
     </div>
   );
