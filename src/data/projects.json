@@ -24,6 +24,31 @@
         "/assets/images/portfoliia/Screenshot 2025-09-16 at 02-40-21 Dashboard Portfoliia.png"
       ]
     },
+    "marokug": {
+      "title": "ApexLearn",
+      "description": "ApexLearn is a front-end prototype I designed and built for a modern learning management system (LMS) I designed and built. It features a dynamic dashboard, interactive course components, customer onboarding pages and a responsive layout.",
+      "tags": [
+        "Next.js",
+        "Tailwind",
+        "Python: Django",
+        "MySql"
+      ],
+      "links": {
+        "github": null,
+        "livePreview": "https://apexlearn.okekedivine.com.ng/"
+      },
+      "coverImage": "/assets/images/apexlearn/preview1.png",
+      "slideShowImages": [
+        "/assets/images/apexlearn/landingpage1.png",
+        "/assets/images/apexlearn/signup1.png",
+        "/assets/images/apexlearn/landingpage2.png",
+        "/assets/images/apexlearn/landingpage3.png",
+        "/assets/images/apexlearn/preview2.png",
+        "/assets/images/apexlearn/signin1.png",
+        "/assets/images/apexlearn/preview3.png",
+        "/assets/images/apexlearn/reset-password1.png"
+      ]
+    },
     "fluxnet": {
       "title": "Fluxinet – Saas",
       "description": "I built Fluxinet to solve a real problem I noticed among small business owners around me. Managing inventory was chaotic, often done with pen and paper or clunky spreadsheets. I wanted to make something simple, clean, and efficient. Since launching, <span class='text-primary'>several Nigerian businesses</span> have started using it to <span class='text-primary'>digitalize their store book keeping</span> and streamline their operations.",
@@ -36,25 +61,9 @@
       ],
       "links": {
         "github": null,
-        "livePreview": "https://fluxinet.com/"
-      },
-      "coverImage": "/assets/images/fluxnet/845shots_so.png",
-      "slideShowImages": null
-    },
-    "marokug": {
-      "title": "Marokug",
-      "description": "At Marokug, I collaborated with a team to create an online learning platform. Marokug empowers students to explore and learn a wide range of courses at their own pace, test their understanding through interactive quizzes and exams, and deepen their knowledge with additional learning materials.",
-      "tags": [
-        "React",
-        "Tailwind",
-        "Python: Django",
-        "MySql"
-      ],
-      "links": {
-        "github": null,
         "livePreview": null
       },
-      "coverImage": "/assets/images/marokug/Screenshot (1929).png",
+      "coverImage": "/assets/images/fluxnet/845shots_so.png",
       "slideShowImages": null
     },
     "mtalers": {
